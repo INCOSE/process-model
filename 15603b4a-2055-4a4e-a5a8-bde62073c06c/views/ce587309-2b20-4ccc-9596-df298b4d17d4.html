@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>C-01-01 - Architecture Definition</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>C-01-01 - Architecture Definition</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-viewpoint-"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-viewpoint_" target="hint"></a>
+            <!-- Or if a model (i.e has Purpose method) -->
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+			   <img class="diagram" src="../images/ce587309-2b20-4ccc-9596-df298b4d17d4.png" alt="C-01-01 - Architecture Definition" usemap="#ce587309-2b20-4ccc-9596-df298b4d17d4map"/>
+			   <map name="ce587309-2b20-4ccc-9596-df298b4d17d4map">
+				  		<area shape="rect" coords="694,262,860,317" href="../elements/678ecda6-7558-4649-951b-9a343a169d94.html"  target="element">
+				  		<area shape="rect" coords="694,190,860,245" href="../elements/5730d545-0781-4725-b854-d8716e2834b1.html"  target="element">
+				  		<area shape="rect" coords="694,118,860,173" href="../elements/ce110eaa-3ca7-4950-9953-5d509fcfecbd.html"  target="element">
+				  		<area shape="rect" coords="694,46,860,101" href="../elements/852cd858-bd72-4faa-a97f-d9e37588d50e.html"  target="element">
+				  		<area shape="rect" coords="10,298,176,353" href="../elements/6433992f-7560-4956-8e07-9e6e8fd7a3ef.html"  target="element">
+				  		<area shape="rect" coords="10,229,176,284" href="../elements/767e48f2-4bc3-4c6a-a117-7f620c118e61.html"  target="element">
+				  		<area shape="rect" coords="10,154,176,209" href="../elements/de077624-aebe-4b11-bf6a-b49320bfa97b.html"  target="element">
+				  		<area shape="rect" coords="10,82,176,137" href="../elements/8902eaf1-3dcc-4184-aea4-b9c39b35f241.html"  target="element">
+				  		<area shape="rect" coords="10,10,176,65" href="../elements/58be83de-5aca-41af-ac46-27b69a79ff71.html"  target="element">
+				  				<area shape="rect" coords="466,10,489,37" href="../views/39e4155a-2637-408b-8c4c-01072f0f4996.html"  target="view">
+				  		    <!-- Other diagram objects -->
+
+				  		<area shape="rect" coords="466,10,632,65" href="../elements/2c0dd8c2-0cb4-40e9-8de6-1ba80c7e66c0.html"  target="element">
+				  		<area shape="rect" coords="466,154,632,209" href="../elements/56d32241-b993-41bc-b1bb-b1a530cb4e63.html"  target="element">
+				  		<area shape="rect" coords="466,82,632,137" href="../elements/6d716f18-f54e-4eca-80a2-aa079fe2140e.html"  target="element">
+				  		<area shape="rect" coords="466,370,632,425" href="../elements/67fcc600-b286-48ed-8fb6-e5a8ca1f56d1.html"  target="element">
+				  		<area shape="rect" coords="466,298,632,353" href="../elements/7d5db779-8326-4d7c-bdc5-f7c52f30112a.html"  target="element">
+				  		<area shape="rect" coords="466,226,632,281" href="../elements/fc4b0442-8057-4882-aff4-2a445047bc03.html"  target="element">
+				  		<area shape="rect" coords="238,10,404,503" href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html"  target="element">
+
+			   </map>
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+
+						<li role="presentation"><a href="#elements" aria-controls="elements" role="tab" data-toggle="tab" class="i18n-elements"></a></li>
+						<li role="presentation"><a href="#relationships" aria-controls="relationships" role="tab" data-toggle="tab" class="i18n-relationships"></a></li>
+                    <!-- Model, Query Tab -->
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">This view is a prototype of merging two products: INCOSE Competence Framework and System Lifecycle Processes</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+							</tbody>
+						</table>
+					</div>
+						<div role="tabpanel" class="tab-pane" id="elements">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+									</tr>
+								</thead>
+								<tbody>
+											<tr>
+											    <td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element"> Architecture Definition </a> </td>
+											    <td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element" class="i18n-elementtype-BusinessFunction">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/fc4b0442-8057-4882-aff4-2a445047bc03.html" target="element"> General Engineering </a> </td>
+											    <td> <a href="../elements/fc4b0442-8057-4882-aff4-2a445047bc03.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/7d5db779-8326-4d7c-bdc5-f7c52f30112a.html" target="element"> Critical Thinking </a> </td>
+											    <td> <a href="../elements/7d5db779-8326-4d7c-bdc5-f7c52f30112a.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/67fcc600-b286-48ed-8fb6-e5a8ca1f56d1.html" target="element"> System Modelling and Analysis </a> </td>
+											    <td> <a href="../elements/67fcc600-b286-48ed-8fb6-e5a8ca1f56d1.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/6d716f18-f54e-4eca-80a2-aa079fe2140e.html" target="element"> Lifecycles </a> </td>
+											    <td> <a href="../elements/6d716f18-f54e-4eca-80a2-aa079fe2140e.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/56d32241-b993-41bc-b1bb-b1a530cb4e63.html" target="element"> Capability Engineering </a> </td>
+											    <td> <a href="../elements/56d32241-b993-41bc-b1bb-b1a530cb4e63.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/2c0dd8c2-0cb4-40e9-8de6-1ba80c7e66c0.html" target="element"> System Thinking </a> </td>
+											    <td> <a href="../elements/2c0dd8c2-0cb4-40e9-8de6-1ba80c7e66c0.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+													<tr>
+													    <td> <a href="../views/39e4155a-2637-408b-8c4c-01072f0f4996.html" target="view"> 01-01 - System Thinking </a> </td>
+													    <td> <a href="../views/39e4155a-2637-408b-8c4c-01072f0f4996.html" target="view" class="i18n-viewpoint-"> </a> </td>
+													</tr>
+											    <!-- Other graphical objects -->
+
+											
+											<tr>
+											    <td> <a href="../elements/58be83de-5aca-41af-ac46-27b69a79ff71.html" target="element"> Requirements Definition </a> </td>
+											    <td> <a href="../elements/58be83de-5aca-41af-ac46-27b69a79ff71.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/8902eaf1-3dcc-4184-aea4-b9c39b35f241.html" target="element"> System Architecting </a> </td>
+											    <td> <a href="../elements/8902eaf1-3dcc-4184-aea4-b9c39b35f241.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/de077624-aebe-4b11-bf6a-b49320bfa97b.html" target="element"> Integration </a> </td>
+											    <td> <a href="../elements/de077624-aebe-4b11-bf6a-b49320bfa97b.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/767e48f2-4bc3-4c6a-a117-7f620c118e61.html" target="element"> Interfaces </a> </td>
+											    <td> <a href="../elements/767e48f2-4bc3-4c6a-a117-7f620c118e61.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/6433992f-7560-4956-8e07-9e6e8fd7a3ef.html" target="element"> Operation and Support </a> </td>
+											    <td> <a href="../elements/6433992f-7560-4956-8e07-9e6e8fd7a3ef.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/852cd858-bd72-4faa-a97f-d9e37588d50e.html" target="element"> Decision Management </a> </td>
+											    <td> <a href="../elements/852cd858-bd72-4faa-a97f-d9e37588d50e.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/ce110eaa-3ca7-4950-9953-5d509fcfecbd.html" target="element"> Concurrent Engineering </a> </td>
+											    <td> <a href="../elements/ce110eaa-3ca7-4950-9953-5d509fcfecbd.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/5730d545-0781-4725-b854-d8716e2834b1.html" target="element"> Information Management </a> </td>
+											    <td> <a href="../elements/5730d545-0781-4725-b854-d8716e2834b1.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+											<tr>
+											    <td> <a href="../elements/678ecda6-7558-4649-951b-9a343a169d94.html" target="element"> Configuration Management </a> </td>
+											    <td> <a href="../elements/678ecda6-7558-4649-951b-9a343a169d94.html" target="element" class="i18n-elementtype-Principle">
+											    </a> </td>
+											</tr>
+
+
+								</tbody>
+							</table>
+						</div>
+						<div role="tabpanel" class="tab-pane" id="relationships">
+							<table class="table table-striped table-hover table-condensed">
+								<thead>
+									<tr>
+										<th class="i18n-name"></th>
+										<th class="i18n-type"></th>
+										<th class="i18n-source"></th>
+										<th class="i18n-target"></th>
+									</tr>
+								</thead>
+								<tbody>
+																	<tr>
+																		<td> <a href="../elements/111ddb06-952d-470b-956d-464c4ad81f28.html" target="element">  </a> </td>
+																		<td> <a href="../elements/111ddb06-952d-470b-956d-464c4ad81f28.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element"> Architecture Definition </a> </td>
+																		<td> <a href="../elements/2c0dd8c2-0cb4-40e9-8de6-1ba80c7e66c0.html" target="element"> System Thinking </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/d8bb4d02-b99d-4fbb-b197-468dd2416200.html" target="element">  </a> </td>
+																		<td> <a href="../elements/d8bb4d02-b99d-4fbb-b197-468dd2416200.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element"> Architecture Definition </a> </td>
+																		<td> <a href="../elements/fc4b0442-8057-4882-aff4-2a445047bc03.html" target="element"> General Engineering </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/41576511-1558-4914-911e-113d386e84de.html" target="element">  </a> </td>
+																		<td> <a href="../elements/41576511-1558-4914-911e-113d386e84de.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element"> Architecture Definition </a> </td>
+																		<td> <a href="../elements/7d5db779-8326-4d7c-bdc5-f7c52f30112a.html" target="element"> Critical Thinking </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/d3f1845c-8219-447a-b09f-28aaaf7c6a9c.html" target="element">  </a> </td>
+																		<td> <a href="../elements/d3f1845c-8219-447a-b09f-28aaaf7c6a9c.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element"> Architecture Definition </a> </td>
+																		<td> <a href="../elements/67fcc600-b286-48ed-8fb6-e5a8ca1f56d1.html" target="element"> System Modelling and Analysis </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/f1adb05e-2899-458c-846b-084a70276b4f.html" target="element">  </a> </td>
+																		<td> <a href="../elements/f1adb05e-2899-458c-846b-084a70276b4f.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element"> Architecture Definition </a> </td>
+																		<td> <a href="../elements/6d716f18-f54e-4eca-80a2-aa079fe2140e.html" target="element"> Lifecycles </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/c2eb730e-0be0-48da-a206-3deb2b0180b7.html" target="element">  </a> </td>
+																		<td> <a href="../elements/c2eb730e-0be0-48da-a206-3deb2b0180b7.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element"> Architecture Definition </a> </td>
+																		<td> <a href="../elements/56d32241-b993-41bc-b1bb-b1a530cb4e63.html" target="element"> Capability Engineering </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/b5b75ca0-09bb-4f76-8044-aa24cf3d7044.html" target="element">  </a> </td>
+																		<td> <a href="../elements/b5b75ca0-09bb-4f76-8044-aa24cf3d7044.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element"> Architecture Definition </a> </td>
+																		<td> <a href="../elements/8902eaf1-3dcc-4184-aea4-b9c39b35f241.html" target="element"> System Architecting </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/331946e2-76a0-4553-8335-256fea7a2935.html" target="element">  </a> </td>
+																		<td> <a href="../elements/331946e2-76a0-4553-8335-256fea7a2935.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element"> Architecture Definition </a> </td>
+																		<td> <a href="../elements/6433992f-7560-4956-8e07-9e6e8fd7a3ef.html" target="element"> Operation and Support </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/1e8f14b7-b26f-46a9-bd09-a10f8f427671.html" target="element">  </a> </td>
+																		<td> <a href="../elements/1e8f14b7-b26f-46a9-bd09-a10f8f427671.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element"> Architecture Definition </a> </td>
+																		<td> <a href="../elements/58be83de-5aca-41af-ac46-27b69a79ff71.html" target="element"> Requirements Definition </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/d9fd44f1-861e-45aa-8582-51b65202d92b.html" target="element">  </a> </td>
+																		<td> <a href="../elements/d9fd44f1-861e-45aa-8582-51b65202d92b.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element"> Architecture Definition </a> </td>
+																		<td> <a href="../elements/de077624-aebe-4b11-bf6a-b49320bfa97b.html" target="element"> Integration </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/e2294978-0f54-48aa-8d01-e5c7a186f511.html" target="element">  </a> </td>
+																		<td> <a href="../elements/e2294978-0f54-48aa-8d01-e5c7a186f511.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element"> Architecture Definition </a> </td>
+																		<td> <a href="../elements/767e48f2-4bc3-4c6a-a117-7f620c118e61.html" target="element"> Interfaces </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/768013b4-b372-4c7b-b699-6ba9124a0795.html" target="element">  </a> </td>
+																		<td> <a href="../elements/768013b4-b372-4c7b-b699-6ba9124a0795.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element"> Architecture Definition </a> </td>
+																		<td> <a href="../elements/852cd858-bd72-4faa-a97f-d9e37588d50e.html" target="element"> Decision Management </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/8aa6c5b6-a0d3-4146-b21d-d434db484e44.html" target="element">  </a> </td>
+																		<td> <a href="../elements/8aa6c5b6-a0d3-4146-b21d-d434db484e44.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element"> Architecture Definition </a> </td>
+																		<td> <a href="../elements/ce110eaa-3ca7-4950-9953-5d509fcfecbd.html" target="element"> Concurrent Engineering </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/c6c4e570-5e28-494f-8203-add0ac1bcbbf.html" target="element">  </a> </td>
+																		<td> <a href="../elements/c6c4e570-5e28-494f-8203-add0ac1bcbbf.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element"> Architecture Definition </a> </td>
+																		<td> <a href="../elements/5730d545-0781-4725-b854-d8716e2834b1.html" target="element"> Information Management </a> </td>
+																	</tr>
+																	<tr>
+																		<td> <a href="../elements/c6cdc297-5c3a-40f4-8ea4-eaadcbe870dc.html" target="element">  </a> </td>
+																		<td> <a href="../elements/c6cdc297-5c3a-40f4-8ea4-eaadcbe870dc.html" target="element" class="i18n-elementtype-InfluenceRelationship">
+																		</a> </td>
+																		<td> <a href="../elements/491183c1-dd93-428b-a1aa-e8ba4bd51c57.html" target="element"> Architecture Definition </a> </td>
+																		<td> <a href="../elements/678ecda6-7558-4649-951b-9a343a169d94.html" target="element"> Configuration Management </a> </td>
+																	</tr>
+
+													<!-- DEBUG: Skipping element from class com.archimatetool.model.impl.DiagramModelReference -->
+											
+
+								</tbody>
+							</table>
+						</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>

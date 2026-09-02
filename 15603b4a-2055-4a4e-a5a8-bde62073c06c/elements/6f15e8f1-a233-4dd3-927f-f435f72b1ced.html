@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html class="frame" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<title>Project infrastructure needs</title>
+
+	<!-- JQUERY -->
+	<script type="text/javascript" src="../../lib/jquery/jquery.min.js"></script>
+	<!-- BOOTSTRAP -->
+	<link type="text/css" rel="stylesheet" href="../../lib/bootstrap/css/bootstrap.min.yeti.css">
+	<script type="text/javascript" src="../../lib/bootstrap/js/bootstrap-3.4.1.min.js"></script>
+	<!-- REPORT SPECIFIC -->
+	<link type="text/css" rel="stylesheet" href="../../css/model.css">
+	<link type="text/css" rel="stylesheet" href="../../css/i18n.css">
+	<script type="text/javascript" src="../../js/frame.js"></script>
+	<script type="text/javascript" src="../../js/imageMapResizer.min.js"></script>
+</head>
+
+<body>
+	<div class="panel panel-default root-panel">
+
+		<div class="panel-heading root-panel-heading">
+            <!-- Name -->
+               <b>Project infrastructure needs</b>
+
+            <!-- If a View with Viewpoint -->
+			   (<span class="i18n-elementtype-BusinessObject"></span>)
+			   <a class="glyphicon glyphicon-info-sign" id="hint-BusinessObject" target="hint"></a>
+		</div>
+
+		<div class="panel-body root-panel-body">
+		    <!-- If this is a digram model (has children and no bounds) show the image -->
+
+			<div role="tabpanel">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+                    <!-- Purpose / Documentation / Content -->
+					   <li role="presentation" class="active"><a href="#documentation" aria-controls="documentation" role="tab" data-toggle="tab" class="i18n-documentation"></a></li>
+
+                    <!-- Properties -->
+                    <li role="presentation"><a href="#properties" aria-controls="properties" role="tab" data-toggle="tab" class="i18n-properties"></a></li>
+
+                    <!-- Analysis -->
+                    	<li role="presentation"><a href="#analysis" aria-controls="analysis" role="tab" data-toggle="tab" class="i18n-analysis"></a></li>
+
+				</ul>
+
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="documentation">
+						<div class="convertlinks documentation" style="white-space:pre-wrap">Specific requests for infrastructure products or services needed by the project, including commitments to external stakeholders</div>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="properties">
+						<table class="table table-striped table-hover table-condensed">
+							<thead>
+								<tr>
+									<th class="i18n-key"></th>
+									<th class="i18n-value"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr><td>en_Name</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Project infrastructure needs</td></tr><tr><td>de_Name</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Infrastrukturbedarfe des Projekts</td></tr><tr><td>de_Desc</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Laut INCOSE Handbuch 4.0 - &#252;bersetzt von GfSE:
+								"Die Infrastrukturbedarfe des Projekts umfassen den im Projekt bestehenden Bedarf an Infrastruktur, einschlie&#223;lich der Verpflichtungen gegen&#252;ber externen Stakeholdern".</td></tr><tr><td>en_Desc</td><td class="convertlinks no-margin" style="white-space:pre-wrap">Specific requests for infrastructure products or services needed by the project, including commitments to external stakeholders</td></tr>
+							</tbody>
+						</table>
+					</div>
+					<div role="tabpanel" class="tab-pane" id="analysis">
+						<table class="table table-striped table-hover table-condensed" id="used-in-views">
+							<thead>
+								<tr><th colspan="2" class="i18n-used-in-views" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-viewpoint"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr id="used-in-views-afd681ae-b1ec-4566-98b0-14fb55dfb219">
+																	<td><a href="../views/afd681ae-b1ec-4566-98b0-14fb55dfb219.html" target="view" title="04-02 Infrastructure Management"> 04-02 Infrastructure Management </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr><tr id="used-in-views-f3c92407-f7ae-4790-9545-32c66f5576bd">
+																	<td><a href="../views/f3c92407-f7ae-4790-9545-32c66f5576bd.html" target="view" title="02-01 Project Planning"> 02-01 Project Planning </a></td>
+																	<td><span class="i18n-viewpoint-" /></td>
+																</tr>
+							</tbody>
+						</table>
+						<table class="table table-striped table-hover table-condensed" id="model-relations">
+							<thead>
+								<tr><th colspan="4" class="i18n-model-relations" /></tr>
+								<tr>
+									<th class="i18n-name"></th>
+									<th class="i18n-type"></th>
+									<th class="i18n-source"></th>
+									<th class="i18n-target"></th>
+								</tr>
+							</thead>
+							<tbody>
+									<tr>
+											<td><a href="../elements/7fc557ca-9115-4f0b-aaac-8805e693b882.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/9c015bfb-b80c-40de-b40d-80abe47553b6.html" target="element"> Infrastructure Management</a></td>
+											<td><a href="../elements/6f15e8f1-a233-4dd3-927f-f435f72b1ced.html" target="element"> Project infrastructure needs</a></td>
+										</tr><tr>
+											<td><a href="../elements/e5cfcf13-e20c-42e3-903e-2b0825f0a166.html" target="element" title=""></a></td>
+											<td><span class="i18n-elementtype-AccessRelationship" /></td>
+											<td><a href="../elements/af9e0d82-de0d-4bfd-93e7-1a3253e43e8c.html" target="element"> Project Planning</a></td>
+											<td><a href="../elements/6f15e8f1-a233-4dd3-927f-f435f72b1ced.html" target="element"> Project infrastructure needs</a></td>
+										</tr>
+							</tbody>
+						</table>
+					</div>
+			  </div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">imageMapResize();</script>
+</body>
+</html>
