@@ -83,7 +83,7 @@
 
     /* Real-time telemetry HUD overlay */
     #hud-callout {
-      position: absolute;
+      position: fixed;
       transform: translate(-50%, -120%);
       pointer-events: none;
       opacity: 0;
@@ -241,7 +241,7 @@
 </head>
 <body>
   <div id="badge">
-    <!-- Прямое использование JPG. Белый фон исчезнет благодаря CSS mix-blend-mode -->
+    <!-- Using JPEG Logo CSS mix-blend-mode -->
     <img src="INCOSE_Logo_FullColor_CMYK.jpeg" alt="INCOSE Logo" id="badge-logo">
     <h1>Handbook v. 4 Digital Process Model</h1>
     <p>Systems Life-Cycle Processes and Data Flows</p>
