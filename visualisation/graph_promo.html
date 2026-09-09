@@ -263,7 +263,6 @@
     </div>
   </div>
 
-  <!-- Persistent Attributions Overlay -->
   <div id="credits">
     <div>Engine: <a href="https://github.com/vasturiano/3d-force-graph" target="_blank" rel="noopener noreferrer">3d-force-graph</a> (MIT License)</div>
     <div>Soundtrack: &ldquo;Eureka&rdquo; &mdash; Huma-Huma (YouTube Audio Library)</div>
@@ -310,8 +309,17 @@
     const startTime = performance.now();
     let lastHudTriggerTime = 1.0;
     let userTookControl = false;
+    let ctaDismissed = false; // Flag to prevent the render loop from reviving the CTA
     let currentOrbitAngle = 0;
     let insideAngle = 0;
+
+    // Detect user manual interaction on the graph canvas to yield control
+    const graphContainer = document.getElementById('3d-graph');
+    ['pointerdown', 'touchstart', 'wheel'].forEach(evt => {
+      graphContainer.addEventListener(evt, () => { 
+        userTookControl = true; 
+      }, { passive: true });
+    });
 
     function animateSequence(now) {
       if (userTookControl) return;
@@ -320,14 +328,12 @@
       let camX = 0, camY = 150, camZ = 1350;
       let lookX = 0, lookY = 0, lookZ = 0;
 
-      // Phase 1: 0.0s -> 2.0s (Smooth zoom-in from deep space)
       if (t < 2.0) {
         const p = t / 2.0;
         const ease = 1 - Math.pow(1 - p, 3);
         camZ = 4500 - (4500 - 1350) * ease;
         camY = 300 - 150 * ease;
       }
-      // Phase 2: 2.0s -> 14.5s (Calm exterior orbital sweep with HUD telemetry)
       else if (t >= 2.0 && t < 14.5) {
         currentOrbitAngle += 0.0035;
         const radius = 1350;
@@ -347,7 +353,6 @@
           }, 1200);
         }
       }
-      // Phase 3: 14.5s -> 19.5s (Dramatic dive straight into the interior cluster)
       else if (t >= 14.5 && t < 19.5) {
         hudEl.classList.remove('visible');
         activeTargetNode = null;
@@ -367,7 +372,6 @@
         lookY = 10 * ease;
         lookZ = 0;
       }
-      // Phase 4: 19.5s onward (Immersive interior drift + Reveal CTA)
       else {
         hudEl.classList.remove('visible');
         activeTargetNode = null;
@@ -383,7 +387,8 @@
         lookY = 10;
         lookZ = 30 * Math.sin(insideAngle);
 
-        if (!document.getElementById('cta-card').classList.contains('visible')) {
+        // Only reveal the CTA if the user hasn't actively dismissed it
+        if (!ctaDismissed && !document.getElementById('cta-card').classList.contains('visible')) {
           document.getElementById('cta-card').classList.add('visible');
           document.getElementById('badge').style.opacity = '0.3';
         }
@@ -404,22 +409,24 @@
 
     requestAnimationFrame(animateSequence);
 
-    // Closing CTA allows unrestricted mouse interaction
+    // Closing CTA flags it as dismissed, leaving the animation running
     document.getElementById('cta-close').addEventListener('click', () => {
-      userTookControl = true;
+      ctaDismissed = true;
       document.getElementById('cta-card').classList.remove('visible');
       document.getElementById('badge').style.opacity = '1';
     });
 
-    // --- AUDIO CONTROLS & AUTO-PLAY DECOUPLING ---
+    // --- ROBUST TABLET & DESKTOP AUDIO CONTROLS ---
     const audio = document.getElementById('bg-audio');
     const btnPlayPause = document.getElementById('btn-play-pause');
     const btnStop = document.getElementById('btn-stop');
     const btnRestart = document.getElementById('btn-restart');
     const audioCtrl = document.getElementById('audio-controller');
 
-    audioCtrl.addEventListener('pointerdown', (e) => e.stopPropagation());
-    audioCtrl.addEventListener('click', (e) => e.stopPropagation());
+    // Isolate toolbar events
+    ['pointerdown', 'touchstart', 'click'].forEach(evt => {
+      audioCtrl.addEventListener(evt, (e) => e.stopPropagation());
+    });
 
     function tryPlayAudio() {
       const promise = audio.play();
@@ -428,16 +435,18 @@
           btnPlayPause.innerHTML = '&#10074;&#10074; Pause';
         }).catch(() => {
           btnPlayPause.innerHTML = '&#9658; Play';
+          
+          const unlockEvents = ['pointerdown', 'touchstart', 'touchend', 'click', 'keydown'];
           const unlock = (e) => {
             if (e && e.target && e.target.closest('#audio-controller')) return;
             audio.play().then(() => {
               btnPlayPause.innerHTML = '&#10074;&#10074; Pause';
             }).catch(() => {});
-            window.removeEventListener('pointerdown', unlock);
-            window.removeEventListener('keydown', unlock);
+            
+            unlockEvents.forEach(evt => window.removeEventListener(evt, unlock));
           };
-          window.addEventListener('pointerdown', unlock, { once: true });
-          window.addEventListener('keydown', unlock, { once: true });
+          
+          unlockEvents.forEach(evt => window.addEventListener(evt, unlock, { once: true }));
         });
       }
     }
