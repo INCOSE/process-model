@@ -40,14 +40,26 @@
       pointer-events: none;
       background: rgba(15, 23, 42, 0.75);
       backdrop-filter: blur(12px);
-      padding: 16px 22px;
+      padding: 18px 24px;
       border-radius: 10px;
       border: 1px solid rgba(255, 255, 255, 0.12);
       transition: opacity 0.8s ease;
       box-shadow: 0 4px 25px rgba(0, 0, 0, 0.3);
     }
+    
+    #badge-logo {
+      height: 42px;
+      margin-bottom: 12px;
+      display: block;
+      user-select: none;
+      /* CSS МАГИЯ: Обесцвечиваем -> Инвертируем (белый фон становится черным) -> Выкручиваем яркость */
+      filter: grayscale(100%) invert(100%) brightness(200%);
+      /* Режим наложения Screen делает черный цвет полностью прозрачным */
+      mix-blend-mode: screen;
+    }
+    
     #badge h1 { margin: 0 0 4px 0; font-size: 19px; font-weight: 600; letter-spacing: 0.5px; }
-    #badge p { margin: 0 0 12px 0; font-size: 13px; color: #94a3b8; }
+    #badge p { margin: 0 0 14px 0; font-size: 13px; color: #94a3b8; }
     
     .cta-inline-btn {
       display: inline-block;
@@ -229,7 +241,9 @@
 </head>
 <body>
   <div id="badge">
-    <h1>INCOSE Handbook v. 4 Digital Process Model</h1>
+    <!-- Прямое использование JPG. Белый фон исчезнет благодаря CSS mix-blend-mode -->
+    <img src="INCOSE_Logo_FullColor_CMYK.jpeg" alt="INCOSE Logo" id="badge-logo">
+    <h1>Handbook v. 4 Digital Process Model</h1>
     <p>Systems Life-Cycle Processes and Data Flows</p>
     <a href="https://incose.github.io/process-model/" target="_blank" rel="noopener noreferrer" class="cta-inline-btn">
       Try Interactive Model &rarr;
@@ -334,7 +348,6 @@
       const dt = (now - lastTime) / 1000;
       lastTime = now;
 
-      // 1. Camera Animation Logic
       if (isPlaying && !isRestarting) {
         animTime += dt;
         let t = animTime;
@@ -387,7 +400,6 @@
         Graph.cameraPosition({ x: camX, y: camY, z: camZ }, { x: lookX, y: lookY, z: lookZ });
       }
 
-      // 2. Independent Random HUD Logic
       if (randomHudEnabled && !hoveredNode) {
         if (now - lastRandomHudTime > 3000) { 
           lastRandomHudTime = now;
@@ -408,7 +420,6 @@
         }
       }
 
-      // 3. HUD Positioning
       let targetPosNode = hoveredNode || activeTargetNode;
       if (targetPosNode && targetPosNode.x !== undefined && Graph.graph2ScreenCoords) {
         const pos = Graph.graph2ScreenCoords(targetPosNode.x, targetPosNode.y, targetPosNode.z);
