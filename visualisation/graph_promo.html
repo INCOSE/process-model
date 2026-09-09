@@ -3,6 +3,25 @@
 <head>
   <meta charset="utf-8">
   <title>INCOSE Process Model Cinematic Promo</title>
+  
+  <!-- Primary Meta Tags -->
+  <meta name="title" content="INCOSE Handbook v.4 3D Digital Process Model">
+  <meta name="description" content="Explore systems engineering life-cycle processes, inputs, outputs, and dependencies in an interactive 3D visualisation.">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://incose.github.io/process-model/visualisation/">
+  <meta property="og:title" content="INCOSE Handbook v.4 3D Digital Process Model">
+  <meta property="og:description" content="Explore systems engineering life-cycle processes, inputs, outputs, and dependencies in an interactive 3D visualisation.">
+  <meta property="og:image" content="https://incose.github.io/process-model/visualisation/INCOSE_OpenGraph_Card.png">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:url" content="https://incose.github.io/process-model/visualisation/">
+  <meta property="twitter:title" content="INCOSE Handbook v.4 3D Digital Process Model">
+  <meta property="twitter:description" content="Explore systems engineering life-cycle processes, inputs, outputs, and dependencies in an interactive 3D visualisation.">
+  <meta property="twitter:image" content="https://incose.github.io/process-model/visualisation/INCOSE_OpenGraph_Card.png">
+
   <style>
     body {
       margin: 0;
@@ -263,7 +282,6 @@
     const Graph = ForceGraph3D()(document.getElementById('3d-graph'))
       .graphData(gData)
       .backgroundColor('#030712')
-      /* Отключаем стандартный мелкий текст при наведении */
       .nodeLabel(null) 
       .nodeAutoColorBy('type')
       .nodeRelSize(4.5)
@@ -279,7 +297,6 @@
           hudNameEl.textContent = node.name || node.id;
           hudEl.classList.add('visible');
         } else {
-          // Скрываем HUD, если убрали курсор (восстановится в цикле, если работает случайный перебор)
           hudEl.classList.remove('visible');
           activeTargetNode = null; 
         }
@@ -303,7 +320,6 @@
     let currentOrbitAngle = 0;
     let insideAngle = 0;
 
-    // Detect user manual interaction on the graph canvas to yield control and pause
     const graphContainer = document.getElementById('3d-graph');
     ['pointerdown', 'touchstart', 'wheel'].forEach(evt => {
       graphContainer.addEventListener(evt, () => { 
@@ -372,9 +388,8 @@
       }
 
       // 2. Independent Random HUD Logic
-      // Срабатывает только если включен тумблер и пользователь не навел курсор на узел
       if (randomHudEnabled && !hoveredNode) {
-        if (now - lastRandomHudTime > 3000) { // Каждые 3 секунды
+        if (now - lastRandomHudTime > 3000) { 
           lastRandomHudTime = now;
           
           if (candidateNodes.length > 0) {
@@ -383,7 +398,6 @@
             hudNameEl.textContent = activeTargetNode.name;
             hudEl.classList.add('visible');
             
-            // Скрываем плашку через 1.5 секунды
             setTimeout(() => {
               if (activeTargetNode && !hoveredNode) {
                 hudEl.classList.remove('visible');
@@ -395,7 +409,6 @@
       }
 
       // 3. HUD Positioning
-      // Приоритет отдаем узлу под курсором, если нет — используем случайный
       let targetPosNode = hoveredNode || activeTargetNode;
       if (targetPosNode && targetPosNode.x !== undefined && Graph.graph2ScreenCoords) {
         const pos = Graph.graph2ScreenCoords(targetPosNode.x, targetPosNode.y, targetPosNode.z);
