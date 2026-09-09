@@ -24,13 +24,14 @@ This repository hosts the source model and web distribution of the INCOSE Proces
 Visit [https://incose.github.io/process-model/](https://incose.github.io/process-model/) on desktop or mobile devices. The interactive viewer allows you to:
 * Navigate the complete hierarchy of ISO 15288 life-cycle processes.
 * Inspect inputs, outputs, process activities, and life-cycle constraints.
-* Visualise structural and functional dependencies across processes.
 
 ### 2. Inspecting & Modifying the Source Model
 To inspect or adapt the source architecture:
 1. Download the `.archimate` model file from this branch.
 2. Install [Archi](https://www.archimatetool.com/) (Open Source ArchiMate Modelling Toolkit).
 3. Open the file directly in Archi to explore the underlying metamodel, properties, and diagrams.
+
+If you need a tool-agnostic version of the model, please refer to the [Landing Page](https://www.incose.org/process-model) for further instructions.
 
 ---
 
@@ -40,14 +41,14 @@ Feedback, corrections, and functional proposals are actively encouraged:
 
 * **GitHub Issues:** Open an issue via the [Issues tab](https://github.com/INCOSE/process-model/issues) for defect reports, diagram inconsistencies, or feature requests.
 * **Direct Contact:** If you prefer email or have governance inquiries, feel free to reach out directly to the lead architect:
-  * **Alexander Efremov** — Systems Engineering Consultant
-  * *Email:* `alexander.efremov@incose.net` *(или ваш актуальный рабочий адрес)*
+  * **Alexander Efremov** — CSEP, SE-Zert® Level A
+  * *Email:* [alexander@efremov-systems.com](mailto:alexander@efremov-systems.com)
 
 ---
 
 ## Copyright & Citations
 
-* Different parts of this product have different copyright owners. Use of this product, is expressly subject to prior consent from the following parties: INCOSE, ISO or a national representative body, Wiley and the German Chapter of INCOSE GfSE e.V. (the “Consenting Parties”)
+* Different parts of this product have different copyright owners. Use of this product is expressly subject to prior consent from the following parties: INCOSE, ISO or a national representative body, Wiley and the German Chapter of INCOSE GfSE e.V. (the “Consenting Parties”).
  
 * INCOSE grants permission, subject to consent from the additional Consenting Parties, on the following terms and conditions:
  
@@ -59,10 +60,10 @@ Feedback, corrections, and functional proposals are actively encouraged:
  
 * This product contains quotations from ISO/IEC/IEEE 15288:2015. © ISO. These quotations are reproduced with permission of the American National Standards Institute (ANSI) on behalf of the International Organization for Standardization. These quotations are explicitly marked with a copyright note. All rights reserved.
  
-* This product contains quotations from the Book "INCOSE Systems Engineering Handbook: A Guide for System Life Cycle Processes and Activities, 4th Edition", ISBN: 978-1-118-99940-0, published by  John Wiley & Sons, Inc., authored by David D. Walden, ESEP, Garry J. Roedler, ESEP, Kevin J. Forsberg, ESEP, R. Douglas Hamelin, Thomas M. Shortell, CSEP. Permission is granted by John Wiley & Sons, Inc. All rights reserved.
+* This product contains quotations from the Book "INCOSE Systems Engineering Handbook: A Guide for System Life Cycle Processes and Activities, 4th Edition", ISBN: 978-1-118-99940-0, published by John Wiley & Sons, Inc., authored by David D. Walden, ESEP, Garry J. Roedler, ESEP, Kevin J. Forsberg, ESEP, R. Douglas Hamelin, Thomas M. Shortell, CSEP. Permission is granted by John Wiley & Sons, Inc. All rights reserved.
 
 * No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, photocopying, recording, scanning, or otherwise, except as permitted under Section 107 or 108 of the 1976 United States Copyright Act, without either the prior written permission of the Publisher, or authorization through payment of the appropriate per-copy fee to the Copyright Clearance Center, Inc., 222 Rosewood Drive, Danvers, MA 01923, (978) 750-8400, fax (978) 750-4470, or on the web at www.copyright.com. Requests to the Publisher for permission should be addressed to the Permissions Department, John Wiley & Sons, Inc., 111 River Street, Hoboken, NJ 07030, (201) 748-6011, fax (201) 748-6008, or online at http://www.wiley.com/go/permissions.
  
-* This product contains quotations from the German translation of the aforementioned Handbook: "INCOSE Systems Engineering Handbuch: Ein Leitfaden für Systemlebenszyklus-Prozesse und -Aktivitäten", ISBN: 978-3-9818805-0-2, published by John Wiley & Sons, Inc., Authors of the translation: Dr. David Endler, CSEP, SE-Zert® Level A Martin Geisreiter, ESEP. SE-Zert® Level A Rüdiger Kaffenberger, SE-Zert® Level A Jürgen Rambo. © Gesellschaft für Systems Engineering e.V.
+* This product contains quotations from the German translation of the aforementioned Handbook: "INCOSE Systems Engineering Handbuch: Ein Leitfaden für Systemlebenszyklus-Prozesse und -Aktivitäten", ISBN: 978-3-9818805-0-2, published by John Wiley & Sons, Inc., Authors of the translation: Dr. David Endler, CSEP, SE-Zert® Level A Martin Geisreiter, ESEP, SE-Zert® Level A Rüdiger Kaffenberger, SE-Zert® Level A Jürgen Rambo. © Gesellschaft für Systems Engineering e.V.
 
 * This product was created using the Archi modelling tool (www.archimatetool.com), distributed under an MIT type license. All rights reserved.
