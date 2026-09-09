@@ -1018,9 +1018,9 @@ issues, and perceived risks and opportunities</documentation>
       <property key="de_Desc" value="Laut INCOSE Handbuch 4.0 - übersetzt von GfSE:&#xD;&#xA;&quot;Ein Warungsprotokoll enthält die lesbaren Aufzeichnungen der Daten, Informationen oder des Wissens bezogen auf die Wartung&quot;."/>
       <property key="en_Desc" value="Permanent, readable form of data, information, or knowledge related to maintenance"/>
     </element>
-    <element xsi:type="archimate:BusinessObject" name="Maintenance strategy" id="79348313-ecd9-4cf5-9d1a-4601ab702315">
+    <element xsi:type="archimate:BusinessObject" name="Wartungsstrategie" id="79348313-ecd9-4cf5-9d1a-4601ab702315">
       <documentation>Approaches, schedules, resources, and specific considerations required to perform corrective and preventive maintenance in conformance with operational availability requirements</documentation>
-      <property key="en_Name" value="Maintenance strategy"/>
+      <property key="en_Name" value="Wartungsstrategie"/>
       <property key="de_Name" value="Wartungsstrategie"/>
       <property key="de_Desc" value="Approaches, schedules, resources, and specific considerations required to perform corrective and preventive maintenance in conformance with operational availability requirements"/>
       <property key="en_Desc" value="Approaches, schedules, resources, and specific considerations required to perform corrective and preventive maintenance in conformance with operational availability requirements"/>
@@ -1592,8 +1592,9 @@ issues, and perceived risks and opportunities</documentation>
       <property key="de_Desc" value="Laut INCOSE Handbuch 4.0 - übersetzt von GfSE:&#xD;&#xA;&quot;Das Umsetzungsprotokoll enthält die lesbaren Aufzeichnungen der Daten, Informationen oder des Wissens bezogen auf die Umsetzung&quot;."/>
       <property key="en_Desc" value="Permanent, readable form of data, information, or knowledge related to implementation"/>
     </element>
-    <element xsi:type="archimate:BusinessObject" name="MOP needs" id="d83c0f33-aaf5-4429-ac4a-5450c4d72a52">
-      <documentation>Identification of the MOPs (Roedler and Jones, 2006), which define the key performance characteristics the system should have when fielded and operated in its intended operating environment</documentation>
+    <element xsi:type="archimate:BusinessObject" name="Bedarf an Leistungsmessungen" id="d83c0f33-aaf5-4429-ac4a-5450c4d72a52">
+      <documentation>Laut INCOSE Handbuch 4.0 - übersetzt von GfSE:&#xD;
+&quot;Der Bedarf an Leistungsmessungen umfasst die Leistungskennzahlen (MOPs) (Roedler und Jones, 2006), die die wichtigsten Leistungsmerkmale des Systems definieren, sobald es in seiner vorgesehenen Betriebsumgebung ist und verwendet wird.&quot;</documentation>
       <property key="en_Name" value="MOP needs"/>
       <property key="de_Name" value="Bedarf an Leistungsmessungen (!!!)"/>
       <property key="de_Desc" value="Laut INCOSE Handbuch 4.0 - übersetzt von GfSE:&#xD;&#xA;&quot;Der Bedarf an Leistungsmessungen umfasst die Leistungskennzahlen (MOPs) (Roedler und Jones, 2006), die die wichtigsten Leistungsmerkmale des Systems definieren, sobald es in seiner vorgesehenen Betriebsumgebung ist und verwendet wird.&quot;"/>
