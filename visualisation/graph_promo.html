@@ -320,7 +320,8 @@
     /* --- MOBILE RESPONSIVE LAYOUT --- */
     @media (max-width: 850px) {
       /* Top row layout */
-      #badge { top: 12px; left: 12px; padding: 12px; max-width: 50vw; }
+      #badge { top: 12px; left: 12px; padding: 12px; max-width: 60vw; }
+      #badge-logo { height: 28px; margin-bottom: 8px; }
       #badge p { display: none; } /* Hide description text */
       #badge h1 { font-size: 14px; margin-bottom: 8px; }
       .cta-inline-btn { padding: 8px 12px; font-size: 11px; }
@@ -329,9 +330,9 @@
       #animation-controller span { display: none; } /* Hide ANIMATION / LABELS text */
       .ctrl-btn { font-size: 11px; padding: 5px 8px; }
       
-      /* Move search below top row */
+      /* Move search safely below top elements */
       #search-container { 
-        top: 110px; 
+        top: 150px; 
         width: calc(100% - 24px); 
       }
       
