@@ -341,7 +341,8 @@
   padding: 6px 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
-#animation-controller span { font-size: 11px; font-weight: 600; color: #94a3b8; margin-right: 4px; letter-spacing: 0.5px; user-select: none; }
+#animation-controller > .ctrl-label { font-size: 11px; font-weight: 600; color: #94a3b8; margin-right: 4px; letter-spacing: 0.5px; user-select: none; }
+.anim-btn-group { display: flex; align-items: center; gap: 8px; }
 #animation-controller .separator { width: 1px; height: 16px; background: rgba(255, 255, 255, 0.2); margin: 0 4px; }
 
 #settings-panel {
@@ -403,9 +404,11 @@
   padding: 6px 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
 #tour-controller { border-left: 3px solid #facc15; }
-#audio-controller span, #tour-controller span {
+#audio-controller > span, #tour-controller > span {
+  display: flex; align-items: center;
   font-size: 11px; font-weight: 600; color: #94a3b8; margin-right: 4px; user-select: none;
 }
+
 #tour-controller span { font-weight: 800; color: #facc15; }
 
 #tour-progress {
@@ -463,39 +466,6 @@
   100% { box-shadow: 0 0 10px rgba(250, 204, 21, 0.4); }
 }
 
-@media (max-width: 850px) {
-  /* Задача 1: Поля в ряд, выпадающий список на 100% ширины */
-  .path-inputs { flex-direction: row; position: relative; gap: 6px; }
-  .input-group { position: static; } 
-  .suggestions-box { top: 100%; left: 0; right: 0; width: 100%; margin-top: 6px; }
-  
-  /* Задача 3: Плашка копирайтов на всю ширину снизу */
-  #credits { 
-    bottom: 0; left: 0; right: 0; width: 100%; max-width: 100%;
-    border-radius: 0; border: none; border-top: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 8px 12px; flex-direction: column; align-items: center;
-    background: rgba(15, 23, 42, 0.95);
-  }
-  .credits-links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; text-align: center; }
-  
-  /* Задача 2: Контроллеры тура и аудио рядом */
-  #bottom-controls-container {
-    bottom: 60px; /* Сдвигаем вверх, чтобы не перекрывалось плашкой */
-    right: 12px;
-    flex-direction: row-reverse; /* Ставит их рядом */
-    gap: 8px;
-  }
-  .ctrl-label { display: none; } /* Прячем текст на мобилках, оставляем иконки */
-  #tour-controller span, #audio-controller span { display: inline; }
-  #tour-controller, #audio-controller { padding: 6px; gap: 4px; }
-  
-  #subtitle-container { bottom: 120px; } /* Сдвигаем субтитры выше */
-  
-  /* Остальные ваши мобильные стили для #badge и #app-ui-container оставляем как были */
-}
-
-
-
 .ctrl-btn {
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -544,25 +514,59 @@
 .copyright-link a:hover { color: #fef08a; text-decoration: underline; }
 
 @media (max-width: 850px) {
+  /* Шапка и тексты */
   #badge { top: 12px; left: 12px; padding: 12px; max-width: 56vw; }
   #badge-logo { height: 28px; margin-bottom: 8px; }
   #badge p { display: none; }
   #badge h1 { font-size: 14px; margin-bottom: 8px; }
   .cta-inline-btn { padding: 8px 12px; font-size: 11px; }
   
-  #animation-controller { top: 12px; right: 12px; padding: 6px; gap: 4px; }
-  #animation-controller span { display: none; }
-  #btn-settings-toggle .btn-text { display: none; }
-  .ctrl-btn { font-size: 11px; padding: 5px 8px; }
+  /* Задача 5: Слово ANIMATION сверху над кнопками */
+  #animation-controller { 
+    top: 12px; right: 12px; padding: 6px; gap: 4px;
+    flex-direction: column; align-items: flex-end; 
+  }
+  #animation-controller > .ctrl-label { 
+    display: block; font-size: 10px; margin-bottom: 2px; line-height: 1;
+  }
+  .anim-btn-group { display: flex; gap: 4px; }
   
+  /* Задача 3 и 4: Скрываем текст кнопок, оставляем только символы */
+  .btn-text { display: none; }
+  .ctrl-btn { font-size: 14px; padding: 6px 10px; } 
+
   #app-ui-container { top: 155px; width: calc(100% - 24px); }
-  .path-inputs { flex-direction: column; }
+  #settings-panel { top: 68px; right: 12px; width: calc(100vw - 24px); max-width: 340px; z-index: 60; }
   
-  #settings-panel { top: 56px; right: 12px; width: calc(100vw - 24px); max-width: 340px; z-index: 60; }
-  #credits { bottom: 12px; left: 12px; font-size: 9px; max-width: 45vw; }
-  #audio-controller { bottom: 12px; right: 12px; padding: 6px; gap: 4px; }
-  #audio-controller span { display: none; }
+  /* Задача 1: Поля поиска жестко в один ряд без переносов (на 50% каждое) */
+  .path-inputs { flex-direction: row; flex-wrap: nowrap; position: relative; gap: 6px; }
+  .input-group { position: static; flex: 1; min-width: 0; } 
+  .suggestions-box { top: 100%; left: 0; right: 0; width: 100%; margin-top: 6px; }
+
+  /* Задача 2: Делаем копирайт кликабельным поверх всего */
+  #credits { 
+    bottom: 0; left: 0; right: 0; width: 100%; max-width: 100%;
+    border-radius: 0; border: none; border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 12px; flex-direction: column; align-items: center;
+    background: rgba(15, 23, 42, 0.98);
+    z-index: 100; /* Решает проблему с ненажимаемой ссылкой */
+    pointer-events: auto;
+  }
+  .credits-links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; text-align: center; }
+
+  /* Задача 4: Контроллеры тура и аудио */
+  #bottom-controls-container {
+    bottom: 70px; right: 12px;
+    flex-direction: row-reverse; gap: 8px; z-index: 90;
+  }
+  #tour-controller, #audio-controller { padding: 6px 8px; gap: 6px; }
   
+  /* Отображаем иконки (🎵 и 🎬), но скрываем текстовые подписи MUSIC / WHAT IS IT? */
+  .ctrl-label { display: none; } 
+  #tour-controller span.ctrl-icon, #audio-controller span.ctrl-icon { display: inline-block; font-size: 14px; }
+  
+  #subtitle-container { bottom: 120px; font-size: 14px; padding: 8px 16px; width: 90%; }
+  #tour-progress { width: 90px; }
 }
   </style>
 </head>
@@ -652,12 +656,14 @@
     <span id="hud-callout-name">Name</span>
   </div>
 
-  <div id="animation-controller">
-    <span>ANIMATION</span>
-    <button id="anim-play-pause" class="ctrl-btn" title="Play / Pause">&#10074;&#10074; Pause</button>
-    <button id="anim-restart" class="ctrl-btn" title="Restart smoothly">&#8634; Restart</button>
-    <div class="separator"></div>
-    <button id="btn-settings-toggle" class="ctrl-btn" title="Visualisation Settings">&#9881; <span class="btn-text">Options</span></button>
+<div id="animation-controller">
+    <span class="ctrl-label">ANIMATION</span>
+    <div class="anim-btn-group">
+      <button id="anim-play-pause" class="ctrl-btn" title="Play / Pause">&#10074;&#10074;<span class="btn-text"> Pause</span></button>
+      <button id="anim-restart" class="ctrl-btn" title="Restart smoothly">&#8634;<span class="btn-text"> Restart</span></button>
+      <div class="separator"></div>
+      <button id="btn-settings-toggle" class="ctrl-btn" title="Visualisation Settings">&#9881; <span class="btn-text">Options</span></button>
+    </div>
   </div>
 
   <div id="settings-panel">
@@ -698,14 +704,14 @@
   <div id="bottom-controls-container">
     <div id="audio-controller">
       <span><span class="ctrl-icon">🎵</span><span class="ctrl-label">MUSIC</span></span>
-      <button id="btn-play-pause" class="ctrl-btn" title="Play / Pause">&#10074;&#10074; Pause</button>
-      <button id="btn-restart" class="ctrl-btn" title="Restart from beginning">&#8634; Start</button>
+      <button id="btn-play-pause" class="ctrl-btn" title="Play / Pause">&#10074;&#10074;<span class="btn-text"> Pause</span></button>
+      <button id="btn-restart" class="ctrl-btn" title="Restart from beginning">&#8634;<span class="btn-text"> Start</span></button>
     </div>
     
     <div id="tour-controller">
       <span><span class="ctrl-icon">🎬</span><span class="ctrl-label">WHAT IS IT?</span></span>
-      <button id="btn-tour-play" class="ctrl-btn" title="Play / Pause Guided Tour">&#9658; Play</button>
-      <button id="btn-tour-stop" class="ctrl-btn" title="Stop Tour">&#9632; Stop</button>
+      <button id="btn-tour-play" class="ctrl-btn" title="Play / Pause Guided Tour">&#9658;</button>
+      <button id="btn-tour-stop" class="ctrl-btn" title="Stop Tour">&#9632;</button>
       <button id="btn-tour-subs" class="ctrl-btn active" title="Toggle Subtitles">CC</button>
       <input type="range" id="tour-progress" value="0" min="0" max="100" step="0.1" title="Tour Progress">
     </div>
@@ -922,7 +928,7 @@ const graphContainer = document.getElementById('3d-graph');
   graphContainer.addEventListener(evt, () => { 
     if (isPlaying && !isRestarting) {
       isPlaying = false;
-      document.getElementById('anim-play-pause').innerHTML = '&#9658; Play';
+      document.getElementById('anim-play-pause').innerHTML = '&#9658;<span class="btn-text"> Play</span>';
     }
   }, { passive: true });
 });
@@ -1031,7 +1037,7 @@ requestAnimationFrame((now) => {
 function flyToNode(node, duration = 2000) {
   if (isPlaying) {
     isPlaying = false;
-    document.getElementById('anim-play-pause').innerHTML = '&#9658; Play';
+    document.getElementById('anim-play-pause').innerHTML = '&#9658;<span class="btn-text"> Play</span>';
   }
   const distance = 150;
   const nodeDist = Math.hypot(node.x, node.y, node.z) || 1; 
@@ -1265,7 +1271,7 @@ dropdownItems.forEach(item => {
     if (mode === 'path' || mode === 'flows') {
       if (isPlaying) {
         isPlaying = false;
-        document.getElementById('anim-play-pause').innerHTML = '&#9658; Play';
+        document.getElementById('anim-play-pause').innerHTML = '&#9658;<span class="btn-text"> Play</span>';
       }
       randomHudEnabled = false;
       document.getElementById('toggle-random-labels').checked = false;
@@ -1332,7 +1338,7 @@ document.getElementById('btn-find-path').addEventListener('click', () => {
   // Pull back appropriately depending on path spread (minimum 250 to not clip)
   const targetDist = Math.max(maxDist * 2.2, 250);
 
-  if (isPlaying) { isPlaying = false; document.getElementById('anim-play-pause').innerHTML = '&#9658; Play'; }
+  if (isPlaying) { isPlaying = false; document.getElementById('anim-play-pause').innerHTML = '&#9658;<span class="btn-text"> Play</span>'; }
 
   // Slow 4-second flight
   Graph.cameraPosition(
@@ -1400,13 +1406,13 @@ const animCtrl = document.getElementById('animation-controller');
 btnAnimPlayPause.addEventListener('click', () => {
   if (isRestarting) return; 
   isPlaying = !isPlaying;
-  btnAnimPlayPause.innerHTML = isPlaying ? '&#10074;&#10074; Pause' : '&#9658; Play';
+  btnAnimPlayPause.innerHTML = isPlaying ? '&#10074;&#10074;<span class="btn-text"> Pause</span>' : '&#9658;<span class="btn-text"> Play</span>';
 });
 
 // btnAnimStop.addEventListener('click', () => {
 //   if (isRestarting) return;
 //   isPlaying = false;
-//   btnAnimPlayPause.innerHTML = '&#9658; Play';
+//   btnAnimPlayPause.innerHTML = '&#9658;<span class="btn-text"> Play</span>';
 // });
 
 btnAnimRestart.addEventListener('click', () => {
@@ -1417,7 +1423,7 @@ btnAnimRestart.addEventListener('click', () => {
   insideAngle = 0;
   activeTargetNode = null;
   hudEl.classList.remove('visible');
-  btnAnimPlayPause.innerHTML = '&#10074;&#10074; Pause'; 
+  btnAnimPlayPause.innerHTML = '&#10074;&#10074;<span class="btn-text"> Pause</span>'; 
   Graph.cameraPosition({ x: 0, y: 150, z: 4500 }, { x: 0, y: 0, z: 0 }, 2000);
   setTimeout(() => { isRestarting = false; isPlaying = true; lastTime = performance.now(); }, 2050);
 });
@@ -1437,13 +1443,13 @@ function tryPlayAudio() {
   const promise = audio.play();
   if (promise !== undefined) {
     promise.then(() => {
-      btnAudioPlayPause.innerHTML = '&#10074;&#10074; Pause';
+      btnAudioPlayPause.innerHTML = '&#10074;&#10074;<span class="btn-text"> Pause</span>';
     }).catch(() => {
-      btnAudioPlayPause.innerHTML = '&#9658; Play';
+      btnAudioPlayPause.innerHTML = '&#9658;<span class="btn-text"> Play</span>';
       const unlockEvents = ['pointerdown', 'touchstart', 'touchend', 'click', 'keydown'];
       const unlock = (e) => {
         if (e && e.target && e.target.closest('#audio-controller')) return;
-        audio.play().then(() => { btnAudioPlayPause.innerHTML = '&#10074;&#10074; Pause'; }).catch(() => {});
+        audio.play().then(() => { btnAudioPlayPause.innerHTML = '&#10074;&#10074;<span class="btn-text"> Pause</span>'; }).catch(() => {});
         unlockEvents.forEach(evt => window.removeEventListener(evt, unlock));
       };
       unlockEvents.forEach(evt => window.addEventListener(evt, unlock, { once: true }));
@@ -1453,14 +1459,14 @@ function tryPlayAudio() {
 tryPlayAudio();
 
 btnAudioPlayPause.addEventListener('click', () => {
-  if (audio.paused) { audio.play(); btnAudioPlayPause.innerHTML = '&#10074;&#10074; Pause'; } 
-  else { audio.pause(); btnAudioPlayPause.innerHTML = '&#9658; Play'; }
+  if (audio.paused) { audio.play(); btnAudioPlayPause.innerHTML = '&#10074;&#10074;<span class="btn-text"> Pause</span>'; } 
+  else { audio.pause(); btnAudioPlayPause.innerHTML = '&#9658;<span class="btn-text"> Play</span>'; }
 });
 // btnAudioStop.addEventListener('click', () => {
-//   audio.pause(); audio.currentTime = 0; btnAudioPlayPause.innerHTML = '&#9658; Play';
+//   audio.pause(); audio.currentTime = 0; btnAudioPlayPause.innerHTML = '&#9658;<span class="btn-text"> Play</span>';
 // });
 btnAudioRestart.addEventListener('click', () => {
-  audio.currentTime = 0; audio.play(); btnAudioPlayPause.innerHTML = '&#10074;&#10074; Pause';
+  audio.currentTime = 0; audio.play(); btnAudioPlayPause.innerHTML = '&#10074;&#10074;<span class="btn-text"> Pause</span>';
 });
 
 // --- DIRECT DATA FLOWS ANALYSIS ---
@@ -1715,7 +1721,7 @@ document.getElementById('btn-show-flow').addEventListener('click', () => {
   const paths = availableFlows.get(selectedFlowEnd.id);
   if (!paths || paths.length === 0) return;
 
-  if (isPlaying) { isPlaying = false; document.getElementById('anim-play-pause').innerHTML = '&#9658; Play'; }
+  if (isPlaying) { isPlaying = false; document.getElementById('anim-play-pause').innerHTML = '&#9658;<span class="btn-text"> Play</span>'; }
 
   // Рассчет камеры для фрейминга
   let cx = 0, cy = 0, cz = 0;
@@ -2026,7 +2032,7 @@ function playTour() {
   // ЖЕСТКО ВЫРУБАЕМ фоновую анимацию, чтобы она не перехватывала управление камерой
   if (isPlaying) {
     isPlaying = false;
-    document.getElementById('anim-play-pause').innerHTML = '&#9658; Play';
+    document.getElementById('anim-play-pause').innerHTML = '&#9658;<span class="btn-text"> Play</span>';
   }
 
   if (!isResuming) {
@@ -2045,7 +2051,7 @@ function playTour() {
   }
 
   tourAudio.play();
-  btnTourPlay.innerHTML = '&#10074;&#10074; Pause';
+  btnTourPlay.innerHTML = '&#10074;&#10074;';
   
   const t = tourAudio.currentTime;
   tourSchedule.forEach(s => { if (s.time >= t) s.fired = false; });
@@ -2055,7 +2061,7 @@ function playTour() {
 
 function pauseTour() {
   tourAudio.pause();
-  btnTourPlay.innerHTML = '&#9658; Play';
+  btnTourPlay.innerHTML = '&#9658;';
 }
 
 function stopTour() {
@@ -2104,7 +2110,7 @@ tourProgress.addEventListener('input', (e) => {
   // ЖЕСТКО ВЫРУБАЕМ фоновую анимацию при перемотке ползунком
   if (isPlaying) {
     isPlaying = false;
-    document.getElementById('anim-play-pause').innerHTML = '&#9658; Play';
+    document.getElementById('anim-play-pause').innerHTML = '&#9658;<span class="btn-text"> Play</span>';
   }
 
   if (!isTourMode) {
