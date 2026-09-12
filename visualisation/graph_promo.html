@@ -396,40 +396,17 @@
 #credits a { color: #94a3b8; text-decoration: none; transition: color 0.2s ease; }
 #credits a:hover { color: #38bdf8; text-decoration: underline; }
 
-#audio-controller {
-  position: absolute;
-  bottom: 24px;
-  right: 32px;
-  z-index: 30;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background: rgba(15, 23, 42, 0.75);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 8px;
-  padding: 6px 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+#audio-controller, #tour-controller {
+  display: flex; align-items: center; gap: 8px;
+  background: rgba(15, 23, 42, 0.75); backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.12); border-radius: 8px;
+  padding: 6px 12px; box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
 }
-#audio-controller span { font-size: 11px; font-weight: 600; color: #94a3b8; margin-right: 4px; letter-spacing: 0.5px; user-select: none; }
-
-#tour-controller {
-  position: absolute;
-  bottom: 74px; /* Располагаем над основным аудио-контроллером */
-  right: 32px;
-  z-index: 30;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background: rgba(15, 23, 42, 0.75);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 8px;
-  padding: 6px 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
-  border-left: 3px solid #facc15;
+#tour-controller { border-left: 3px solid #facc15; }
+#audio-controller span, #tour-controller span {
+  font-size: 11px; font-weight: 600; color: #94a3b8; margin-right: 4px; user-select: none;
 }
-#tour-controller span { font-size: 11px; font-weight: 800; color: #facc15; margin-right: 4px; letter-spacing: 0.5px; user-select: none; }
+#tour-controller span { font-weight: 800; color: #facc15; }
 
 #tour-progress {
   width: 140px;
@@ -487,10 +464,34 @@
 }
 
 @media (max-width: 850px) {
-  #tour-controller { bottom: 54px; right: 12px; padding: 6px; gap: 4px; }
-  #tour-controller span { display: none; }
-  #subtitle-container { bottom: 80px; font-size: 14px; padding: 8px 16px; width: 90%; }
-  #tour-progress { width: 90px; }
+  /* Задача 1: Поля в ряд, выпадающий список на 100% ширины */
+  .path-inputs { flex-direction: row; position: relative; gap: 6px; }
+  .input-group { position: static; } 
+  .suggestions-box { top: 100%; left: 0; right: 0; width: 100%; margin-top: 6px; }
+  
+  /* Задача 3: Плашка копирайтов на всю ширину снизу */
+  #credits { 
+    bottom: 0; left: 0; right: 0; width: 100%; max-width: 100%;
+    border-radius: 0; border: none; border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 8px 12px; flex-direction: column; align-items: center;
+    background: rgba(15, 23, 42, 0.95);
+  }
+  .credits-links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; text-align: center; }
+  
+  /* Задача 2: Контроллеры тура и аудио рядом */
+  #bottom-controls-container {
+    bottom: 60px; /* Сдвигаем вверх, чтобы не перекрывалось плашкой */
+    right: 12px;
+    flex-direction: row-reverse; /* Ставит их рядом */
+    gap: 8px;
+  }
+  .ctrl-label { display: none; } /* Прячем текст на мобилках, оставляем иконки */
+  #tour-controller span, #audio-controller span { display: inline; }
+  #tour-controller, #audio-controller { padding: 6px; gap: 4px; }
+  
+  #subtitle-container { bottom: 120px; } /* Сдвигаем субтитры выше */
+  
+  /* Остальные ваши мобильные стили для #badge и #app-ui-container оставляем как были */
 }
 
 
@@ -508,6 +509,39 @@
 }
 .ctrl-btn:hover { background: rgba(59, 130, 246, 0.35); color: #ffffff; border-color: rgba(59, 130, 246, 0.5); }
 .ctrl-btn.active { background: rgba(56, 189, 248, 0.25); color: #38bdf8; border-color: rgba(56, 189, 248, 0.5); }
+
+/* --- COPYRIGHT MODAL --- */
+.modal-overlay {
+  position: fixed; top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(3, 7, 18, 0.85); backdrop-filter: blur(6px);
+  z-index: 100; display: none; justify-content: center; align-items: center;
+  padding: 20px; opacity: 0; transition: opacity 0.3s ease;
+}
+.modal-overlay.visible { display: flex; opacity: 1; }
+.modal-content {
+  background: rgba(15, 23, 42, 0.95); border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px; width: 100%; max-width: 650px; max-height: 85vh;
+  display: flex; flex-direction: column; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.6);
+}
+.modal-header {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 16px 20px; border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.modal-header h2 { margin: 0; font-size: 16px; color: #fff; }
+.modal-body {
+  padding: 20px; overflow-y: auto; font-size: 12px; color: #cbd5e1; line-height: 1.6;
+}
+.modal-body p { margin-top: 0; margin-bottom: 12px; }
+
+/* --- CONTROLS CONTAINER --- */
+#bottom-controls-container {
+  position: absolute; bottom: 24px; right: 32px; z-index: 30;
+  display: flex; flex-direction: column; align-items: flex-end; gap: 12px;
+}
+.ctrl-icon { margin-right: 6px; font-size: 14px; }
+.copyright-link { font-weight: 700; margin-bottom: 6px; }
+.copyright-link a { color: #facc15; }
+.copyright-link a:hover { color: #fef08a; text-decoration: underline; }
 
 @media (max-width: 850px) {
   #badge { top: 12px; left: 12px; padding: 12px; max-width: 56vw; }
@@ -536,7 +570,7 @@
   
   <div id="badge">
     <a href="https://incose.org" target="_blank" rel="noopener noreferrer"><img src="INCOSE_Logo_FullColor_CMYK.jpeg" alt="INCOSE Logo" id="badge-logo"></a>
-    <h1>Handbook v. 4 Digital Process Model</h1>
+    <h1>Handbook v.4 Process Model</h1>
     <p>Systems Life-Cycle Processes and Data Flows</p>
     <a href="https://incose.github.io/process-model/" target="_blank" rel="noopener noreferrer" class="cta-inline-btn">
       Try Interactive Model &rarr;
@@ -652,28 +686,54 @@
     </div>
   </div>
 
-  <div id="credits">
-    <div>Idea: <a href="https://efremov-systems.com" target="_blank" rel="noopener noreferrer">Alexander Efremov</a></div>
-    <div>Engine: <a href="https://github.com/vasturiano/3d-force-graph" target="_blank" rel="noopener noreferrer">3d-force-graph</a> (MIT License)</div>
-    <div>Soundtrack: &ldquo;Eureka&rdquo; &mdash; Huma-Huma (YouTube Audio Library)</div>
+<div id="credits">
+    <div class="copyright-link"><a href="#" id="link-copyright">© Copyright Notes & Legal</a></div>
+    <div class="credits-links">
+      <div>Idea: <a href="https://efremov-systems.com" target="_blank" rel="noopener noreferrer">Alexander Efremov</a></div>
+      <div>Engine: <a href="https://github.com/vasturiano/3d-force-graph" target="_blank" rel="noopener noreferrer">3d-force-graph</a> (MIT)</div>
+      <div>Soundtrack: &ldquo;Eureka&rdquo; &mdash; Huma-Huma</div>
+    </div>
   </div>
 
-  <div id="audio-controller">
-    <span>MUSIC</span>
-    <button id="btn-play-pause" class="ctrl-btn" title="Play / Pause">&#10074;&#10074; Pause</button>
-    <button id="btn-restart" class="ctrl-btn" title="Restart from beginning">&#8634; Start</button>
+  <div id="bottom-controls-container">
+    <div id="audio-controller">
+      <span><span class="ctrl-icon">🎵</span><span class="ctrl-label">MUSIC</span></span>
+      <button id="btn-play-pause" class="ctrl-btn" title="Play / Pause">&#10074;&#10074; Pause</button>
+      <button id="btn-restart" class="ctrl-btn" title="Restart from beginning">&#8634; Start</button>
+    </div>
+    
+    <div id="tour-controller">
+      <span><span class="ctrl-icon">🎬</span><span class="ctrl-label">WHAT IS IT?</span></span>
+      <button id="btn-tour-play" class="ctrl-btn" title="Play / Pause Guided Tour">&#9658; Play</button>
+      <button id="btn-tour-stop" class="ctrl-btn" title="Stop Tour">&#9632; Stop</button>
+      <button id="btn-tour-subs" class="ctrl-btn active" title="Toggle Subtitles">CC</button>
+      <input type="range" id="tour-progress" value="0" min="0" max="100" step="0.1" title="Tour Progress">
+    </div>
+  </div>
+
+  <!-- Модальное окно копирайта -->
+  <div id="copyright-modal" class="modal-overlay">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2>Copyright Notes</h2>
+        <button id="btn-close-modal" class="close-btn" title="Close">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>Different parts of this product have different copyright owners. Use of this product, is expressly subject to prior consent from the following parties: INCOSE, ISO or a national representative body, Wiley and the German Chapter of INCOSE GfSE e.V. (the “Consenting Parties”)</p>
+        <p>INCOSE grants permission, subject to consent from the additional Consenting Parties, on the following terms and conditions:</p>
+        <p><strong>Author Use.</strong> Authors have full unfettered rights to use their contributions, with credit and attribution to the INCOSE Technical source, except with regard to abstraction, which requires additional credit to the source.</p>
+        <p><strong>INCOSE Internal Use.</strong> Members of INCOSE are hereby permitted to reproduce and use this document, or parts thereof, including permission to prepare derivative works from this document for INCOSE’s internal use, with credit and attribution to INCOSE so long as this copyright notice is included with all reproductions and derivative works.</p>
+        <p><strong>INCOSE External Use.</strong> Sharing and reproduction of this document to non-affiliate third parties outside of INCOSE is permitted only when shared or reproduced in whole and not altered in any way. Any preparation of derivative works for external and/or commercial use is expressly prohibited unless otherwise granted in a separate written agreement between the end-user and INCOSE. Any external use not expressly permitted under this section shall be prior approved by INCOSE upon receipt of written request for the same sent to: INCOSE Central Office, 7670 Opportunity Road, Suite 220, San Diego, CA 92111-2222.</p>
+        <p>This product contains quotations from ISO/IEC/IEEE 15288:2015. © ISO. These quotations are reproduced with permission of the American National Standards Institute (ANSI) on behalf of the International Organization for Standardization. These quotations are explicitly marked with a copyright note. All rights reserved.</p>
+        <p>This product contains quotations from the Book "INCOSE Systems Engineering Handbook: A Guide for System Life Cycle Processes and Activities, 4th Edition", ISBN: 978-1-118-99940-0, published by John Wiley & Sons, Inc., authored by David D. Walden, ESEP, Garry J. Roedler, ESEP, Kevin J. Forsberg, ESEP, R. Douglas Hamelin, Thomas M. Shortell, CSEP. Permission is granted by John Wiley & Sons, Inc. All rights reserved.</p>
+        <p>No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, photocopying, recording, scanning, or otherwise, except as permitted under Section 107 or 108 of the 1976 United States Copyright Act, without either the prior written permission of the Publisher, or authorization through payment of the appropriate per-copy fee to the Copyright Clearance Center, Inc., 222 Rosewood Drive, Danvers, MA 01923, (978) 750-8400, fax (978) 750-4470, or on the web at www.copyright.com. Requests to the Publisher for permission should be addressed to the Permissions Department, John Wiley & Sons, Inc., 111 River Street, Hoboken, NJ 07030, (201) 748-6011, fax (201) 748-6008, or online at http://www.wiley.com/go/permissions.</p>
+        <p>This product contains quotations from the German translation of the aforementioned Handbook: "INCOSE Systems Engineering Handbuch: Ein Leitfaden für Systemlebenszyklus-Prozesse und -Aktivitäten", ISBN: 978-3-9818805-0-2, published by John Wiley & Sons, Inc., Authors of the translation: Dr. David Endler, CSEP, SE-Zert® Level A Martin Geisreiter, ESEP. SE-Zert® Level A Rüdiger Kaffenberger, SE-Zert® Level A Jürgen Rambo. © Gesellschaft für Systems Engineering e.V.</p>
+        <p>This product was created using the Archi modelling tool (www.archimatetool.com), distributed under an MIT type license. All rights reserved.</p>
+      </div>
+    </div>
   </div>
 
   <audio id="bg-audio" src="Eureka - Huma-Huma.mp3" preload="auto" autoplay loop></audio>
-<!-- Тур "What is it?" Controller -->
-  <div id="tour-controller">
-    <span>WHAT IS IT?</span>
-    <button id="btn-tour-play" class="ctrl-btn" title="Play / Pause Guided Tour">&#9658; Play</button>
-    <button id="btn-tour-stop" class="ctrl-btn" title="Stop Tour">&#9632; Stop</button>
-	<button id="btn-tour-subs" class="ctrl-btn active" title="Toggle Subtitles">CC</button>
-    <input type="range" id="tour-progress" value="0" min="0" max="100" step="0.1" title="Tour Progress">
-  </div>
-
   <audio id="tour-audio" src="narration.mp3" preload="auto"></audio>
 
   <!-- Контейнер для субтитров и плавающих подписей -->
@@ -2177,6 +2237,29 @@ animateSequence = function(now) {
     }
   }
 };
+
+// --- COPYRIGHT MODAL LOGIC ---
+const modalOverlay = document.getElementById('copyright-modal');
+const btnOpenModal = document.getElementById('link-copyright');
+const btnCloseModal = document.getElementById('btn-close-modal');
+
+// Открытие окна
+btnOpenModal.addEventListener('click', (e) => {
+  e.preventDefault();
+  modalOverlay.classList.add('visible');
+});
+
+// Закрытие по крестику
+btnCloseModal.addEventListener('click', () => {
+  modalOverlay.classList.remove('visible');
+});
+
+// Закрытие по клику в любую область вокруг окна
+modalOverlay.addEventListener('click', (e) => {
+  if (e.target === modalOverlay) {
+    modalOverlay.classList.remove('visible');
+  }
+});
   </script>
 </body>
 </html>
