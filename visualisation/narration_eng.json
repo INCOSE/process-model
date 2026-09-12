@@ -1,0 +1,6793 @@
+{
+  "language_code": "eng",
+  "segments": [
+    {
+      "text": "Take a look at this expanse.",
+      "start_time": 0.08,
+      "end_time": 1.44,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Take",
+          "start_time": 0.08,
+          "end_time": 0.26
+        },
+        {
+          "text": " ",
+          "start_time": 0.26,
+          "end_time": 0.3
+        },
+        {
+          "text": "a",
+          "start_time": 0.3,
+          "end_time": 0.34
+        },
+        {
+          "text": " ",
+          "start_time": 0.34,
+          "end_time": 0.38
+        },
+        {
+          "text": "look",
+          "start_time": 0.38,
+          "end_time": 0.5
+        },
+        {
+          "text": " ",
+          "start_time": 0.5,
+          "end_time": 0.54
+        },
+        {
+          "text": "at",
+          "start_time": 0.54,
+          "end_time": 0.6
+        },
+        {
+          "text": " ",
+          "start_time": 0.6,
+          "end_time": 0.64
+        },
+        {
+          "text": "this",
+          "start_time": 0.64,
+          "end_time": 0.76
+        },
+        {
+          "text": " ",
+          "start_time": 0.76,
+          "end_time": 0.8
+        },
+        {
+          "text": "expanse.",
+          "start_time": 0.8,
+          "end_time": 1.44
+        }
+      ]
+    },
+    {
+      "text": "It looks like a galaxy, doesn't it?",
+      "start_time": 2.28,
+      "end_time": 3.9,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "It",
+          "start_time": 2.28,
+          "end_time": 2.34
+        },
+        {
+          "text": " ",
+          "start_time": 2.34,
+          "end_time": 2.38
+        },
+        {
+          "text": "looks",
+          "start_time": 2.38,
+          "end_time": 2.54
+        },
+        {
+          "text": " ",
+          "start_time": 2.54,
+          "end_time": 2.58
+        },
+        {
+          "text": "like",
+          "start_time": 2.58,
+          "end_time": 2.68
+        },
+        {
+          "text": " ",
+          "start_time": 2.68,
+          "end_time": 2.74
+        },
+        {
+          "text": "a",
+          "start_time": 2.74,
+          "end_time": 2.78
+        },
+        {
+          "text": " ",
+          "start_time": 2.78,
+          "end_time": 2.84
+        },
+        {
+          "text": "galaxy,",
+          "start_time": 2.84,
+          "end_time": 3.3
+        },
+        {
+          "text": " ",
+          "start_time": 3.3,
+          "end_time": 3.38
+        },
+        {
+          "text": "doesn't",
+          "start_time": 3.38,
+          "end_time": 3.64
+        },
+        {
+          "text": " ",
+          "start_time": 3.64,
+          "end_time": 3.72
+        },
+        {
+          "text": "it?",
+          "start_time": 3.72,
+          "end_time": 3.9
+        }
+      ]
+    },
+    {
+      "text": "Nodes floating in the dark like stars,",
+      "start_time": 4.76,
+      "end_time": 7.26,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Nodes",
+          "start_time": 4.76,
+          "end_time": 5.34
+        },
+        {
+          "text": " ",
+          "start_time": 5.34,
+          "end_time": 5.4
+        },
+        {
+          "text": "floating",
+          "start_time": 5.4,
+          "end_time": 5.74
+        },
+        {
+          "text": " ",
+          "start_time": 5.74,
+          "end_time": 5.8
+        },
+        {
+          "text": "in",
+          "start_time": 5.8,
+          "end_time": 5.84
+        },
+        {
+          "text": " ",
+          "start_time": 5.84,
+          "end_time": 5.88
+        },
+        {
+          "text": "the",
+          "start_time": 5.88,
+          "end_time": 5.92
+        },
+        {
+          "text": " ",
+          "start_time": 5.92,
+          "end_time": 5.98
+        },
+        {
+          "text": "dark",
+          "start_time": 5.98,
+          "end_time": 6.38
+        },
+        {
+          "text": " ",
+          "start_time": 6.38,
+          "end_time": 6.42
+        },
+        {
+          "text": "like",
+          "start_time": 6.42,
+          "end_time": 6.62
+        },
+        {
+          "text": " ",
+          "start_time": 6.62,
+          "end_time": 6.72
+        },
+        {
+          "text": "stars,",
+          "start_time": 6.72,
+          "end_time": 7.26
+        }
+      ]
+    },
+    {
+      "text": "connected by a complex web of light.",
+      "start_time": 7.86,
+      "end_time": 10.0,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "connected",
+          "start_time": 7.86,
+          "end_time": 8.32
+        },
+        {
+          "text": " ",
+          "start_time": 8.32,
+          "end_time": 8.36
+        },
+        {
+          "text": "by",
+          "start_time": 8.36,
+          "end_time": 8.46
+        },
+        {
+          "text": " ",
+          "start_time": 8.46,
+          "end_time": 8.52
+        },
+        {
+          "text": "a",
+          "start_time": 8.52,
+          "end_time": 8.56
+        },
+        {
+          "text": " ",
+          "start_time": 8.56,
+          "end_time": 8.62
+        },
+        {
+          "text": "complex",
+          "start_time": 8.62,
+          "end_time": 9.12
+        },
+        {
+          "text": " ",
+          "start_time": 9.12,
+          "end_time": 9.18
+        },
+        {
+          "text": "web",
+          "start_time": 9.18,
+          "end_time": 9.42
+        },
+        {
+          "text": " ",
+          "start_time": 9.42,
+          "end_time": 9.48
+        },
+        {
+          "text": "of",
+          "start_time": 9.48,
+          "end_time": 9.58
+        },
+        {
+          "text": " ",
+          "start_time": 9.58,
+          "end_time": 9.64
+        },
+        {
+          "text": "light.",
+          "start_time": 9.64,
+          "end_time": 10.0
+        }
+      ]
+    },
+    {
+      "text": "But you are not looking at astronomy.",
+      "start_time": 11.12,
+      "end_time": 13.04,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "But",
+          "start_time": 11.12,
+          "end_time": 11.24
+        },
+        {
+          "text": " ",
+          "start_time": 11.24,
+          "end_time": 11.32
+        },
+        {
+          "text": "you",
+          "start_time": 11.32,
+          "end_time": 11.4
+        },
+        {
+          "text": " ",
+          "start_time": 11.4,
+          "end_time": 11.44
+        },
+        {
+          "text": "are",
+          "start_time": 11.44,
+          "end_time": 11.58
+        },
+        {
+          "text": " ",
+          "start_time": 11.58,
+          "end_time": 11.66
+        },
+        {
+          "text": "not",
+          "start_time": 11.66,
+          "end_time": 12.02
+        },
+        {
+          "text": " ",
+          "start_time": 12.02,
+          "end_time": 12.08
+        },
+        {
+          "text": "looking",
+          "start_time": 12.08,
+          "end_time": 12.32
+        },
+        {
+          "text": " ",
+          "start_time": 12.32,
+          "end_time": 12.36
+        },
+        {
+          "text": "at",
+          "start_time": 12.36,
+          "end_time": 12.42
+        },
+        {
+          "text": " ",
+          "start_time": 12.42,
+          "end_time": 12.46
+        },
+        {
+          "text": "astronomy.",
+          "start_time": 12.46,
+          "end_time": 13.04
+        }
+      ]
+    },
+    {
+      "text": "These are system lifecycle processes,",
+      "start_time": 13.82,
+      "end_time": 16.18,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "These",
+          "start_time": 13.82,
+          "end_time": 14.06
+        },
+        {
+          "text": " ",
+          "start_time": 14.06,
+          "end_time": 14.1
+        },
+        {
+          "text": "are",
+          "start_time": 14.1,
+          "end_time": 14.2
+        },
+        {
+          "text": " ",
+          "start_time": 14.2,
+          "end_time": 14.28
+        },
+        {
+          "text": "system",
+          "start_time": 14.28,
+          "end_time": 14.64
+        },
+        {
+          "text": " ",
+          "start_time": 14.64,
+          "end_time": 14.76
+        },
+        {
+          "text": "lifecycle",
+          "start_time": 14.76,
+          "end_time": 15.4
+        },
+        {
+          "text": " ",
+          "start_time": 15.4,
+          "end_time": 15.46
+        },
+        {
+          "text": "processes,",
+          "start_time": 15.46,
+          "end_time": 16.18
+        }
+      ]
+    },
+    {
+      "text": "and the brilliant lines between them are",
+      "start_time": 16.86,
+      "end_time": 19.0,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "and",
+          "start_time": 16.86,
+          "end_time": 16.92
+        },
+        {
+          "text": " ",
+          "start_time": 16.92,
+          "end_time": 16.96
+        },
+        {
+          "text": "the",
+          "start_time": 16.96,
+          "end_time": 17.04
+        },
+        {
+          "text": " ",
+          "start_time": 17.04,
+          "end_time": 17.1
+        },
+        {
+          "text": "brilliant",
+          "start_time": 17.1,
+          "end_time": 17.44
+        },
+        {
+          "text": " ",
+          "start_time": 17.44,
+          "end_time": 17.52
+        },
+        {
+          "text": "lines",
+          "start_time": 17.52,
+          "end_time": 17.88
+        },
+        {
+          "text": " ",
+          "start_time": 17.88,
+          "end_time": 17.92
+        },
+        {
+          "text": "between",
+          "start_time": 17.92,
+          "end_time": 18.3
+        },
+        {
+          "text": " ",
+          "start_time": 18.3,
+          "end_time": 18.34
+        },
+        {
+          "text": "them",
+          "start_time": 18.34,
+          "end_time": 18.56
+        },
+        {
+          "text": " ",
+          "start_time": 18.56,
+          "end_time": 18.92
+        },
+        {
+          "text": "are",
+          "start_time": 18.92,
+          "end_time": 19.0
+        }
+      ]
+    },
+    {
+      "text": "the flows of information.",
+      "start_time": 19.04,
+      "end_time": 20.48,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "the",
+          "start_time": 19.04,
+          "end_time": 19.12
+        },
+        {
+          "text": " ",
+          "start_time": 19.12,
+          "end_time": 19.2
+        },
+        {
+          "text": "flows",
+          "start_time": 19.2,
+          "end_time": 19.56
+        },
+        {
+          "text": " ",
+          "start_time": 19.56,
+          "end_time": 19.62
+        },
+        {
+          "text": "of",
+          "start_time": 19.62,
+          "end_time": 19.72
+        },
+        {
+          "text": " ",
+          "start_time": 19.72,
+          "end_time": 19.78
+        },
+        {
+          "text": "information.",
+          "start_time": 19.78,
+          "end_time": 20.48
+        }
+      ]
+    },
+    {
+      "text": "This is how systems engineers map out",
+      "start_time": 21.52,
+      "end_time": 23.86,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "This",
+          "start_time": 21.52,
+          "end_time": 21.82
+        },
+        {
+          "text": " ",
+          "start_time": 21.82,
+          "end_time": 21.9
+        },
+        {
+          "text": "is",
+          "start_time": 21.9,
+          "end_time": 21.96
+        },
+        {
+          "text": " ",
+          "start_time": 21.96,
+          "end_time": 22.0
+        },
+        {
+          "text": "how",
+          "start_time": 22.0,
+          "end_time": 22.14
+        },
+        {
+          "text": " ",
+          "start_time": 22.14,
+          "end_time": 22.2
+        },
+        {
+          "text": "systems",
+          "start_time": 22.2,
+          "end_time": 22.54
+        },
+        {
+          "text": " ",
+          "start_time": 22.54,
+          "end_time": 22.6
+        },
+        {
+          "text": "engineers",
+          "start_time": 22.6,
+          "end_time": 23.14
+        },
+        {
+          "text": " ",
+          "start_time": 23.14,
+          "end_time": 23.22
+        },
+        {
+          "text": "map",
+          "start_time": 23.22,
+          "end_time": 23.44
+        },
+        {
+          "text": " ",
+          "start_time": 23.44,
+          "end_time": 23.54
+        },
+        {
+          "text": "out",
+          "start_time": 23.54,
+          "end_time": 23.86
+        }
+      ]
+    },
+    {
+      "text": "every single activity required to bring a",
+      "start_time": 23.96,
+      "end_time": 26.52,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "every",
+          "start_time": 23.96,
+          "end_time": 24.3
+        },
+        {
+          "text": " ",
+          "start_time": 24.3,
+          "end_time": 24.36
+        },
+        {
+          "text": "single",
+          "start_time": 24.36,
+          "end_time": 24.64
+        },
+        {
+          "text": " ",
+          "start_time": 24.64,
+          "end_time": 24.74
+        },
+        {
+          "text": "activity",
+          "start_time": 24.74,
+          "end_time": 25.22
+        },
+        {
+          "text": " ",
+          "start_time": 25.22,
+          "end_time": 25.26
+        },
+        {
+          "text": "required",
+          "start_time": 25.26,
+          "end_time": 26.1
+        },
+        {
+          "text": " ",
+          "start_time": 26.1,
+          "end_time": 26.16
+        },
+        {
+          "text": "to",
+          "start_time": 26.16,
+          "end_time": 26.24
+        },
+        {
+          "text": " ",
+          "start_time": 26.24,
+          "end_time": 26.28
+        },
+        {
+          "text": "bring",
+          "start_time": 26.28,
+          "end_time": 26.42
+        },
+        {
+          "text": " ",
+          "start_time": 26.42,
+          "end_time": 26.46
+        },
+        {
+          "text": "a",
+          "start_time": 26.46,
+          "end_time": 26.52
+        }
+      ]
+    },
+    {
+      "text": "complex, successful product into the",
+      "start_time": 26.58,
+      "end_time": 28.98,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "complex,",
+          "start_time": 26.58,
+          "end_time": 27.16
+        },
+        {
+          "text": " ",
+          "start_time": 27.16,
+          "end_time": 27.38
+        },
+        {
+          "text": "successful",
+          "start_time": 27.38,
+          "end_time": 28.06
+        },
+        {
+          "text": " ",
+          "start_time": 28.06,
+          "end_time": 28.1
+        },
+        {
+          "text": "product",
+          "start_time": 28.1,
+          "end_time": 28.6
+        },
+        {
+          "text": " ",
+          "start_time": 28.6,
+          "end_time": 28.68
+        },
+        {
+          "text": "into",
+          "start_time": 28.68,
+          "end_time": 28.88
+        },
+        {
+          "text": " ",
+          "start_time": 28.88,
+          "end_time": 28.92
+        },
+        {
+          "text": "the",
+          "start_time": 28.92,
+          "end_time": 28.98
+        }
+      ]
+    },
+    {
+      "text": "world.",
+      "start_time": 29.04,
+      "end_time": 29.42,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "world.",
+          "start_time": 29.04,
+          "end_time": 29.42
+        }
+      ]
+    },
+    {
+      "text": "It is a lot to take in, isn't it?",
+      "start_time": 30.94,
+      "end_time": 32.96,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "It",
+          "start_time": 30.94,
+          "end_time": 31.0
+        },
+        {
+          "text": " ",
+          "start_time": 31.0,
+          "end_time": 31.06
+        },
+        {
+          "text": "is",
+          "start_time": 31.06,
+          "end_time": 31.24
+        },
+        {
+          "text": " ",
+          "start_time": 31.24,
+          "end_time": 31.32
+        },
+        {
+          "text": "a",
+          "start_time": 31.32,
+          "end_time": 31.36
+        },
+        {
+          "text": " ",
+          "start_time": 31.36,
+          "end_time": 31.5
+        },
+        {
+          "text": "lot",
+          "start_time": 31.5,
+          "end_time": 31.72
+        },
+        {
+          "text": " ",
+          "start_time": 31.72,
+          "end_time": 31.78
+        },
+        {
+          "text": "to",
+          "start_time": 31.78,
+          "end_time": 31.86
+        },
+        {
+          "text": " ",
+          "start_time": 31.86,
+          "end_time": 31.92
+        },
+        {
+          "text": "take",
+          "start_time": 31.92,
+          "end_time": 32.14
+        },
+        {
+          "text": " ",
+          "start_time": 32.14,
+          "end_time": 32.22
+        },
+        {
+          "text": "in,",
+          "start_time": 32.22,
+          "end_time": 32.38
+        },
+        {
+          "text": " ",
+          "start_time": 32.38,
+          "end_time": 32.46
+        },
+        {
+          "text": "isn't",
+          "start_time": 32.46,
+          "end_time": 32.659
+        },
+        {
+          "text": " ",
+          "start_time": 32.659,
+          "end_time": 32.759
+        },
+        {
+          "text": "it?",
+          "start_time": 32.759,
+          "end_time": 32.96
+        }
+      ]
+    },
+    {
+      "text": "But it is simpler than it appears.",
+      "start_time": 33.56,
+      "end_time": 35.2,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "But",
+          "start_time": 33.56,
+          "end_time": 33.72
+        },
+        {
+          "text": " ",
+          "start_time": 33.72,
+          "end_time": 33.8
+        },
+        {
+          "text": "it",
+          "start_time": 33.8,
+          "end_time": 33.86
+        },
+        {
+          "text": " ",
+          "start_time": 33.86,
+          "end_time": 33.92
+        },
+        {
+          "text": "is",
+          "start_time": 33.92,
+          "end_time": 34.02
+        },
+        {
+          "text": " ",
+          "start_time": 34.02,
+          "end_time": 34.08
+        },
+        {
+          "text": "simpler",
+          "start_time": 34.08,
+          "end_time": 34.38
+        },
+        {
+          "text": " ",
+          "start_time": 34.38,
+          "end_time": 34.42
+        },
+        {
+          "text": "than",
+          "start_time": 34.42,
+          "end_time": 34.5
+        },
+        {
+          "text": " ",
+          "start_time": 34.5,
+          "end_time": 34.54
+        },
+        {
+          "text": "it",
+          "start_time": 34.54,
+          "end_time": 34.6
+        },
+        {
+          "text": " ",
+          "start_time": 34.6,
+          "end_time": 34.66
+        },
+        {
+          "text": "appears.",
+          "start_time": 34.66,
+          "end_time": 35.2
+        }
+      ]
+    },
+    {
+      "text": "Let me show you.",
+      "start_time": 35.98,
+      "end_time": 36.64,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Let",
+          "start_time": 35.98,
+          "end_time": 36.06
+        },
+        {
+          "text": " ",
+          "start_time": 36.06,
+          "end_time": 36.1
+        },
+        {
+          "text": "me",
+          "start_time": 36.1,
+          "end_time": 36.18
+        },
+        {
+          "text": " ",
+          "start_time": 36.18,
+          "end_time": 36.22
+        },
+        {
+          "text": "show",
+          "start_time": 36.22,
+          "end_time": 36.42
+        },
+        {
+          "text": " ",
+          "start_time": 36.42,
+          "end_time": 36.48
+        },
+        {
+          "text": "you.",
+          "start_time": 36.48,
+          "end_time": 36.64
+        }
+      ]
+    },
+    {
+      "text": "To make sense of this universe, systems",
+      "start_time": 37.86,
+      "end_time": 40.1,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "To",
+          "start_time": 37.86,
+          "end_time": 37.92
+        },
+        {
+          "text": " ",
+          "start_time": 37.92,
+          "end_time": 37.96
+        },
+        {
+          "text": "make",
+          "start_time": 37.96,
+          "end_time": 38.14
+        },
+        {
+          "text": " ",
+          "start_time": 38.14,
+          "end_time": 38.2
+        },
+        {
+          "text": "sense",
+          "start_time": 38.2,
+          "end_time": 38.4
+        },
+        {
+          "text": " ",
+          "start_time": 38.4,
+          "end_time": 38.46
+        },
+        {
+          "text": "of",
+          "start_time": 38.46,
+          "end_time": 38.52
+        },
+        {
+          "text": " ",
+          "start_time": 38.52,
+          "end_time": 38.56
+        },
+        {
+          "text": "this",
+          "start_time": 38.56,
+          "end_time": 38.72
+        },
+        {
+          "text": " ",
+          "start_time": 38.72,
+          "end_time": 38.8
+        },
+        {
+          "text": "universe,",
+          "start_time": 38.8,
+          "end_time": 39.32
+        },
+        {
+          "text": " ",
+          "start_time": 39.32,
+          "end_time": 39.74
+        },
+        {
+          "text": "systems",
+          "start_time": 39.74,
+          "end_time": 40.1
+        }
+      ]
+    },
+    {
+      "text": "engineers differentiate between four main",
+      "start_time": 40.16,
+      "end_time": 42.56,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "engineers",
+          "start_time": 40.16,
+          "end_time": 40.62
+        },
+        {
+          "text": " ",
+          "start_time": 40.62,
+          "end_time": 40.68
+        },
+        {
+          "text": "differentiate",
+          "start_time": 40.68,
+          "end_time": 41.36
+        },
+        {
+          "text": " ",
+          "start_time": 41.36,
+          "end_time": 41.38
+        },
+        {
+          "text": "between",
+          "start_time": 41.38,
+          "end_time": 41.74
+        },
+        {
+          "text": " ",
+          "start_time": 41.74,
+          "end_time": 41.84
+        },
+        {
+          "text": "four",
+          "start_time": 41.84,
+          "end_time": 42.22
+        },
+        {
+          "text": " ",
+          "start_time": 42.22,
+          "end_time": 42.28
+        },
+        {
+          "text": "main",
+          "start_time": 42.28,
+          "end_time": 42.56
+        }
+      ]
+    },
+    {
+      "text": "clusters of work.",
+      "start_time": 42.62,
+      "end_time": 43.66,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "clusters",
+          "start_time": 42.62,
+          "end_time": 43.08
+        },
+        {
+          "text": " ",
+          "start_time": 43.08,
+          "end_time": 43.16
+        },
+        {
+          "text": "of",
+          "start_time": 43.16,
+          "end_time": 43.26
+        },
+        {
+          "text": " ",
+          "start_time": 43.26,
+          "end_time": 43.32
+        },
+        {
+          "text": "work.",
+          "start_time": 43.32,
+          "end_time": 43.66
+        }
+      ]
+    },
+    {
+      "text": "The first cluster is the technical",
+      "start_time": 44.48,
+      "end_time": 46.34,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "The",
+          "start_time": 44.48,
+          "end_time": 44.56
+        },
+        {
+          "text": " ",
+          "start_time": 44.56,
+          "end_time": 44.62
+        },
+        {
+          "text": "first",
+          "start_time": 44.62,
+          "end_time": 44.9
+        },
+        {
+          "text": " ",
+          "start_time": 44.9,
+          "end_time": 44.94
+        },
+        {
+          "text": "cluster",
+          "start_time": 44.94,
+          "end_time": 45.54
+        },
+        {
+          "text": " ",
+          "start_time": 45.54,
+          "end_time": 45.62
+        },
+        {
+          "text": "is",
+          "start_time": 45.62,
+          "end_time": 45.68
+        },
+        {
+          "text": " ",
+          "start_time": 45.68,
+          "end_time": 45.72
+        },
+        {
+          "text": "the",
+          "start_time": 45.72,
+          "end_time": 45.82
+        },
+        {
+          "text": " ",
+          "start_time": 45.82,
+          "end_time": 45.9
+        },
+        {
+          "text": "technical",
+          "start_time": 45.9,
+          "end_time": 46.34
+        }
+      ]
+    },
+    {
+      "text": "processes.",
+      "start_time": 46.42,
+      "end_time": 47.16,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "processes.",
+          "start_time": 46.42,
+          "end_time": 47.16
+        }
+      ]
+    },
+    {
+      "text": "These are the activities aimed directly at",
+      "start_time": 47.9,
+      "end_time": 50.16,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "These",
+          "start_time": 47.9,
+          "end_time": 48.12
+        },
+        {
+          "text": " ",
+          "start_time": 48.12,
+          "end_time": 48.14
+        },
+        {
+          "text": "are",
+          "start_time": 48.14,
+          "end_time": 48.2
+        },
+        {
+          "text": " ",
+          "start_time": 48.2,
+          "end_time": 48.22
+        },
+        {
+          "text": "the",
+          "start_time": 48.22,
+          "end_time": 48.3
+        },
+        {
+          "text": " ",
+          "start_time": 48.3,
+          "end_time": 48.36
+        },
+        {
+          "text": "activities",
+          "start_time": 48.36,
+          "end_time": 48.94
+        },
+        {
+          "text": " ",
+          "start_time": 48.94,
+          "end_time": 49.04
+        },
+        {
+          "text": "aimed",
+          "start_time": 49.04,
+          "end_time": 49.3
+        },
+        {
+          "text": " ",
+          "start_time": 49.3,
+          "end_time": 49.36
+        },
+        {
+          "text": "directly",
+          "start_time": 49.36,
+          "end_time": 50.04
+        },
+        {
+          "text": " ",
+          "start_time": 50.04,
+          "end_time": 50.1
+        },
+        {
+          "text": "at",
+          "start_time": 50.1,
+          "end_time": 50.16
+        }
+      ]
+    },
+    {
+      "text": "the product itself,",
+      "start_time": 50.2,
+      "end_time": 51.28,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "the",
+          "start_time": 50.2,
+          "end_time": 50.28
+        },
+        {
+          "text": " ",
+          "start_time": 50.28,
+          "end_time": 50.32
+        },
+        {
+          "text": "product",
+          "start_time": 50.32,
+          "end_time": 50.68
+        },
+        {
+          "text": " ",
+          "start_time": 50.68,
+          "end_time": 50.74
+        },
+        {
+          "text": "itself,",
+          "start_time": 50.74,
+          "end_time": 51.28
+        }
+      ]
+    },
+    {
+      "text": "or, as engineers call it, the system of",
+      "start_time": 51.92,
+      "end_time": 54.74,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "or,",
+          "start_time": 51.92,
+          "end_time": 52.16
+        },
+        {
+          "text": " ",
+          "start_time": 52.16,
+          "end_time": 52.48
+        },
+        {
+          "text": "as",
+          "start_time": 52.48,
+          "end_time": 52.54
+        },
+        {
+          "text": " ",
+          "start_time": 52.54,
+          "end_time": 52.6
+        },
+        {
+          "text": "engineers",
+          "start_time": 52.6,
+          "end_time": 53.04
+        },
+        {
+          "text": " ",
+          "start_time": 53.04,
+          "end_time": 53.08
+        },
+        {
+          "text": "call",
+          "start_time": 53.08,
+          "end_time": 53.28
+        },
+        {
+          "text": " ",
+          "start_time": 53.28,
+          "end_time": 53.34
+        },
+        {
+          "text": "it,",
+          "start_time": 53.34,
+          "end_time": 53.5
+        },
+        {
+          "text": " ",
+          "start_time": 53.5,
+          "end_time": 53.94
+        },
+        {
+          "text": "the",
+          "start_time": 53.94,
+          "end_time": 54.04
+        },
+        {
+          "text": " ",
+          "start_time": 54.04,
+          "end_time": 54.12
+        },
+        {
+          "text": "system",
+          "start_time": 54.12,
+          "end_time": 54.54
+        },
+        {
+          "text": " ",
+          "start_time": 54.54,
+          "end_time": 54.6
+        },
+        {
+          "text": "of",
+          "start_time": 54.62,
+          "end_time": 54.74
+        }
+      ]
+    },
+    {
+      "text": "interest,",
+      "start_time": 54.8,
+      "end_time": 55.4,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "interest,",
+          "start_time": 54.8,
+          "end_time": 55.4
+        }
+      ]
+    },
+    {
+      "text": "because a system can be a physical",
+      "start_time": 56.0,
+      "end_time": 57.68,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "because",
+          "start_time": 56.0,
+          "end_time": 56.2
+        },
+        {
+          "text": " ",
+          "start_time": 56.2,
+          "end_time": 56.26
+        },
+        {
+          "text": "a",
+          "start_time": 56.26,
+          "end_time": 56.32
+        },
+        {
+          "text": " ",
+          "start_time": 56.32,
+          "end_time": 56.36
+        },
+        {
+          "text": "system",
+          "start_time": 56.36,
+          "end_time": 56.8
+        },
+        {
+          "text": " ",
+          "start_time": 56.8,
+          "end_time": 56.84
+        },
+        {
+          "text": "can",
+          "start_time": 56.84,
+          "end_time": 56.96
+        },
+        {
+          "text": " ",
+          "start_time": 56.96,
+          "end_time": 57.0
+        },
+        {
+          "text": "be",
+          "start_time": 57.0,
+          "end_time": 57.18
+        },
+        {
+          "text": " ",
+          "start_time": 57.18,
+          "end_time": 57.24
+        },
+        {
+          "text": "a",
+          "start_time": 57.24,
+          "end_time": 57.28
+        },
+        {
+          "text": " ",
+          "start_time": 57.28,
+          "end_time": 57.32
+        },
+        {
+          "text": "physical",
+          "start_time": 57.32,
+          "end_time": 57.68
+        }
+      ]
+    },
+    {
+      "text": "machine, a software platform, or even an",
+      "start_time": 57.72,
+      "end_time": 60.78,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "machine,",
+          "start_time": 57.72,
+          "end_time": 58.18
+        },
+        {
+          "text": " ",
+          "start_time": 58.18,
+          "end_time": 58.18
+        },
+        {
+          "text": "a",
+          "start_time": 58.74,
+          "end_time": 58.76
+        },
+        {
+          "text": " ",
+          "start_time": 58.76,
+          "end_time": 58.82
+        },
+        {
+          "text": "software",
+          "start_time": 58.82,
+          "end_time": 59.16
+        },
+        {
+          "text": " ",
+          "start_time": 59.16,
+          "end_time": 59.2
+        },
+        {
+          "text": "platform,",
+          "start_time": 59.2,
+          "end_time": 59.72
+        },
+        {
+          "text": " ",
+          "start_time": 59.72,
+          "end_time": 60.2
+        },
+        {
+          "text": "or",
+          "start_time": 60.2,
+          "end_time": 60.3
+        },
+        {
+          "text": " ",
+          "start_time": 60.3,
+          "end_time": 60.4
+        },
+        {
+          "text": "even",
+          "start_time": 60.4,
+          "end_time": 60.68
+        },
+        {
+          "text": " ",
+          "start_time": 60.68,
+          "end_time": 60.72
+        },
+        {
+          "text": "an",
+          "start_time": 60.72,
+          "end_time": 60.78
+        }
+      ]
+    },
+    {
+      "text": "entire organization.",
+      "start_time": 60.84,
+      "end_time": 62.26,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "entire",
+          "start_time": 60.84,
+          "end_time": 61.32
+        },
+        {
+          "text": " ",
+          "start_time": 61.32,
+          "end_time": 61.38
+        },
+        {
+          "text": "organization.",
+          "start_time": 61.38,
+          "end_time": 62.26
+        }
+      ]
+    },
+    {
+      "text": "Take architecture definition, for example.",
+      "start_time": 63.2,
+      "end_time": 65.54,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Take",
+          "start_time": 63.2,
+          "end_time": 63.58
+        },
+        {
+          "text": " ",
+          "start_time": 63.58,
+          "end_time": 63.68
+        },
+        {
+          "text": "architecture",
+          "start_time": 63.68,
+          "end_time": 64.2
+        },
+        {
+          "text": " ",
+          "start_time": 64.2,
+          "end_time": 64.26
+        },
+        {
+          "text": "definition,",
+          "start_time": 64.26,
+          "end_time": 64.76
+        },
+        {
+          "text": " ",
+          "start_time": 64.76,
+          "end_time": 64.84
+        },
+        {
+          "text": "for",
+          "start_time": 64.84,
+          "end_time": 64.92
+        },
+        {
+          "text": " ",
+          "start_time": 64.92,
+          "end_time": 64.98
+        },
+        {
+          "text": "example.",
+          "start_time": 64.98,
+          "end_time": 65.54
+        }
+      ]
+    },
+    {
+      "text": "This is the stage where engineers sketch",
+      "start_time": 66.32,
+      "end_time": 68.3,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "This",
+          "start_time": 66.32,
+          "end_time": 66.46
+        },
+        {
+          "text": " ",
+          "start_time": 66.46,
+          "end_time": 66.54
+        },
+        {
+          "text": "is",
+          "start_time": 66.54,
+          "end_time": 66.62
+        },
+        {
+          "text": " ",
+          "start_time": 66.62,
+          "end_time": 66.66
+        },
+        {
+          "text": "the",
+          "start_time": 66.66,
+          "end_time": 66.74
+        },
+        {
+          "text": " ",
+          "start_time": 66.74,
+          "end_time": 66.8
+        },
+        {
+          "text": "stage",
+          "start_time": 66.8,
+          "end_time": 67.14
+        },
+        {
+          "text": " ",
+          "start_time": 67.14,
+          "end_time": 67.18
+        },
+        {
+          "text": "where",
+          "start_time": 67.18,
+          "end_time": 67.34
+        },
+        {
+          "text": " ",
+          "start_time": 67.34,
+          "end_time": 67.4
+        },
+        {
+          "text": "engineers",
+          "start_time": 67.4,
+          "end_time": 67.96
+        },
+        {
+          "text": " ",
+          "start_time": 67.96,
+          "end_time": 68.04
+        },
+        {
+          "text": "sketch",
+          "start_time": 68.04,
+          "end_time": 68.3
+        }
+      ]
+    },
+    {
+      "text": "out the possibilities.",
+      "start_time": 68.38,
+      "end_time": 69.48,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "out",
+          "start_time": 68.38,
+          "end_time": 68.5
+        },
+        {
+          "text": " ",
+          "start_time": 68.5,
+          "end_time": 68.52
+        },
+        {
+          "text": "the",
+          "start_time": 68.52,
+          "end_time": 68.6
+        },
+        {
+          "text": " ",
+          "start_time": 68.6,
+          "end_time": 68.64
+        },
+        {
+          "text": "possibilities.",
+          "start_time": 68.64,
+          "end_time": 69.48
+        }
+      ]
+    },
+    {
+      "text": "Should a vehicle use an electric or a",
+      "start_time": 70.4,
+      "end_time": 72.56,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Should",
+          "start_time": 70.4,
+          "end_time": 70.54
+        },
+        {
+          "text": " ",
+          "start_time": 70.54,
+          "end_time": 70.58
+        },
+        {
+          "text": "a",
+          "start_time": 70.58,
+          "end_time": 70.62
+        },
+        {
+          "text": " ",
+          "start_time": 70.62,
+          "end_time": 70.68
+        },
+        {
+          "text": "vehicle",
+          "start_time": 70.68,
+          "end_time": 71.1
+        },
+        {
+          "text": " ",
+          "start_time": 71.1,
+          "end_time": 71.24
+        },
+        {
+          "text": "use",
+          "start_time": 71.24,
+          "end_time": 71.46
+        },
+        {
+          "text": " ",
+          "start_time": 71.46,
+          "end_time": 71.52
+        },
+        {
+          "text": "an",
+          "start_time": 71.52,
+          "end_time": 71.56
+        },
+        {
+          "text": " ",
+          "start_time": 71.56,
+          "end_time": 71.62
+        },
+        {
+          "text": "electric",
+          "start_time": 71.62,
+          "end_time": 72.26
+        },
+        {
+          "text": " ",
+          "start_time": 72.26,
+          "end_time": 72.34
+        },
+        {
+          "text": "or",
+          "start_time": 72.34,
+          "end_time": 72.44
+        },
+        {
+          "text": " ",
+          "start_time": 72.44,
+          "end_time": 72.5
+        },
+        {
+          "text": "a",
+          "start_time": 72.5,
+          "end_time": 72.56
+        }
+      ]
+    },
+    {
+      "text": "diesel motor?",
+      "start_time": 72.62,
+      "end_time": 73.44,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "diesel",
+          "start_time": 72.62,
+          "end_time": 72.98
+        },
+        {
+          "text": " ",
+          "start_time": 72.98,
+          "end_time": 73.02
+        },
+        {
+          "text": "motor?",
+          "start_time": 73.02,
+          "end_time": 73.44
+        }
+      ]
+    },
+    {
+      "text": "They select the best-fitting option, break",
+      "start_time": 74.4,
+      "end_time": 76.86,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "They",
+          "start_time": 74.4,
+          "end_time": 74.52
+        },
+        {
+          "text": " ",
+          "start_time": 74.52,
+          "end_time": 74.58
+        },
+        {
+          "text": "select",
+          "start_time": 74.58,
+          "end_time": 74.88
+        },
+        {
+          "text": " ",
+          "start_time": 74.88,
+          "end_time": 74.92
+        },
+        {
+          "text": "the",
+          "start_time": 74.92,
+          "end_time": 75.0
+        },
+        {
+          "text": " ",
+          "start_time": 75.0,
+          "end_time": 75.06
+        },
+        {
+          "text": "best-fitting",
+          "start_time": 75.06,
+          "end_time": 75.6
+        },
+        {
+          "text": " ",
+          "start_time": 75.6,
+          "end_time": 75.66
+        },
+        {
+          "text": "option,",
+          "start_time": 75.66,
+          "end_time": 76.06
+        },
+        {
+          "text": " ",
+          "start_time": 76.06,
+          "end_time": 76.62
+        },
+        {
+          "text": "break",
+          "start_time": 76.62,
+          "end_time": 76.86
+        }
+      ]
+    },
+    {
+      "text": "the system down into manageable modules,",
+      "start_time": 76.9,
+      "end_time": 79.2,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "the",
+          "start_time": 76.9,
+          "end_time": 76.98
+        },
+        {
+          "text": " ",
+          "start_time": 76.98,
+          "end_time": 77.04
+        },
+        {
+          "text": "system",
+          "start_time": 77.04,
+          "end_time": 77.38
+        },
+        {
+          "text": " ",
+          "start_time": 77.38,
+          "end_time": 77.44
+        },
+        {
+          "text": "down",
+          "start_time": 77.44,
+          "end_time": 77.76
+        },
+        {
+          "text": " ",
+          "start_time": 77.76,
+          "end_time": 77.82
+        },
+        {
+          "text": "into",
+          "start_time": 77.82,
+          "end_time": 78.06
+        },
+        {
+          "text": " ",
+          "start_time": 78.06,
+          "end_time": 78.12
+        },
+        {
+          "text": "manageable",
+          "start_time": 78.12,
+          "end_time": 78.58
+        },
+        {
+          "text": " ",
+          "start_time": 78.58,
+          "end_time": 78.62
+        },
+        {
+          "text": "modules,",
+          "start_time": 78.62,
+          "end_time": 79.2
+        }
+      ]
+    },
+    {
+      "text": "and map out the boundaries so everyone",
+      "start_time": 79.7,
+      "end_time": 81.62,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "and",
+          "start_time": 79.7,
+          "end_time": 79.8
+        },
+        {
+          "text": " ",
+          "start_time": 79.8,
+          "end_time": 79.86
+        },
+        {
+          "text": "map",
+          "start_time": 79.86,
+          "end_time": 80.04
+        },
+        {
+          "text": " ",
+          "start_time": 80.04,
+          "end_time": 80.12
+        },
+        {
+          "text": "out",
+          "start_time": 80.12,
+          "end_time": 80.24
+        },
+        {
+          "text": " ",
+          "start_time": 80.24,
+          "end_time": 80.28
+        },
+        {
+          "text": "the",
+          "start_time": 80.28,
+          "end_time": 80.34
+        },
+        {
+          "text": " ",
+          "start_time": 80.34,
+          "end_time": 80.38
+        },
+        {
+          "text": "boundaries",
+          "start_time": 80.38,
+          "end_time": 80.9
+        },
+        {
+          "text": " ",
+          "start_time": 80.9,
+          "end_time": 80.98
+        },
+        {
+          "text": "so",
+          "start_time": 80.98,
+          "end_time": 81.2
+        },
+        {
+          "text": " ",
+          "start_time": 81.2,
+          "end_time": 81.3
+        },
+        {
+          "text": "everyone",
+          "start_time": 81.3,
+          "end_time": 81.62
+        }
+      ]
+    },
+    {
+      "text": "involved can see exactly how the pieces",
+      "start_time": 81.68,
+      "end_time": 83.92,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "involved",
+          "start_time": 81.68,
+          "end_time": 82.14
+        },
+        {
+          "text": " ",
+          "start_time": 82.14,
+          "end_time": 82.18
+        },
+        {
+          "text": "can",
+          "start_time": 82.18,
+          "end_time": 82.3
+        },
+        {
+          "text": " ",
+          "start_time": 82.3,
+          "end_time": 82.36
+        },
+        {
+          "text": "see",
+          "start_time": 82.36,
+          "end_time": 82.54
+        },
+        {
+          "text": " ",
+          "start_time": 82.54,
+          "end_time": 82.6
+        },
+        {
+          "text": "exactly",
+          "start_time": 82.6,
+          "end_time": 83.22
+        },
+        {
+          "text": " ",
+          "start_time": 83.22,
+          "end_time": 83.28
+        },
+        {
+          "text": "how",
+          "start_time": 83.28,
+          "end_time": 83.4
+        },
+        {
+          "text": " ",
+          "start_time": 83.4,
+          "end_time": 83.44
+        },
+        {
+          "text": "the",
+          "start_time": 83.44,
+          "end_time": 83.5
+        },
+        {
+          "text": " ",
+          "start_time": 83.5,
+          "end_time": 83.54
+        },
+        {
+          "text": "pieces",
+          "start_time": 83.54,
+          "end_time": 83.92
+        }
+      ]
+    },
+    {
+      "text": "fit together.",
+      "start_time": 83.96,
+      "end_time": 84.56,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "fit",
+          "start_time": 83.96,
+          "end_time": 84.1
+        },
+        {
+          "text": " ",
+          "start_time": 84.1,
+          "end_time": 84.16
+        },
+        {
+          "text": "together.",
+          "start_time": 84.16,
+          "end_time": 84.56
+        }
+      ]
+    },
+    {
+      "text": "But those technical activities need",
+      "start_time": 85.72,
+      "end_time": 87.34,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "But",
+          "start_time": 85.72,
+          "end_time": 85.82
+        },
+        {
+          "text": " ",
+          "start_time": 85.82,
+          "end_time": 85.86
+        },
+        {
+          "text": "those",
+          "start_time": 85.86,
+          "end_time": 86.08
+        },
+        {
+          "text": " ",
+          "start_time": 86.08,
+          "end_time": 86.14
+        },
+        {
+          "text": "technical",
+          "start_time": 86.14,
+          "end_time": 86.48
+        },
+        {
+          "text": " ",
+          "start_time": 86.48,
+          "end_time": 86.54
+        },
+        {
+          "text": "activities",
+          "start_time": 86.54,
+          "end_time": 87.08
+        },
+        {
+          "text": " ",
+          "start_time": 87.08,
+          "end_time": 87.12
+        },
+        {
+          "text": "need",
+          "start_time": 87.12,
+          "end_time": 87.34
+        }
+      ]
+    },
+    {
+      "text": "steering.",
+      "start_time": 87.42,
+      "end_time": 87.92,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "steering.",
+          "start_time": 87.42,
+          "end_time": 87.92
+        }
+      ]
+    },
+    {
+      "text": "That brings us to the second cluster,",
+      "start_time": 88.66,
+      "end_time": 90.52,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "That",
+          "start_time": 88.66,
+          "end_time": 88.82
+        },
+        {
+          "text": " ",
+          "start_time": 88.82,
+          "end_time": 88.86
+        },
+        {
+          "text": "brings",
+          "start_time": 88.86,
+          "end_time": 89.08
+        },
+        {
+          "text": " ",
+          "start_time": 89.08,
+          "end_time": 89.18
+        },
+        {
+          "text": "us",
+          "start_time": 89.18,
+          "end_time": 89.32
+        },
+        {
+          "text": " ",
+          "start_time": 89.32,
+          "end_time": 89.36
+        },
+        {
+          "text": "to",
+          "start_time": 89.36,
+          "end_time": 89.44
+        },
+        {
+          "text": " ",
+          "start_time": 89.44,
+          "end_time": 89.48
+        },
+        {
+          "text": "the",
+          "start_time": 89.48,
+          "end_time": 89.58
+        },
+        {
+          "text": " ",
+          "start_time": 89.58,
+          "end_time": 89.66
+        },
+        {
+          "text": "second",
+          "start_time": 89.66,
+          "end_time": 90.06
+        },
+        {
+          "text": " ",
+          "start_time": 90.06,
+          "end_time": 90.1
+        },
+        {
+          "text": "cluster,",
+          "start_time": 90.1,
+          "end_time": 90.52
+        }
+      ]
+    },
+    {
+      "text": "technical management processes.",
+      "start_time": 91.24,
+      "end_time": 93.18,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "technical",
+          "start_time": 91.24,
+          "end_time": 91.8
+        },
+        {
+          "text": " ",
+          "start_time": 91.8,
+          "end_time": 91.86
+        },
+        {
+          "text": "management",
+          "start_time": 91.86,
+          "end_time": 92.34
+        },
+        {
+          "text": " ",
+          "start_time": 92.34,
+          "end_time": 92.38
+        },
+        {
+          "text": "processes.",
+          "start_time": 92.38,
+          "end_time": 93.18
+        }
+      ]
+    },
+    {
+      "text": "If the first group builds the system, this",
+      "start_time": 94.2,
+      "end_time": 96.82,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "If",
+          "start_time": 94.2,
+          "end_time": 94.26
+        },
+        {
+          "text": " ",
+          "start_time": 94.26,
+          "end_time": 94.3
+        },
+        {
+          "text": "the",
+          "start_time": 94.3,
+          "end_time": 94.38
+        },
+        {
+          "text": " ",
+          "start_time": 94.38,
+          "end_time": 94.44
+        },
+        {
+          "text": "first",
+          "start_time": 94.44,
+          "end_time": 94.72
+        },
+        {
+          "text": " ",
+          "start_time": 94.72,
+          "end_time": 94.76
+        },
+        {
+          "text": "group",
+          "start_time": 94.76,
+          "end_time": 95.02
+        },
+        {
+          "text": " ",
+          "start_time": 95.02,
+          "end_time": 95.08
+        },
+        {
+          "text": "builds",
+          "start_time": 95.08,
+          "end_time": 95.4
+        },
+        {
+          "text": " ",
+          "start_time": 95.4,
+          "end_time": 95.44
+        },
+        {
+          "text": "the",
+          "start_time": 95.44,
+          "end_time": 95.5
+        },
+        {
+          "text": " ",
+          "start_time": 95.5,
+          "end_time": 95.56
+        },
+        {
+          "text": "system,",
+          "start_time": 95.56,
+          "end_time": 96.04
+        },
+        {
+          "text": " ",
+          "start_time": 96.04,
+          "end_time": 96.2
+        },
+        {
+          "text": "this",
+          "start_time": 96.64,
+          "end_time": 96.82
+        }
+      ]
+    },
+    {
+      "text": "group manages the builders.",
+      "start_time": 96.88,
+      "end_time": 98.42,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "group",
+          "start_time": 96.88,
+          "end_time": 97.22
+        },
+        {
+          "text": " ",
+          "start_time": 97.22,
+          "end_time": 97.28
+        },
+        {
+          "text": "manages",
+          "start_time": 97.28,
+          "end_time": 97.7
+        },
+        {
+          "text": " ",
+          "start_time": 97.7,
+          "end_time": 97.74
+        },
+        {
+          "text": "the",
+          "start_time": 97.74,
+          "end_time": 97.8
+        },
+        {
+          "text": " ",
+          "start_time": 97.8,
+          "end_time": 97.84
+        },
+        {
+          "text": "builders.",
+          "start_time": 97.84,
+          "end_time": 98.42
+        }
+      ]
+    },
+    {
+      "text": "You will likely recognize project planning",
+      "start_time": 99.4,
+      "end_time": 101.38,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "You",
+          "start_time": 99.4,
+          "end_time": 99.46
+        },
+        {
+          "text": " ",
+          "start_time": 99.46,
+          "end_time": 99.5
+        },
+        {
+          "text": "will",
+          "start_time": 99.5,
+          "end_time": 99.6
+        },
+        {
+          "text": " ",
+          "start_time": 99.6,
+          "end_time": 99.66
+        },
+        {
+          "text": "likely",
+          "start_time": 99.66,
+          "end_time": 100.02
+        },
+        {
+          "text": " ",
+          "start_time": 100.02,
+          "end_time": 100.06
+        },
+        {
+          "text": "recognize",
+          "start_time": 100.06,
+          "end_time": 100.62
+        },
+        {
+          "text": " ",
+          "start_time": 100.62,
+          "end_time": 100.68
+        },
+        {
+          "text": "project",
+          "start_time": 100.68,
+          "end_time": 101.0
+        },
+        {
+          "text": " ",
+          "start_time": 101.0,
+          "end_time": 101.04
+        },
+        {
+          "text": "planning",
+          "start_time": 101.04,
+          "end_time": 101.38
+        }
+      ]
+    },
+    {
+      "text": "here, which defines the timeline and the",
+      "start_time": 101.44,
+      "end_time": 103.9,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "here,",
+          "start_time": 101.44,
+          "end_time": 101.68
+        },
+        {
+          "text": " ",
+          "start_time": 101.68,
+          "end_time": 101.68
+        },
+        {
+          "text": "which",
+          "start_time": 102.2,
+          "end_time": 102.36
+        },
+        {
+          "text": " ",
+          "start_time": 102.36,
+          "end_time": 102.4
+        },
+        {
+          "text": "defines",
+          "start_time": 102.4,
+          "end_time": 102.84
+        },
+        {
+          "text": " ",
+          "start_time": 102.84,
+          "end_time": 102.88
+        },
+        {
+          "text": "the",
+          "start_time": 102.88,
+          "end_time": 102.94
+        },
+        {
+          "text": " ",
+          "start_time": 102.94,
+          "end_time": 103.0
+        },
+        {
+          "text": "timeline",
+          "start_time": 103.0,
+          "end_time": 103.6
+        },
+        {
+          "text": " ",
+          "start_time": 103.6,
+          "end_time": 103.68
+        },
+        {
+          "text": "and",
+          "start_time": 103.68,
+          "end_time": 103.8
+        },
+        {
+          "text": " ",
+          "start_time": 103.8,
+          "end_time": 103.84
+        },
+        {
+          "text": "the",
+          "start_time": 103.84,
+          "end_time": 103.9
+        }
+      ]
+    },
+    {
+      "text": "budget.",
+      "start_time": 103.96,
+      "end_time": 104.42,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "budget.",
+          "start_time": 103.96,
+          "end_time": 104.42
+        }
+      ]
+    },
+    {
+      "text": "But you will also find configuration",
+      "start_time": 105.38,
+      "end_time": 107.5,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "But",
+          "start_time": 105.38,
+          "end_time": 105.48
+        },
+        {
+          "text": " ",
+          "start_time": 105.48,
+          "end_time": 105.52
+        },
+        {
+          "text": "you",
+          "start_time": 105.52,
+          "end_time": 105.56
+        },
+        {
+          "text": " ",
+          "start_time": 105.56,
+          "end_time": 105.58
+        },
+        {
+          "text": "will",
+          "start_time": 105.58,
+          "end_time": 105.74
+        },
+        {
+          "text": " ",
+          "start_time": 105.74,
+          "end_time": 105.86
+        },
+        {
+          "text": "also",
+          "start_time": 105.86,
+          "end_time": 106.2
+        },
+        {
+          "text": " ",
+          "start_time": 106.2,
+          "end_time": 106.26
+        },
+        {
+          "text": "find",
+          "start_time": 106.26,
+          "end_time": 106.64
+        },
+        {
+          "text": " ",
+          "start_time": 106.64,
+          "end_time": 106.7
+        },
+        {
+          "text": "configuration",
+          "start_time": 106.7,
+          "end_time": 107.5
+        }
+      ]
+    },
+    {
+      "text": "management.",
+      "start_time": 107.56,
+      "end_time": 108.22,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "management.",
+          "start_time": 107.56,
+          "end_time": 108.22
+        }
+      ]
+    },
+    {
+      "text": "Think of this as the ultimate memory bank.",
+      "start_time": 109.1,
+      "end_time": 111.62,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Think",
+          "start_time": 109.1,
+          "end_time": 109.26
+        },
+        {
+          "text": " ",
+          "start_time": 109.26,
+          "end_time": 109.32
+        },
+        {
+          "text": "of",
+          "start_time": 109.32,
+          "end_time": 109.38
+        },
+        {
+          "text": " ",
+          "start_time": 109.38,
+          "end_time": 109.44
+        },
+        {
+          "text": "this",
+          "start_time": 109.44,
+          "end_time": 109.78
+        },
+        {
+          "text": " ",
+          "start_time": 109.78,
+          "end_time": 109.88
+        },
+        {
+          "text": "as",
+          "start_time": 109.88,
+          "end_time": 110.0
+        },
+        {
+          "text": " ",
+          "start_time": 110.0,
+          "end_time": 110.04
+        },
+        {
+          "text": "the",
+          "start_time": 110.04,
+          "end_time": 110.2
+        },
+        {
+          "text": " ",
+          "start_time": 110.2,
+          "end_time": 110.28
+        },
+        {
+          "text": "ultimate",
+          "start_time": 110.28,
+          "end_time": 110.78
+        },
+        {
+          "text": " ",
+          "start_time": 110.78,
+          "end_time": 110.86
+        },
+        {
+          "text": "memory",
+          "start_time": 110.86,
+          "end_time": 111.2
+        },
+        {
+          "text": " ",
+          "start_time": 111.2,
+          "end_time": 111.24
+        },
+        {
+          "text": "bank.",
+          "start_time": 111.24,
+          "end_time": 111.62
+        }
+      ]
+    },
+    {
+      "text": "It constantly gathers evolving data from",
+      "start_time": 112.48,
+      "end_time": 114.88,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "It",
+          "start_time": 112.48,
+          "end_time": 112.56
+        },
+        {
+          "text": " ",
+          "start_time": 112.56,
+          "end_time": 112.64
+        },
+        {
+          "text": "constantly",
+          "start_time": 112.64,
+          "end_time": 113.24
+        },
+        {
+          "text": " ",
+          "start_time": 113.24,
+          "end_time": 113.28
+        },
+        {
+          "text": "gathers",
+          "start_time": 113.28,
+          "end_time": 113.64
+        },
+        {
+          "text": " ",
+          "start_time": 113.64,
+          "end_time": 113.72
+        },
+        {
+          "text": "evolving",
+          "start_time": 113.72,
+          "end_time": 114.16
+        },
+        {
+          "text": " ",
+          "start_time": 114.16,
+          "end_time": 114.2
+        },
+        {
+          "text": "data",
+          "start_time": 114.2,
+          "end_time": 114.58
+        },
+        {
+          "text": " ",
+          "start_time": 114.58,
+          "end_time": 114.64
+        },
+        {
+          "text": "from",
+          "start_time": 114.64,
+          "end_time": 114.88
+        }
+      ]
+    },
+    {
+      "text": "all other activities",
+      "start_time": 115.0,
+      "end_time": 116.3,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "all",
+          "start_time": 115.0,
+          "end_time": 115.3
+        },
+        {
+          "text": " ",
+          "start_time": 115.3,
+          "end_time": 115.38
+        },
+        {
+          "text": "other",
+          "start_time": 115.38,
+          "end_time": 115.52
+        },
+        {
+          "text": " ",
+          "start_time": 115.52,
+          "end_time": 115.6
+        },
+        {
+          "text": "activities",
+          "start_time": 115.6,
+          "end_time": 116.3
+        }
+      ]
+    },
+    {
+      "text": "so that anyone can see exactly what the",
+      "start_time": 116.92,
+      "end_time": 119.16,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "so",
+          "start_time": 116.92,
+          "end_time": 117.02
+        },
+        {
+          "text": " ",
+          "start_time": 117.02,
+          "end_time": 117.06
+        },
+        {
+          "text": "that",
+          "start_time": 117.06,
+          "end_time": 117.24
+        },
+        {
+          "text": " ",
+          "start_time": 117.24,
+          "end_time": 117.34
+        },
+        {
+          "text": "anyone",
+          "start_time": 117.34,
+          "end_time": 117.74
+        },
+        {
+          "text": " ",
+          "start_time": 117.74,
+          "end_time": 117.78
+        },
+        {
+          "text": "can",
+          "start_time": 117.78,
+          "end_time": 117.94
+        },
+        {
+          "text": " ",
+          "start_time": 117.94,
+          "end_time": 118.0
+        },
+        {
+          "text": "see",
+          "start_time": 118.0,
+          "end_time": 118.2
+        },
+        {
+          "text": " ",
+          "start_time": 118.2,
+          "end_time": 118.28
+        },
+        {
+          "text": "exactly",
+          "start_time": 118.28,
+          "end_time": 118.9
+        },
+        {
+          "text": " ",
+          "start_time": 118.9,
+          "end_time": 118.94
+        },
+        {
+          "text": "what",
+          "start_time": 118.94,
+          "end_time": 119.04
+        },
+        {
+          "text": " ",
+          "start_time": 119.04,
+          "end_time": 119.08
+        },
+        {
+          "text": "the",
+          "start_time": 119.08,
+          "end_time": 119.16
+        }
+      ]
+    },
+    {
+      "text": "system looks like today and trace how it",
+      "start_time": 119.22,
+      "end_time": 122.02,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "system",
+          "start_time": 119.22,
+          "end_time": 119.54
+        },
+        {
+          "text": " ",
+          "start_time": 119.54,
+          "end_time": 119.58
+        },
+        {
+          "text": "looks",
+          "start_time": 119.58,
+          "end_time": 119.8
+        },
+        {
+          "text": " ",
+          "start_time": 119.8,
+          "end_time": 119.84
+        },
+        {
+          "text": "like",
+          "start_time": 119.84,
+          "end_time": 120.02
+        },
+        {
+          "text": " ",
+          "start_time": 120.02,
+          "end_time": 120.08
+        },
+        {
+          "text": "today",
+          "start_time": 120.08,
+          "end_time": 120.62
+        },
+        {
+          "text": " ",
+          "start_time": 120.62,
+          "end_time": 120.64
+        },
+        {
+          "text": "and",
+          "start_time": 121.14,
+          "end_time": 121.26
+        },
+        {
+          "text": " ",
+          "start_time": 121.26,
+          "end_time": 121.34
+        },
+        {
+          "text": "trace",
+          "start_time": 121.34,
+          "end_time": 121.74
+        },
+        {
+          "text": " ",
+          "start_time": 121.74,
+          "end_time": 121.8
+        },
+        {
+          "text": "how",
+          "start_time": 121.8,
+          "end_time": 121.92
+        },
+        {
+          "text": " ",
+          "start_time": 121.92,
+          "end_time": 121.96
+        },
+        {
+          "text": "it",
+          "start_time": 121.96,
+          "end_time": 122.02
+        }
+      ]
+    },
+    {
+      "text": "has changed since the beginning of the",
+      "start_time": 122.06,
+      "end_time": 123.72,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "has",
+          "start_time": 122.06,
+          "end_time": 122.2
+        },
+        {
+          "text": " ",
+          "start_time": 122.2,
+          "end_time": 122.26
+        },
+        {
+          "text": "changed",
+          "start_time": 122.26,
+          "end_time": 122.78
+        },
+        {
+          "text": " ",
+          "start_time": 122.78,
+          "end_time": 122.84
+        },
+        {
+          "text": "since",
+          "start_time": 122.84,
+          "end_time": 123.04
+        },
+        {
+          "text": " ",
+          "start_time": 123.04,
+          "end_time": 123.08
+        },
+        {
+          "text": "the",
+          "start_time": 123.08,
+          "end_time": 123.14
+        },
+        {
+          "text": " ",
+          "start_time": 123.14,
+          "end_time": 123.16
+        },
+        {
+          "text": "beginning",
+          "start_time": 123.16,
+          "end_time": 123.5
+        },
+        {
+          "text": " ",
+          "start_time": 123.5,
+          "end_time": 123.54
+        },
+        {
+          "text": "of",
+          "start_time": 123.54,
+          "end_time": 123.62
+        },
+        {
+          "text": " ",
+          "start_time": 123.62,
+          "end_time": 123.66
+        },
+        {
+          "text": "the",
+          "start_time": 123.66,
+          "end_time": 123.72
+        }
+      ]
+    },
+    {
+      "text": "project.",
+      "start_time": 123.76,
+      "end_time": 124.3,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "project.",
+          "start_time": 123.76,
+          "end_time": 124.3
+        }
+      ]
+    },
+    {
+      "text": "Next, we have the background engine, the",
+      "start_time": 125.62,
+      "end_time": 127.96,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Next,",
+          "start_time": 125.62,
+          "end_time": 125.94
+        },
+        {
+          "text": " ",
+          "start_time": 125.94,
+          "end_time": 126.0
+        },
+        {
+          "text": "we",
+          "start_time": 126.0,
+          "end_time": 126.06
+        },
+        {
+          "text": " ",
+          "start_time": 126.06,
+          "end_time": 126.12
+        },
+        {
+          "text": "have",
+          "start_time": 126.12,
+          "end_time": 126.3
+        },
+        {
+          "text": " ",
+          "start_time": 126.3,
+          "end_time": 126.34
+        },
+        {
+          "text": "the",
+          "start_time": 126.34,
+          "end_time": 126.4
+        },
+        {
+          "text": " ",
+          "start_time": 126.4,
+          "end_time": 126.44
+        },
+        {
+          "text": "background",
+          "start_time": 126.44,
+          "end_time": 126.9
+        },
+        {
+          "text": " ",
+          "start_time": 126.9,
+          "end_time": 126.96
+        },
+        {
+          "text": "engine,",
+          "start_time": 126.96,
+          "end_time": 127.4
+        },
+        {
+          "text": " ",
+          "start_time": 127.4,
+          "end_time": 127.84
+        },
+        {
+          "text": "the",
+          "start_time": 127.84,
+          "end_time": 127.96
+        }
+      ]
+    },
+    {
+      "text": "organizational project-enabling processes.",
+      "start_time": 128.039,
+      "end_time": 130.759,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "organizational",
+          "start_time": 128.039,
+          "end_time": 128.86
+        },
+        {
+          "text": " ",
+          "start_time": 128.86,
+          "end_time": 129.02
+        },
+        {
+          "text": "project-enabling",
+          "start_time": 129.02,
+          "end_time": 129.919
+        },
+        {
+          "text": " ",
+          "start_time": 129.919,
+          "end_time": 129.979
+        },
+        {
+          "text": "processes.",
+          "start_time": 129.979,
+          "end_time": 130.759
+        }
+      ]
+    },
+    {
+      "text": "These are the continuous activities a",
+      "start_time": 131.68,
+      "end_time": 133.42,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "These",
+          "start_time": 131.68,
+          "end_time": 131.96
+        },
+        {
+          "text": " ",
+          "start_time": 131.96,
+          "end_time": 131.98
+        },
+        {
+          "text": "are",
+          "start_time": 131.98,
+          "end_time": 132.04
+        },
+        {
+          "text": " ",
+          "start_time": 132.04,
+          "end_time": 132.08
+        },
+        {
+          "text": "the",
+          "start_time": 132.08,
+          "end_time": 132.14
+        },
+        {
+          "text": " ",
+          "start_time": 132.14,
+          "end_time": 132.18
+        },
+        {
+          "text": "continuous",
+          "start_time": 132.18,
+          "end_time": 132.72
+        },
+        {
+          "text": " ",
+          "start_time": 132.72,
+          "end_time": 132.8
+        },
+        {
+          "text": "activities",
+          "start_time": 132.8,
+          "end_time": 133.34
+        },
+        {
+          "text": " ",
+          "start_time": 133.34,
+          "end_time": 133.38
+        },
+        {
+          "text": "a",
+          "start_time": 133.38,
+          "end_time": 133.42
+        }
+      ]
+    },
+    {
+      "text": "company does every day, regardless of any",
+      "start_time": 133.48,
+      "end_time": 136.36,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "company",
+          "start_time": 133.48,
+          "end_time": 133.84
+        },
+        {
+          "text": " ",
+          "start_time": 133.84,
+          "end_time": 133.9
+        },
+        {
+          "text": "does",
+          "start_time": 133.9,
+          "end_time": 134.22
+        },
+        {
+          "text": " ",
+          "start_time": 134.22,
+          "end_time": 134.32
+        },
+        {
+          "text": "every",
+          "start_time": 134.32,
+          "end_time": 134.6
+        },
+        {
+          "text": " ",
+          "start_time": 134.6,
+          "end_time": 134.66
+        },
+        {
+          "text": "day,",
+          "start_time": 134.66,
+          "end_time": 134.94
+        },
+        {
+          "text": " ",
+          "start_time": 134.94,
+          "end_time": 135.52
+        },
+        {
+          "text": "regardless",
+          "start_time": 135.52,
+          "end_time": 136.04
+        },
+        {
+          "text": " ",
+          "start_time": 136.04,
+          "end_time": 136.08
+        },
+        {
+          "text": "of",
+          "start_time": 136.08,
+          "end_time": 136.14
+        },
+        {
+          "text": " ",
+          "start_time": 136.14,
+          "end_time": 136.2
+        },
+        {
+          "text": "any",
+          "start_time": 136.2,
+          "end_time": 136.36
+        }
+      ]
+    },
+    {
+      "text": "specific project, simply to keep the",
+      "start_time": 136.44,
+      "end_time": 138.8,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "specific",
+          "start_time": 136.44,
+          "end_time": 136.88
+        },
+        {
+          "text": " ",
+          "start_time": 136.88,
+          "end_time": 136.92
+        },
+        {
+          "text": "project,",
+          "start_time": 136.92,
+          "end_time": 137.44
+        },
+        {
+          "text": " ",
+          "start_time": 137.44,
+          "end_time": 137.94
+        },
+        {
+          "text": "simply",
+          "start_time": 137.94,
+          "end_time": 138.28
+        },
+        {
+          "text": " ",
+          "start_time": 138.28,
+          "end_time": 138.32
+        },
+        {
+          "text": "to",
+          "start_time": 138.32,
+          "end_time": 138.42
+        },
+        {
+          "text": " ",
+          "start_time": 138.42,
+          "end_time": 138.48
+        },
+        {
+          "text": "keep",
+          "start_time": 138.48,
+          "end_time": 138.7
+        },
+        {
+          "text": " ",
+          "start_time": 138.7,
+          "end_time": 138.74
+        },
+        {
+          "text": "the",
+          "start_time": 138.74,
+          "end_time": 138.8
+        }
+      ]
+    },
+    {
+      "text": "business running.",
+      "start_time": 138.86,
+      "end_time": 139.64,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "business",
+          "start_time": 138.86,
+          "end_time": 139.22
+        },
+        {
+          "text": " ",
+          "start_time": 139.22,
+          "end_time": 139.26
+        },
+        {
+          "text": "running.",
+          "start_time": 139.26,
+          "end_time": 139.64
+        }
+      ]
+    },
+    {
+      "text": "Human resource management lives here,",
+      "start_time": 140.64,
+      "end_time": 142.36,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Human",
+          "start_time": 140.64,
+          "end_time": 140.92
+        },
+        {
+          "text": " ",
+          "start_time": 140.92,
+          "end_time": 140.98
+        },
+        {
+          "text": "resource",
+          "start_time": 140.98,
+          "end_time": 141.34
+        },
+        {
+          "text": " ",
+          "start_time": 141.34,
+          "end_time": 141.38
+        },
+        {
+          "text": "management",
+          "start_time": 141.38,
+          "end_time": 141.84
+        },
+        {
+          "text": " ",
+          "start_time": 141.84,
+          "end_time": 141.88
+        },
+        {
+          "text": "lives",
+          "start_time": 141.88,
+          "end_time": 142.06
+        },
+        {
+          "text": " ",
+          "start_time": 142.06,
+          "end_time": 142.12
+        },
+        {
+          "text": "here,",
+          "start_time": 142.12,
+          "end_time": 142.36
+        }
+      ]
+    },
+    {
+      "text": "ensuring the right specialists are",
+      "start_time": 142.94,
+      "end_time": 144.5,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "ensuring",
+          "start_time": 142.94,
+          "end_time": 143.34
+        },
+        {
+          "text": " ",
+          "start_time": 143.34,
+          "end_time": 143.38
+        },
+        {
+          "text": "the",
+          "start_time": 143.38,
+          "end_time": 143.46
+        },
+        {
+          "text": " ",
+          "start_time": 143.46,
+          "end_time": 143.52
+        },
+        {
+          "text": "right",
+          "start_time": 143.52,
+          "end_time": 143.74
+        },
+        {
+          "text": " ",
+          "start_time": 143.74,
+          "end_time": 143.82
+        },
+        {
+          "text": "specialists",
+          "start_time": 143.82,
+          "end_time": 144.38
+        },
+        {
+          "text": " ",
+          "start_time": 144.38,
+          "end_time": 144.44
+        },
+        {
+          "text": "are",
+          "start_time": 144.44,
+          "end_time": 144.5
+        }
+      ]
+    },
+    {
+      "text": "available to do the work.",
+      "start_time": 144.56,
+      "end_time": 145.84,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "available",
+          "start_time": 144.56,
+          "end_time": 145.0
+        },
+        {
+          "text": " ",
+          "start_time": 145.0,
+          "end_time": 145.06
+        },
+        {
+          "text": "to",
+          "start_time": 145.06,
+          "end_time": 145.14
+        },
+        {
+          "text": " ",
+          "start_time": 145.14,
+          "end_time": 145.18
+        },
+        {
+          "text": "do",
+          "start_time": 145.18,
+          "end_time": 145.3
+        },
+        {
+          "text": " ",
+          "start_time": 145.3,
+          "end_time": 145.34
+        },
+        {
+          "text": "the",
+          "start_time": 145.34,
+          "end_time": 145.42
+        },
+        {
+          "text": " ",
+          "start_time": 145.42,
+          "end_time": 145.46
+        },
+        {
+          "text": "work.",
+          "start_time": 145.46,
+          "end_time": 145.84
+        }
+      ]
+    },
+    {
+      "text": "But there is also something uniquely",
+      "start_time": 146.84,
+      "end_time": 148.88,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "But",
+          "start_time": 146.84,
+          "end_time": 146.94
+        },
+        {
+          "text": " ",
+          "start_time": 146.94,
+          "end_time": 146.96
+        },
+        {
+          "text": "there",
+          "start_time": 146.96,
+          "end_time": 147.08
+        },
+        {
+          "text": " ",
+          "start_time": 147.08,
+          "end_time": 147.12
+        },
+        {
+          "text": "is",
+          "start_time": 147.12,
+          "end_time": 147.26
+        },
+        {
+          "text": " ",
+          "start_time": 147.26,
+          "end_time": 147.38
+        },
+        {
+          "text": "also",
+          "start_time": 147.38,
+          "end_time": 147.74
+        },
+        {
+          "text": " ",
+          "start_time": 147.74,
+          "end_time": 147.8
+        },
+        {
+          "text": "something",
+          "start_time": 147.8,
+          "end_time": 148.2
+        },
+        {
+          "text": " ",
+          "start_time": 148.2,
+          "end_time": 148.32
+        },
+        {
+          "text": "uniquely",
+          "start_time": 148.32,
+          "end_time": 148.88
+        }
+      ]
+    },
+    {
+      "text": "engineered here,",
+      "start_time": 148.96,
+      "end_time": 149.78,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "engineered",
+          "start_time": 148.96,
+          "end_time": 149.46
+        },
+        {
+          "text": " ",
+          "start_time": 149.46,
+          "end_time": 149.5
+        },
+        {
+          "text": "here,",
+          "start_time": 149.5,
+          "end_time": 149.78
+        }
+      ]
+    },
+    {
+      "text": "like the lifecycle management process.",
+      "start_time": 150.46,
+      "end_time": 152.8,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "like",
+          "start_time": 150.46,
+          "end_time": 150.72
+        },
+        {
+          "text": " ",
+          "start_time": 150.72,
+          "end_time": 150.78
+        },
+        {
+          "text": "the",
+          "start_time": 150.78,
+          "end_time": 150.86
+        },
+        {
+          "text": " ",
+          "start_time": 150.86,
+          "end_time": 150.94
+        },
+        {
+          "text": "lifecycle",
+          "start_time": 150.94,
+          "end_time": 151.58
+        },
+        {
+          "text": " ",
+          "start_time": 151.58,
+          "end_time": 151.64
+        },
+        {
+          "text": "management",
+          "start_time": 151.64,
+          "end_time": 152.1
+        },
+        {
+          "text": " ",
+          "start_time": 152.1,
+          "end_time": 152.16
+        },
+        {
+          "text": "process.",
+          "start_time": 152.16,
+          "end_time": 152.8
+        }
+      ]
+    },
+    {
+      "text": "This is the activity responsible for",
+      "start_time": 153.72,
+      "end_time": 155.48,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "This",
+          "start_time": 153.72,
+          "end_time": 153.82
+        },
+        {
+          "text": " ",
+          "start_time": 153.82,
+          "end_time": 153.88
+        },
+        {
+          "text": "is",
+          "start_time": 153.88,
+          "end_time": 153.96
+        },
+        {
+          "text": " ",
+          "start_time": 153.96,
+          "end_time": 154.0
+        },
+        {
+          "text": "the",
+          "start_time": 154.0,
+          "end_time": 154.06
+        },
+        {
+          "text": " ",
+          "start_time": 154.06,
+          "end_time": 154.14
+        },
+        {
+          "text": "activity",
+          "start_time": 154.14,
+          "end_time": 154.66
+        },
+        {
+          "text": " ",
+          "start_time": 154.66,
+          "end_time": 154.7
+        },
+        {
+          "text": "responsible",
+          "start_time": 154.7,
+          "end_time": 155.32
+        },
+        {
+          "text": " ",
+          "start_time": 155.32,
+          "end_time": 155.36
+        },
+        {
+          "text": "for",
+          "start_time": 155.36,
+          "end_time": 155.48
+        }
+      ]
+    },
+    {
+      "text": "creating the very frameworks and models we",
+      "start_time": 155.54,
+      "end_time": 157.86,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "creating",
+          "start_time": 155.54,
+          "end_time": 156.0
+        },
+        {
+          "text": " ",
+          "start_time": 156.0,
+          "end_time": 156.06
+        },
+        {
+          "text": "the",
+          "start_time": 156.06,
+          "end_time": 156.18
+        },
+        {
+          "text": " ",
+          "start_time": 156.18,
+          "end_time": 156.24
+        },
+        {
+          "text": "very",
+          "start_time": 156.24,
+          "end_time": 156.58
+        },
+        {
+          "text": " ",
+          "start_time": 156.58,
+          "end_time": 156.62
+        },
+        {
+          "text": "frameworks",
+          "start_time": 156.62,
+          "end_time": 157.16
+        },
+        {
+          "text": " ",
+          "start_time": 157.16,
+          "end_time": 157.2
+        },
+        {
+          "text": "and",
+          "start_time": 157.2,
+          "end_time": 157.28
+        },
+        {
+          "text": " ",
+          "start_time": 157.28,
+          "end_time": 157.34
+        },
+        {
+          "text": "models",
+          "start_time": 157.34,
+          "end_time": 157.74
+        },
+        {
+          "text": " ",
+          "start_time": 157.74,
+          "end_time": 157.78
+        },
+        {
+          "text": "we",
+          "start_time": 157.78,
+          "end_time": 157.86
+        }
+      ]
+    },
+    {
+      "text": "are exploring right now,",
+      "start_time": 157.88,
+      "end_time": 159.14,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "are",
+          "start_time": 157.88,
+          "end_time": 157.96
+        },
+        {
+          "text": " ",
+          "start_time": 157.96,
+          "end_time": 158.0
+        },
+        {
+          "text": "exploring",
+          "start_time": 158.0,
+          "end_time": 158.56
+        },
+        {
+          "text": " ",
+          "start_time": 158.56,
+          "end_time": 158.62
+        },
+        {
+          "text": "right",
+          "start_time": 158.62,
+          "end_time": 158.8
+        },
+        {
+          "text": " ",
+          "start_time": 158.8,
+          "end_time": 158.86
+        },
+        {
+          "text": "now,",
+          "start_time": 158.86,
+          "end_time": 159.14
+        }
+      ]
+    },
+    {
+      "text": "adapting them to the organization's",
+      "start_time": 159.92,
+      "end_time": 161.56,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "adapting",
+          "start_time": 159.92,
+          "end_time": 160.36
+        },
+        {
+          "text": " ",
+          "start_time": 160.36,
+          "end_time": 160.4
+        },
+        {
+          "text": "them",
+          "start_time": 160.4,
+          "end_time": 160.54
+        },
+        {
+          "text": " ",
+          "start_time": 160.54,
+          "end_time": 160.6
+        },
+        {
+          "text": "to",
+          "start_time": 160.6,
+          "end_time": 160.66
+        },
+        {
+          "text": " ",
+          "start_time": 160.66,
+          "end_time": 160.7
+        },
+        {
+          "text": "the",
+          "start_time": 160.7,
+          "end_time": 160.76
+        },
+        {
+          "text": " ",
+          "start_time": 160.76,
+          "end_time": 160.8
+        },
+        {
+          "text": "organization's",
+          "start_time": 160.8,
+          "end_time": 161.56
+        }
+      ]
+    },
+    {
+      "text": "specific needs and bringing them to life.",
+      "start_time": 161.64,
+      "end_time": 164.16,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "specific",
+          "start_time": 161.64,
+          "end_time": 162.08
+        },
+        {
+          "text": " ",
+          "start_time": 162.08,
+          "end_time": 162.14
+        },
+        {
+          "text": "needs",
+          "start_time": 162.14,
+          "end_time": 162.54
+        },
+        {
+          "text": " ",
+          "start_time": 162.54,
+          "end_time": 162.94
+        },
+        {
+          "text": "and",
+          "start_time": 162.94,
+          "end_time": 163.04
+        },
+        {
+          "text": " ",
+          "start_time": 163.04,
+          "end_time": 163.1
+        },
+        {
+          "text": "bringing",
+          "start_time": 163.1,
+          "end_time": 163.36
+        },
+        {
+          "text": " ",
+          "start_time": 163.36,
+          "end_time": 163.4
+        },
+        {
+          "text": "them",
+          "start_time": 163.4,
+          "end_time": 163.58
+        },
+        {
+          "text": " ",
+          "start_time": 163.58,
+          "end_time": 163.64
+        },
+        {
+          "text": "to",
+          "start_time": 163.64,
+          "end_time": 163.72
+        },
+        {
+          "text": " ",
+          "start_time": 163.72,
+          "end_time": 163.78
+        },
+        {
+          "text": "life.",
+          "start_time": 163.78,
+          "end_time": 164.16
+        }
+      ]
+    },
+    {
+      "text": "Finally, we have a small but critical",
+      "start_time": 165.48,
+      "end_time": 167.78,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Finally,",
+          "start_time": 165.48,
+          "end_time": 165.9
+        },
+        {
+          "text": " ",
+          "start_time": 165.9,
+          "end_time": 166.04
+        },
+        {
+          "text": "we",
+          "start_time": 166.04,
+          "end_time": 166.14
+        },
+        {
+          "text": " ",
+          "start_time": 166.14,
+          "end_time": 166.18
+        },
+        {
+          "text": "have",
+          "start_time": 166.18,
+          "end_time": 166.34
+        },
+        {
+          "text": " ",
+          "start_time": 166.34,
+          "end_time": 166.4
+        },
+        {
+          "text": "a",
+          "start_time": 166.4,
+          "end_time": 166.46
+        },
+        {
+          "text": " ",
+          "start_time": 166.46,
+          "end_time": 166.58
+        },
+        {
+          "text": "small",
+          "start_time": 166.58,
+          "end_time": 166.98
+        },
+        {
+          "text": " ",
+          "start_time": 166.98,
+          "end_time": 167.02
+        },
+        {
+          "text": "but",
+          "start_time": 167.02,
+          "end_time": 167.2
+        },
+        {
+          "text": " ",
+          "start_time": 167.2,
+          "end_time": 167.28
+        },
+        {
+          "text": "critical",
+          "start_time": 167.28,
+          "end_time": 167.78
+        }
+      ]
+    },
+    {
+      "text": "cluster, the agreement processes.",
+      "start_time": 167.84,
+      "end_time": 170.26,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "cluster,",
+          "start_time": 167.84,
+          "end_time": 168.26
+        },
+        {
+          "text": " ",
+          "start_time": 168.26,
+          "end_time": 168.26
+        },
+        {
+          "text": "the",
+          "start_time": 168.84,
+          "end_time": 168.9
+        },
+        {
+          "text": " ",
+          "start_time": 168.9,
+          "end_time": 168.96
+        },
+        {
+          "text": "agreement",
+          "start_time": 168.96,
+          "end_time": 169.44
+        },
+        {
+          "text": " ",
+          "start_time": 169.44,
+          "end_time": 169.5
+        },
+        {
+          "text": "processes.",
+          "start_time": 169.5,
+          "end_time": 170.26
+        }
+      ]
+    },
+    {
+      "text": "There are only two stars here, acquisition",
+      "start_time": 171.1,
+      "end_time": 174.18,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "There",
+          "start_time": 171.1,
+          "end_time": 171.2
+        },
+        {
+          "text": " ",
+          "start_time": 171.2,
+          "end_time": 171.2
+        },
+        {
+          "text": "are",
+          "start_time": 171.2,
+          "end_time": 171.28
+        },
+        {
+          "text": " ",
+          "start_time": 171.28,
+          "end_time": 171.34
+        },
+        {
+          "text": "only",
+          "start_time": 171.34,
+          "end_time": 171.56
+        },
+        {
+          "text": " ",
+          "start_time": 171.56,
+          "end_time": 171.64
+        },
+        {
+          "text": "two",
+          "start_time": 171.64,
+          "end_time": 171.84
+        },
+        {
+          "text": " ",
+          "start_time": 171.84,
+          "end_time": 171.9
+        },
+        {
+          "text": "stars",
+          "start_time": 171.9,
+          "end_time": 172.22
+        },
+        {
+          "text": " ",
+          "start_time": 172.22,
+          "end_time": 172.28
+        },
+        {
+          "text": "here,",
+          "start_time": 172.28,
+          "end_time": 172.52
+        },
+        {
+          "text": " ",
+          "start_time": 172.52,
+          "end_time": 172.66
+        },
+        {
+          "text": "acquisition",
+          "start_time": 173.08,
+          "end_time": 174.18
+        }
+      ]
+    },
+    {
+      "text": "and supply.",
+      "start_time": 174.3,
+      "end_time": 175.1,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "and",
+          "start_time": 174.3,
+          "end_time": 174.54
+        },
+        {
+          "text": " ",
+          "start_time": 174.54,
+          "end_time": 174.6
+        },
+        {
+          "text": "supply.",
+          "start_time": 174.6,
+          "end_time": 175.1
+        }
+      ]
+    },
+    {
+      "text": "These govern how the organization",
+      "start_time": 176.18,
+      "end_time": 177.84,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "These",
+          "start_time": 176.18,
+          "end_time": 176.38
+        },
+        {
+          "text": " ",
+          "start_time": 176.38,
+          "end_time": 176.44
+        },
+        {
+          "text": "govern",
+          "start_time": 176.44,
+          "end_time": 176.76
+        },
+        {
+          "text": " ",
+          "start_time": 176.76,
+          "end_time": 176.84
+        },
+        {
+          "text": "how",
+          "start_time": 176.84,
+          "end_time": 176.96
+        },
+        {
+          "text": " ",
+          "start_time": 176.96,
+          "end_time": 177.0
+        },
+        {
+          "text": "the",
+          "start_time": 177.0,
+          "end_time": 177.08
+        },
+        {
+          "text": " ",
+          "start_time": 177.08,
+          "end_time": 177.14
+        },
+        {
+          "text": "organization",
+          "start_time": 177.14,
+          "end_time": 177.84
+        }
+      ]
+    },
+    {
+      "text": "interacts with the outside world,",
+      "start_time": 177.9,
+      "end_time": 179.72,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "interacts",
+          "start_time": 177.9,
+          "end_time": 178.5
+        },
+        {
+          "text": " ",
+          "start_time": 178.5,
+          "end_time": 178.52
+        },
+        {
+          "text": "with",
+          "start_time": 178.52,
+          "end_time": 178.6
+        },
+        {
+          "text": " ",
+          "start_time": 178.6,
+          "end_time": 178.64
+        },
+        {
+          "text": "the",
+          "start_time": 178.64,
+          "end_time": 178.72
+        },
+        {
+          "text": " ",
+          "start_time": 178.72,
+          "end_time": 178.82
+        },
+        {
+          "text": "outside",
+          "start_time": 178.82,
+          "end_time": 179.26
+        },
+        {
+          "text": " ",
+          "start_time": 179.26,
+          "end_time": 179.32
+        },
+        {
+          "text": "world,",
+          "start_time": 179.32,
+          "end_time": 179.72
+        }
+      ]
+    },
+    {
+      "text": "how we properly bring things in, and how",
+      "start_time": 180.48,
+      "end_time": 182.82,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "how",
+          "start_time": 180.48,
+          "end_time": 180.62
+        },
+        {
+          "text": " ",
+          "start_time": 180.62,
+          "end_time": 180.66
+        },
+        {
+          "text": "we",
+          "start_time": 180.66,
+          "end_time": 180.76
+        },
+        {
+          "text": " ",
+          "start_time": 180.76,
+          "end_time": 180.82
+        },
+        {
+          "text": "properly",
+          "start_time": 180.82,
+          "end_time": 181.2
+        },
+        {
+          "text": " ",
+          "start_time": 181.2,
+          "end_time": 181.26
+        },
+        {
+          "text": "bring",
+          "start_time": 181.26,
+          "end_time": 181.48
+        },
+        {
+          "text": " ",
+          "start_time": 181.48,
+          "end_time": 181.54
+        },
+        {
+          "text": "things",
+          "start_time": 181.54,
+          "end_time": 181.78
+        },
+        {
+          "text": " ",
+          "start_time": 181.78,
+          "end_time": 181.88
+        },
+        {
+          "text": "in,",
+          "start_time": 181.88,
+          "end_time": 182.1
+        },
+        {
+          "text": " ",
+          "start_time": 182.1,
+          "end_time": 182.56
+        },
+        {
+          "text": "and",
+          "start_time": 182.56,
+          "end_time": 182.64
+        },
+        {
+          "text": " ",
+          "start_time": 182.64,
+          "end_time": 182.7
+        },
+        {
+          "text": "how",
+          "start_time": 182.7,
+          "end_time": 182.82
+        }
+      ]
+    },
+    {
+      "text": "we deliver things out.",
+      "start_time": 182.86,
+      "end_time": 184.18,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "we",
+          "start_time": 182.86,
+          "end_time": 182.96
+        },
+        {
+          "text": " ",
+          "start_time": 182.96,
+          "end_time": 183.0
+        },
+        {
+          "text": "deliver",
+          "start_time": 183.0,
+          "end_time": 183.36
+        },
+        {
+          "text": " ",
+          "start_time": 183.36,
+          "end_time": 183.4
+        },
+        {
+          "text": "things",
+          "start_time": 183.4,
+          "end_time": 183.74
+        },
+        {
+          "text": " ",
+          "start_time": 183.74,
+          "end_time": 183.88
+        },
+        {
+          "text": "out.",
+          "start_time": 183.88,
+          "end_time": 184.18
+        }
+      ]
+    },
+    {
+      "text": "None of these activities exist in",
+      "start_time": 185.3,
+      "end_time": 187.08,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "None",
+          "start_time": 185.3,
+          "end_time": 185.44
+        },
+        {
+          "text": " ",
+          "start_time": 185.44,
+          "end_time": 185.48
+        },
+        {
+          "text": "of",
+          "start_time": 185.48,
+          "end_time": 185.56
+        },
+        {
+          "text": " ",
+          "start_time": 185.56,
+          "end_time": 185.6
+        },
+        {
+          "text": "these",
+          "start_time": 185.6,
+          "end_time": 185.74
+        },
+        {
+          "text": " ",
+          "start_time": 185.74,
+          "end_time": 185.82
+        },
+        {
+          "text": "activities",
+          "start_time": 185.82,
+          "end_time": 186.46
+        },
+        {
+          "text": " ",
+          "start_time": 186.46,
+          "end_time": 186.52
+        },
+        {
+          "text": "exist",
+          "start_time": 186.52,
+          "end_time": 186.96
+        },
+        {
+          "text": " ",
+          "start_time": 186.96,
+          "end_time": 187.0
+        },
+        {
+          "text": "in",
+          "start_time": 187.0,
+          "end_time": 187.08
+        }
+      ]
+    },
+    {
+      "text": "isolation.",
+      "start_time": 187.16,
+      "end_time": 187.9,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "isolation.",
+          "start_time": 187.16,
+          "end_time": 187.9
+        }
+      ]
+    },
+    {
+      "text": "When you link them together, you start",
+      "start_time": 188.72,
+      "end_time": 190.76,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "When",
+          "start_time": 188.72,
+          "end_time": 188.84
+        },
+        {
+          "text": " ",
+          "start_time": 188.84,
+          "end_time": 188.88
+        },
+        {
+          "text": "you",
+          "start_time": 188.88,
+          "end_time": 188.96
+        },
+        {
+          "text": " ",
+          "start_time": 188.96,
+          "end_time": 189.02
+        },
+        {
+          "text": "link",
+          "start_time": 189.02,
+          "end_time": 189.22
+        },
+        {
+          "text": " ",
+          "start_time": 189.22,
+          "end_time": 189.26
+        },
+        {
+          "text": "them",
+          "start_time": 189.26,
+          "end_time": 189.4
+        },
+        {
+          "text": " ",
+          "start_time": 189.4,
+          "end_time": 189.44
+        },
+        {
+          "text": "together,",
+          "start_time": 189.44,
+          "end_time": 189.9
+        },
+        {
+          "text": " ",
+          "start_time": 189.9,
+          "end_time": 190.38
+        },
+        {
+          "text": "you",
+          "start_time": 190.38,
+          "end_time": 190.46
+        },
+        {
+          "text": " ",
+          "start_time": 190.46,
+          "end_time": 190.52
+        },
+        {
+          "text": "start",
+          "start_time": 190.52,
+          "end_time": 190.76
+        }
+      ]
+    },
+    {
+      "text": "creating constellations of shared",
+      "start_time": 190.82,
+      "end_time": 192.82,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "creating",
+          "start_time": 190.82,
+          "end_time": 191.28
+        },
+        {
+          "text": " ",
+          "start_time": 191.28,
+          "end_time": 191.36
+        },
+        {
+          "text": "constellations",
+          "start_time": 191.36,
+          "end_time": 192.32
+        },
+        {
+          "text": " ",
+          "start_time": 192.32,
+          "end_time": 192.38
+        },
+        {
+          "text": "of",
+          "start_time": 192.38,
+          "end_time": 192.46
+        },
+        {
+          "text": " ",
+          "start_time": 192.46,
+          "end_time": 192.52
+        },
+        {
+          "text": "shared",
+          "start_time": 192.52,
+          "end_time": 192.82
+        }
+      ]
+    },
+    {
+      "text": "knowledge.",
+      "start_time": 192.86,
+      "end_time": 193.36,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "knowledge.",
+          "start_time": 192.86,
+          "end_time": 193.36
+        }
+      ]
+    },
+    {
+      "text": "Even if you pick two activities from",
+      "start_time": 194.56,
+      "end_time": 196.42,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Even",
+          "start_time": 194.56,
+          "end_time": 194.72
+        },
+        {
+          "text": " ",
+          "start_time": 194.72,
+          "end_time": 194.78
+        },
+        {
+          "text": "if",
+          "start_time": 194.78,
+          "end_time": 194.86
+        },
+        {
+          "text": " ",
+          "start_time": 194.86,
+          "end_time": 194.9
+        },
+        {
+          "text": "you",
+          "start_time": 194.9,
+          "end_time": 195.0
+        },
+        {
+          "text": " ",
+          "start_time": 195.0,
+          "end_time": 195.06
+        },
+        {
+          "text": "pick",
+          "start_time": 195.06,
+          "end_time": 195.3
+        },
+        {
+          "text": " ",
+          "start_time": 195.3,
+          "end_time": 195.38
+        },
+        {
+          "text": "two",
+          "start_time": 195.38,
+          "end_time": 195.52
+        },
+        {
+          "text": " ",
+          "start_time": 195.52,
+          "end_time": 195.6
+        },
+        {
+          "text": "activities",
+          "start_time": 195.6,
+          "end_time": 196.24
+        },
+        {
+          "text": " ",
+          "start_time": 196.24,
+          "end_time": 196.28
+        },
+        {
+          "text": "from",
+          "start_time": 196.28,
+          "end_time": 196.42
+        }
+      ]
+    },
+    {
+      "text": "completely different groups, you will",
+      "start_time": 196.46,
+      "end_time": 198.54,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "completely",
+          "start_time": 196.46,
+          "end_time": 197.0
+        },
+        {
+          "text": " ",
+          "start_time": 197.0,
+          "end_time": 197.06
+        },
+        {
+          "text": "different",
+          "start_time": 197.06,
+          "end_time": 197.34
+        },
+        {
+          "text": " ",
+          "start_time": 197.34,
+          "end_time": 197.4
+        },
+        {
+          "text": "groups,",
+          "start_time": 197.4,
+          "end_time": 197.84
+        },
+        {
+          "text": " ",
+          "start_time": 197.84,
+          "end_time": 198.34
+        },
+        {
+          "text": "you",
+          "start_time": 198.34,
+          "end_time": 198.4
+        },
+        {
+          "text": " ",
+          "start_time": 198.4,
+          "end_time": 198.42
+        },
+        {
+          "text": "will",
+          "start_time": 198.42,
+          "end_time": 198.54
+        }
+      ]
+    },
+    {
+      "text": "likely find they are connected, either",
+      "start_time": 198.58,
+      "end_time": 200.9,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "likely",
+          "start_time": 198.58,
+          "end_time": 198.96
+        },
+        {
+          "text": " ",
+          "start_time": 198.96,
+          "end_time": 199.02
+        },
+        {
+          "text": "find",
+          "start_time": 199.02,
+          "end_time": 199.24
+        },
+        {
+          "text": " ",
+          "start_time": 199.24,
+          "end_time": 199.28
+        },
+        {
+          "text": "they",
+          "start_time": 199.28,
+          "end_time": 199.38
+        },
+        {
+          "text": " ",
+          "start_time": 199.38,
+          "end_time": 199.42
+        },
+        {
+          "text": "are",
+          "start_time": 199.42,
+          "end_time": 199.52
+        },
+        {
+          "text": " ",
+          "start_time": 199.52,
+          "end_time": 199.56
+        },
+        {
+          "text": "connected,",
+          "start_time": 199.56,
+          "end_time": 200.12
+        },
+        {
+          "text": " ",
+          "start_time": 200.12,
+          "end_time": 200.72
+        },
+        {
+          "text": "either",
+          "start_time": 200.72,
+          "end_time": 200.9
+        }
+      ]
+    },
+    {
+      "text": "directly or through a chain of other",
+      "start_time": 200.94,
+      "end_time": 202.98,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "directly",
+          "start_time": 200.94,
+          "end_time": 201.74
+        },
+        {
+          "text": " ",
+          "start_time": 201.74,
+          "end_time": 201.86
+        },
+        {
+          "text": "or",
+          "start_time": 201.86,
+          "end_time": 202.0
+        },
+        {
+          "text": " ",
+          "start_time": 202.0,
+          "end_time": 202.04
+        },
+        {
+          "text": "through",
+          "start_time": 202.04,
+          "end_time": 202.2
+        },
+        {
+          "text": " ",
+          "start_time": 202.2,
+          "end_time": 202.26
+        },
+        {
+          "text": "a",
+          "start_time": 202.26,
+          "end_time": 202.3
+        },
+        {
+          "text": " ",
+          "start_time": 202.3,
+          "end_time": 202.36
+        },
+        {
+          "text": "chain",
+          "start_time": 202.36,
+          "end_time": 202.62
+        },
+        {
+          "text": " ",
+          "start_time": 202.62,
+          "end_time": 202.66
+        },
+        {
+          "text": "of",
+          "start_time": 202.66,
+          "end_time": 202.76
+        },
+        {
+          "text": " ",
+          "start_time": 202.76,
+          "end_time": 202.82
+        },
+        {
+          "text": "other",
+          "start_time": 202.82,
+          "end_time": 202.98
+        }
+      ]
+    },
+    {
+      "text": "works.",
+      "start_time": 203.04,
+      "end_time": 203.6,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "works.",
+          "start_time": 203.04,
+          "end_time": 203.6
+        }
+      ]
+    },
+    {
+      "text": "For instance, our company might acquire a",
+      "start_time": 204.56,
+      "end_time": 206.88,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "For",
+          "start_time": 204.56,
+          "end_time": 204.66
+        },
+        {
+          "text": " ",
+          "start_time": 204.66,
+          "end_time": 204.7
+        },
+        {
+          "text": "instance,",
+          "start_time": 204.7,
+          "end_time": 205.16
+        },
+        {
+          "text": " ",
+          "start_time": 205.16,
+          "end_time": 205.56
+        },
+        {
+          "text": "our",
+          "start_time": 205.56,
+          "end_time": 205.66
+        },
+        {
+          "text": " ",
+          "start_time": 205.66,
+          "end_time": 205.72
+        },
+        {
+          "text": "company",
+          "start_time": 205.72,
+          "end_time": 206.08
+        },
+        {
+          "text": " ",
+          "start_time": 206.08,
+          "end_time": 206.14
+        },
+        {
+          "text": "might",
+          "start_time": 206.14,
+          "end_time": 206.34
+        },
+        {
+          "text": " ",
+          "start_time": 206.34,
+          "end_time": 206.38
+        },
+        {
+          "text": "acquire",
+          "start_time": 206.38,
+          "end_time": 206.78
+        },
+        {
+          "text": " ",
+          "start_time": 206.78,
+          "end_time": 206.84
+        },
+        {
+          "text": "a",
+          "start_time": 206.84,
+          "end_time": 206.88
+        }
+      ]
+    },
+    {
+      "text": "component from a supplier.",
+      "start_time": 206.92,
+      "end_time": 208.28,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "component",
+          "start_time": 206.92,
+          "end_time": 207.42
+        },
+        {
+          "text": " ",
+          "start_time": 207.42,
+          "end_time": 207.48
+        },
+        {
+          "text": "from",
+          "start_time": 207.48,
+          "end_time": 207.58
+        },
+        {
+          "text": " ",
+          "start_time": 207.58,
+          "end_time": 207.62
+        },
+        {
+          "text": "a",
+          "start_time": 207.62,
+          "end_time": 207.68
+        },
+        {
+          "text": " ",
+          "start_time": 207.68,
+          "end_time": 207.72
+        },
+        {
+          "text": "supplier.",
+          "start_time": 207.72,
+          "end_time": 208.28
+        }
+      ]
+    },
+    {
+      "text": "Once that component is integrated into the",
+      "start_time": 209.38,
+      "end_time": 211.36,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Once",
+          "start_time": 209.38,
+          "end_time": 209.54
+        },
+        {
+          "text": " ",
+          "start_time": 209.54,
+          "end_time": 209.6
+        },
+        {
+          "text": "that",
+          "start_time": 209.6,
+          "end_time": 209.72
+        },
+        {
+          "text": " ",
+          "start_time": 209.72,
+          "end_time": 209.76
+        },
+        {
+          "text": "component",
+          "start_time": 209.76,
+          "end_time": 210.26
+        },
+        {
+          "text": " ",
+          "start_time": 210.26,
+          "end_time": 210.32
+        },
+        {
+          "text": "is",
+          "start_time": 210.32,
+          "end_time": 210.42
+        },
+        {
+          "text": " ",
+          "start_time": 210.42,
+          "end_time": 210.48
+        },
+        {
+          "text": "integrated",
+          "start_time": 210.48,
+          "end_time": 211.02
+        },
+        {
+          "text": " ",
+          "start_time": 211.02,
+          "end_time": 211.06
+        },
+        {
+          "text": "into",
+          "start_time": 211.06,
+          "end_time": 211.24
+        },
+        {
+          "text": " ",
+          "start_time": 211.24,
+          "end_time": 211.28
+        },
+        {
+          "text": "the",
+          "start_time": 211.28,
+          "end_time": 211.36
+        }
+      ]
+    },
+    {
+      "text": "system, the designers immediately receive",
+      "start_time": 211.4,
+      "end_time": 214.2,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "system,",
+          "start_time": 211.4,
+          "end_time": 211.84
+        },
+        {
+          "text": " ",
+          "start_time": 211.84,
+          "end_time": 212.34
+        },
+        {
+          "text": "the",
+          "start_time": 212.34,
+          "end_time": 212.42
+        },
+        {
+          "text": " ",
+          "start_time": 212.42,
+          "end_time": 212.46
+        },
+        {
+          "text": "designers",
+          "start_time": 212.46,
+          "end_time": 213.06
+        },
+        {
+          "text": " ",
+          "start_time": 213.06,
+          "end_time": 213.12
+        },
+        {
+          "text": "immediately",
+          "start_time": 213.12,
+          "end_time": 213.72
+        },
+        {
+          "text": " ",
+          "start_time": 213.72,
+          "end_time": 213.74
+        },
+        {
+          "text": "receive",
+          "start_time": 213.74,
+          "end_time": 214.2
+        }
+      ]
+    },
+    {
+      "text": "updated data about its interfaces.",
+      "start_time": 214.28,
+      "end_time": 216.56,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "updated",
+          "start_time": 214.28,
+          "end_time": 214.74
+        },
+        {
+          "text": " ",
+          "start_time": 214.74,
+          "end_time": 214.8
+        },
+        {
+          "text": "data",
+          "start_time": 214.8,
+          "end_time": 215.22
+        },
+        {
+          "text": " ",
+          "start_time": 215.22,
+          "end_time": 215.3
+        },
+        {
+          "text": "about",
+          "start_time": 215.3,
+          "end_time": 215.5
+        },
+        {
+          "text": " ",
+          "start_time": 215.5,
+          "end_time": 215.56
+        },
+        {
+          "text": "its",
+          "start_time": 215.56,
+          "end_time": 215.66
+        },
+        {
+          "text": " ",
+          "start_time": 215.66,
+          "end_time": 215.72
+        },
+        {
+          "text": "interfaces.",
+          "start_time": 215.72,
+          "end_time": 216.56
+        }
+      ]
+    },
+    {
+      "text": "Some works exchange a massive amount of",
+      "start_time": 217.8,
+      "end_time": 219.86,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Some",
+          "start_time": 217.8,
+          "end_time": 217.98
+        },
+        {
+          "text": " ",
+          "start_time": 217.98,
+          "end_time": 218.02
+        },
+        {
+          "text": "works",
+          "start_time": 218.02,
+          "end_time": 218.3
+        },
+        {
+          "text": " ",
+          "start_time": 218.3,
+          "end_time": 218.36
+        },
+        {
+          "text": "exchange",
+          "start_time": 218.36,
+          "end_time": 218.82
+        },
+        {
+          "text": " ",
+          "start_time": 218.82,
+          "end_time": 218.88
+        },
+        {
+          "text": "a",
+          "start_time": 218.88,
+          "end_time": 218.94
+        },
+        {
+          "text": " ",
+          "start_time": 218.94,
+          "end_time": 219.1
+        },
+        {
+          "text": "massive",
+          "start_time": 219.1,
+          "end_time": 219.46
+        },
+        {
+          "text": " ",
+          "start_time": 219.46,
+          "end_time": 219.5
+        },
+        {
+          "text": "amount",
+          "start_time": 219.5,
+          "end_time": 219.74
+        },
+        {
+          "text": " ",
+          "start_time": 219.74,
+          "end_time": 219.78
+        },
+        {
+          "text": "of",
+          "start_time": 219.78,
+          "end_time": 219.86
+        }
+      ]
+    },
+    {
+      "text": "data, forming bright, direct channels.",
+      "start_time": 219.9,
+      "end_time": 223.02,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "data,",
+          "start_time": 219.9,
+          "end_time": 220.34
+        },
+        {
+          "text": " ",
+          "start_time": 220.34,
+          "end_time": 220.88
+        },
+        {
+          "text": "forming",
+          "start_time": 220.88,
+          "end_time": 221.2
+        },
+        {
+          "text": " ",
+          "start_time": 221.2,
+          "end_time": 221.26
+        },
+        {
+          "text": "bright,",
+          "start_time": 221.26,
+          "end_time": 221.62
+        },
+        {
+          "text": " ",
+          "start_time": 221.62,
+          "end_time": 221.86
+        },
+        {
+          "text": "direct",
+          "start_time": 221.86,
+          "end_time": 222.38
+        },
+        {
+          "text": " ",
+          "start_time": 222.38,
+          "end_time": 222.44
+        },
+        {
+          "text": "channels.",
+          "start_time": 222.44,
+          "end_time": 223.02
+        }
+      ]
+    },
+    {
+      "text": "Take a look at architecture definition and",
+      "start_time": 224.12,
+      "end_time": 226.42,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Take",
+          "start_time": 224.12,
+          "end_time": 224.28
+        },
+        {
+          "text": " ",
+          "start_time": 224.28,
+          "end_time": 224.32
+        },
+        {
+          "text": "a",
+          "start_time": 224.32,
+          "end_time": 224.34
+        },
+        {
+          "text": " ",
+          "start_time": 224.34,
+          "end_time": 224.38
+        },
+        {
+          "text": "look",
+          "start_time": 224.38,
+          "end_time": 224.48
+        },
+        {
+          "text": " ",
+          "start_time": 224.48,
+          "end_time": 224.54
+        },
+        {
+          "text": "at",
+          "start_time": 224.54,
+          "end_time": 224.62
+        },
+        {
+          "text": " ",
+          "start_time": 224.62,
+          "end_time": 224.72
+        },
+        {
+          "text": "architecture",
+          "start_time": 224.72,
+          "end_time": 225.28
+        },
+        {
+          "text": " ",
+          "start_time": 225.28,
+          "end_time": 225.34
+        },
+        {
+          "text": "definition",
+          "start_time": 225.34,
+          "end_time": 226.26
+        },
+        {
+          "text": " ",
+          "start_time": 226.26,
+          "end_time": 226.32
+        },
+        {
+          "text": "and",
+          "start_time": 226.32,
+          "end_time": 226.42
+        }
+      ]
+    },
+    {
+      "text": "design definition.",
+      "start_time": 226.46,
+      "end_time": 227.58,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "design",
+          "start_time": 226.46,
+          "end_time": 226.86
+        },
+        {
+          "text": " ",
+          "start_time": 226.86,
+          "end_time": 226.9
+        },
+        {
+          "text": "definition.",
+          "start_time": 226.9,
+          "end_time": 227.58
+        }
+      ]
+    },
+    {
+      "text": "As you can see, they are tightly bound",
+      "start_time": 228.68,
+      "end_time": 230.74,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "As",
+          "start_time": 228.68,
+          "end_time": 228.78
+        },
+        {
+          "text": " ",
+          "start_time": 228.78,
+          "end_time": 228.8
+        },
+        {
+          "text": "you",
+          "start_time": 228.8,
+          "end_time": 228.86
+        },
+        {
+          "text": " ",
+          "start_time": 228.86,
+          "end_time": 228.9
+        },
+        {
+          "text": "can",
+          "start_time": 228.9,
+          "end_time": 229.04
+        },
+        {
+          "text": " ",
+          "start_time": 229.04,
+          "end_time": 229.1
+        },
+        {
+          "text": "see,",
+          "start_time": 229.1,
+          "end_time": 229.34
+        },
+        {
+          "text": " ",
+          "start_time": 229.34,
+          "end_time": 229.78
+        },
+        {
+          "text": "they",
+          "start_time": 229.78,
+          "end_time": 229.88
+        },
+        {
+          "text": " ",
+          "start_time": 229.88,
+          "end_time": 229.92
+        },
+        {
+          "text": "are",
+          "start_time": 229.92,
+          "end_time": 230.02
+        },
+        {
+          "text": " ",
+          "start_time": 230.02,
+          "end_time": 230.1
+        },
+        {
+          "text": "tightly",
+          "start_time": 230.1,
+          "end_time": 230.48
+        },
+        {
+          "text": " ",
+          "start_time": 230.48,
+          "end_time": 230.54
+        },
+        {
+          "text": "bound",
+          "start_time": 230.54,
+          "end_time": 230.74
+        }
+      ]
+    },
+    {
+      "text": "together.",
+      "start_time": 230.8,
+      "end_time": 231.24,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "together.",
+          "start_time": 230.8,
+          "end_time": 231.24
+        }
+      ]
+    },
+    {
+      "text": "The architecture process does not just",
+      "start_time": 232.26,
+      "end_time": 234.22,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "The",
+          "start_time": 232.26,
+          "end_time": 232.36
+        },
+        {
+          "text": " ",
+          "start_time": 232.36,
+          "end_time": 232.44
+        },
+        {
+          "text": "architecture",
+          "start_time": 232.44,
+          "end_time": 232.98
+        },
+        {
+          "text": " ",
+          "start_time": 232.98,
+          "end_time": 233.02
+        },
+        {
+          "text": "process",
+          "start_time": 233.02,
+          "end_time": 233.54
+        },
+        {
+          "text": " ",
+          "start_time": 233.54,
+          "end_time": 233.6
+        },
+        {
+          "text": "does",
+          "start_time": 233.6,
+          "end_time": 233.74
+        },
+        {
+          "text": " ",
+          "start_time": 233.74,
+          "end_time": 233.8
+        },
+        {
+          "text": "not",
+          "start_time": 233.8,
+          "end_time": 233.96
+        },
+        {
+          "text": " ",
+          "start_time": 233.96,
+          "end_time": 234.02
+        },
+        {
+          "text": "just",
+          "start_time": 234.02,
+          "end_time": 234.22
+        }
+      ]
+    },
+    {
+      "text": "hand over a static document.",
+      "start_time": 234.26,
+      "end_time": 236.0,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "hand",
+          "start_time": 234.26,
+          "end_time": 234.5
+        },
+        {
+          "text": " ",
+          "start_time": 234.5,
+          "end_time": 234.6
+        },
+        {
+          "text": "over",
+          "start_time": 234.6,
+          "end_time": 234.8
+        },
+        {
+          "text": " ",
+          "start_time": 234.8,
+          "end_time": 234.88
+        },
+        {
+          "text": "a",
+          "start_time": 234.88,
+          "end_time": 234.92
+        },
+        {
+          "text": " ",
+          "start_time": 234.92,
+          "end_time": 234.98
+        },
+        {
+          "text": "static",
+          "start_time": 234.98,
+          "end_time": 235.34
+        },
+        {
+          "text": " ",
+          "start_time": 235.34,
+          "end_time": 235.4
+        },
+        {
+          "text": "document.",
+          "start_time": 235.4,
+          "end_time": 236.0
+        }
+      ]
+    },
+    {
+      "text": "It passes along continuous structured",
+      "start_time": 236.7,
+      "end_time": 239.1,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "It",
+          "start_time": 236.7,
+          "end_time": 236.8
+        },
+        {
+          "text": " ",
+          "start_time": 236.8,
+          "end_time": 236.86
+        },
+        {
+          "text": "passes",
+          "start_time": 236.86,
+          "end_time": 237.24
+        },
+        {
+          "text": " ",
+          "start_time": 237.24,
+          "end_time": 237.3
+        },
+        {
+          "text": "along",
+          "start_time": 237.3,
+          "end_time": 237.58
+        },
+        {
+          "text": " ",
+          "start_time": 237.58,
+          "end_time": 237.62
+        },
+        {
+          "text": "continuous",
+          "start_time": 237.62,
+          "end_time": 238.34
+        },
+        {
+          "text": " ",
+          "start_time": 238.34,
+          "end_time": 238.62
+        },
+        {
+          "text": "structured",
+          "start_time": 238.62,
+          "end_time": 239.1
+        }
+      ]
+    },
+    {
+      "text": "data, such as architecture traceability.",
+      "start_time": 239.16,
+      "end_time": 241.88,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "data,",
+          "start_time": 239.16,
+          "end_time": 239.56
+        },
+        {
+          "text": " ",
+          "start_time": 239.56,
+          "end_time": 240.1
+        },
+        {
+          "text": "such",
+          "start_time": 240.1,
+          "end_time": 240.26
+        },
+        {
+          "text": " ",
+          "start_time": 240.26,
+          "end_time": 240.32
+        },
+        {
+          "text": "as",
+          "start_time": 240.32,
+          "end_time": 240.46
+        },
+        {
+          "text": " ",
+          "start_time": 240.46,
+          "end_time": 240.54
+        },
+        {
+          "text": "architecture",
+          "start_time": 240.54,
+          "end_time": 241.08
+        },
+        {
+          "text": " ",
+          "start_time": 241.08,
+          "end_time": 241.12
+        },
+        {
+          "text": "traceability.",
+          "start_time": 241.12,
+          "end_time": 241.88
+        }
+      ]
+    },
+    {
+      "text": "This ensures that when designers dive into",
+      "start_time": 242.92,
+      "end_time": 245.04,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "This",
+          "start_time": 242.92,
+          "end_time": 243.04
+        },
+        {
+          "text": " ",
+          "start_time": 243.04,
+          "end_time": 243.1
+        },
+        {
+          "text": "ensures",
+          "start_time": 243.1,
+          "end_time": 243.58
+        },
+        {
+          "text": " ",
+          "start_time": 243.58,
+          "end_time": 243.64
+        },
+        {
+          "text": "that",
+          "start_time": 243.64,
+          "end_time": 243.74
+        },
+        {
+          "text": " ",
+          "start_time": 243.74,
+          "end_time": 243.78
+        },
+        {
+          "text": "when",
+          "start_time": 243.78,
+          "end_time": 243.92
+        },
+        {
+          "text": " ",
+          "start_time": 243.92,
+          "end_time": 243.96
+        },
+        {
+          "text": "designers",
+          "start_time": 243.96,
+          "end_time": 244.48
+        },
+        {
+          "text": " ",
+          "start_time": 244.48,
+          "end_time": 244.54
+        },
+        {
+          "text": "dive",
+          "start_time": 244.54,
+          "end_time": 244.82
+        },
+        {
+          "text": " ",
+          "start_time": 244.82,
+          "end_time": 244.88
+        },
+        {
+          "text": "into",
+          "start_time": 244.88,
+          "end_time": 245.04
+        }
+      ]
+    },
+    {
+      "text": "the specifics, the key decisions they",
+      "start_time": 245.08,
+      "end_time": 247.46,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "the",
+          "start_time": 245.08,
+          "end_time": 245.16
+        },
+        {
+          "text": " ",
+          "start_time": 245.16,
+          "end_time": 245.24
+        },
+        {
+          "text": "specifics,",
+          "start_time": 245.24,
+          "end_time": 245.9
+        },
+        {
+          "text": " ",
+          "start_time": 245.9,
+          "end_time": 246.38
+        },
+        {
+          "text": "the",
+          "start_time": 246.4,
+          "end_time": 246.48
+        },
+        {
+          "text": " ",
+          "start_time": 246.48,
+          "end_time": 246.56
+        },
+        {
+          "text": "key",
+          "start_time": 246.56,
+          "end_time": 246.76
+        },
+        {
+          "text": " ",
+          "start_time": 246.76,
+          "end_time": 246.8
+        },
+        {
+          "text": "decisions",
+          "start_time": 246.8,
+          "end_time": 247.26
+        },
+        {
+          "text": " ",
+          "start_time": 247.26,
+          "end_time": 247.32
+        },
+        {
+          "text": "they",
+          "start_time": 247.32,
+          "end_time": 247.46
+        }
+      ]
+    },
+    {
+      "text": "make can be traced back to their",
+      "start_time": 247.52,
+      "end_time": 249.1,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "make",
+          "start_time": 247.52,
+          "end_time": 247.86
+        },
+        {
+          "text": " ",
+          "start_time": 247.86,
+          "end_time": 247.9
+        },
+        {
+          "text": "can",
+          "start_time": 247.9,
+          "end_time": 248.0
+        },
+        {
+          "text": " ",
+          "start_time": 248.0,
+          "end_time": 248.04
+        },
+        {
+          "text": "be",
+          "start_time": 248.04,
+          "end_time": 248.14
+        },
+        {
+          "text": " ",
+          "start_time": 248.14,
+          "end_time": 248.2
+        },
+        {
+          "text": "traced",
+          "start_time": 248.2,
+          "end_time": 248.52
+        },
+        {
+          "text": " ",
+          "start_time": 248.52,
+          "end_time": 248.56
+        },
+        {
+          "text": "back",
+          "start_time": 248.56,
+          "end_time": 248.78
+        },
+        {
+          "text": " ",
+          "start_time": 248.78,
+          "end_time": 248.82
+        },
+        {
+          "text": "to",
+          "start_time": 248.82,
+          "end_time": 248.88
+        },
+        {
+          "text": " ",
+          "start_time": 248.88,
+          "end_time": 248.92
+        },
+        {
+          "text": "their",
+          "start_time": 248.92,
+          "end_time": 249.1
+        }
+      ]
+    },
+    {
+      "text": "underlying rationale,",
+      "start_time": 249.18,
+      "end_time": 250.38,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "underlying",
+          "start_time": 249.18,
+          "end_time": 249.72
+        },
+        {
+          "text": " ",
+          "start_time": 249.72,
+          "end_time": 249.78
+        },
+        {
+          "text": "rationale,",
+          "start_time": 249.78,
+          "end_time": 250.38
+        }
+      ]
+    },
+    {
+      "text": "showing exactly why a particular element",
+      "start_time": 251.16,
+      "end_time": 253.56,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "showing",
+          "start_time": 251.16,
+          "end_time": 251.42
+        },
+        {
+          "text": " ",
+          "start_time": 251.42,
+          "end_time": 251.48
+        },
+        {
+          "text": "exactly",
+          "start_time": 251.48,
+          "end_time": 252.06
+        },
+        {
+          "text": " ",
+          "start_time": 252.06,
+          "end_time": 252.12
+        },
+        {
+          "text": "why",
+          "start_time": 252.12,
+          "end_time": 252.4
+        },
+        {
+          "text": " ",
+          "start_time": 252.4,
+          "end_time": 252.46
+        },
+        {
+          "text": "a",
+          "start_time": 252.46,
+          "end_time": 252.52
+        },
+        {
+          "text": " ",
+          "start_time": 252.52,
+          "end_time": 252.56
+        },
+        {
+          "text": "particular",
+          "start_time": 252.56,
+          "end_time": 253.12
+        },
+        {
+          "text": " ",
+          "start_time": 253.12,
+          "end_time": 253.2
+        },
+        {
+          "text": "element",
+          "start_time": 253.2,
+          "end_time": 253.56
+        }
+      ]
+    },
+    {
+      "text": "was chosen to meet a specific requirement.",
+      "start_time": 253.62,
+      "end_time": 256.12,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "was",
+          "start_time": 253.62,
+          "end_time": 253.74
+        },
+        {
+          "text": " ",
+          "start_time": 253.74,
+          "end_time": 253.8
+        },
+        {
+          "text": "chosen",
+          "start_time": 253.8,
+          "end_time": 254.28
+        },
+        {
+          "text": " ",
+          "start_time": 254.28,
+          "end_time": 254.34
+        },
+        {
+          "text": "to",
+          "start_time": 254.34,
+          "end_time": 254.42
+        },
+        {
+          "text": " ",
+          "start_time": 254.42,
+          "end_time": 254.46
+        },
+        {
+          "text": "meet",
+          "start_time": 254.46,
+          "end_time": 254.66
+        },
+        {
+          "text": " ",
+          "start_time": 254.66,
+          "end_time": 254.72
+        },
+        {
+          "text": "a",
+          "start_time": 254.72,
+          "end_time": 254.78
+        },
+        {
+          "text": " ",
+          "start_time": 254.78,
+          "end_time": 254.88
+        },
+        {
+          "text": "specific",
+          "start_time": 254.88,
+          "end_time": 255.38
+        },
+        {
+          "text": " ",
+          "start_time": 255.38,
+          "end_time": 255.42
+        },
+        {
+          "text": "requirement.",
+          "start_time": 255.42,
+          "end_time": 256.12
+        }
+      ]
+    },
+    {
+      "text": "These are the system lifecycle processes.",
+      "start_time": 257.2,
+      "end_time": 259.839,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "These",
+          "start_time": 257.2,
+          "end_time": 257.64
+        },
+        {
+          "text": " ",
+          "start_time": 257.64,
+          "end_time": 257.66
+        },
+        {
+          "text": "are",
+          "start_time": 257.66,
+          "end_time": 257.72
+        },
+        {
+          "text": " ",
+          "start_time": 257.72,
+          "end_time": 257.76
+        },
+        {
+          "text": "the",
+          "start_time": 257.76,
+          "end_time": 257.86
+        },
+        {
+          "text": " ",
+          "start_time": 257.86,
+          "end_time": 257.92
+        },
+        {
+          "text": "system",
+          "start_time": 257.94,
+          "end_time": 258.279
+        },
+        {
+          "text": " ",
+          "start_time": 258.279,
+          "end_time": 258.38
+        },
+        {
+          "text": "lifecycle",
+          "start_time": 258.38,
+          "end_time": 258.94
+        },
+        {
+          "text": " ",
+          "start_time": 258.94,
+          "end_time": 259.04
+        },
+        {
+          "text": "processes.",
+          "start_time": 259.04,
+          "end_time": 259.839
+        }
+      ]
+    },
+    {
+      "text": "Go ahead,",
+      "start_time": 260.74,
+      "end_time": 261.26,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "Go",
+          "start_time": 260.74,
+          "end_time": 260.839
+        },
+        {
+          "text": " ",
+          "start_time": 260.839,
+          "end_time": 260.899
+        },
+        {
+          "text": "ahead,",
+          "start_time": 260.899,
+          "end_time": 261.26
+        }
+      ]
+    },
+    {
+      "text": "explore this universe yourself using the",
+      "start_time": 261.899,
+      "end_time": 264.08,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "explore",
+          "start_time": 261.899,
+          "end_time": 262.42
+        },
+        {
+          "text": " ",
+          "start_time": 262.42,
+          "end_time": 262.46
+        },
+        {
+          "text": "this",
+          "start_time": 262.46,
+          "end_time": 262.62
+        },
+        {
+          "text": " ",
+          "start_time": 262.62,
+          "end_time": 262.7
+        },
+        {
+          "text": "universe",
+          "start_time": 262.7,
+          "end_time": 263.06
+        },
+        {
+          "text": " ",
+          "start_time": 263.06,
+          "end_time": 263.1
+        },
+        {
+          "text": "yourself",
+          "start_time": 263.1,
+          "end_time": 263.62
+        },
+        {
+          "text": " ",
+          "start_time": 263.62,
+          "end_time": 263.7
+        },
+        {
+          "text": "using",
+          "start_time": 263.7,
+          "end_time": 263.94
+        },
+        {
+          "text": " ",
+          "start_time": 263.94,
+          "end_time": 263.98
+        },
+        {
+          "text": "the",
+          "start_time": 263.98,
+          "end_time": 264.08
+        }
+      ]
+    },
+    {
+      "text": "3D visualization,",
+      "start_time": 264.36,
+      "end_time": 265.6,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "3D",
+          "start_time": 264.36,
+          "end_time": 264.64
+        },
+        {
+          "text": " ",
+          "start_time": 264.64,
+          "end_time": 264.7
+        },
+        {
+          "text": "visualization,",
+          "start_time": 264.7,
+          "end_time": 265.6
+        }
+      ]
+    },
+    {
+      "text": "or dive deeper into the interactive",
+      "start_time": 266.32,
+      "end_time": 268.26,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "or",
+          "start_time": 266.32,
+          "end_time": 266.64
+        },
+        {
+          "text": " ",
+          "start_time": 266.64,
+          "end_time": 266.7
+        },
+        {
+          "text": "dive",
+          "start_time": 266.7,
+          "end_time": 266.92
+        },
+        {
+          "text": " ",
+          "start_time": 266.92,
+          "end_time": 266.98
+        },
+        {
+          "text": "deeper",
+          "start_time": 266.98,
+          "end_time": 267.32
+        },
+        {
+          "text": " ",
+          "start_time": 267.32,
+          "end_time": 267.38
+        },
+        {
+          "text": "into",
+          "start_time": 267.38,
+          "end_time": 267.54
+        },
+        {
+          "text": " ",
+          "start_time": 267.54,
+          "end_time": 267.58
+        },
+        {
+          "text": "the",
+          "start_time": 267.58,
+          "end_time": 267.66
+        },
+        {
+          "text": " ",
+          "start_time": 267.66,
+          "end_time": 267.72
+        },
+        {
+          "text": "interactive",
+          "start_time": 267.72,
+          "end_time": 268.26
+        }
+      ]
+    },
+    {
+      "text": "handbook.",
+      "start_time": 268.3,
+      "end_time": 268.86,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "handbook.",
+          "start_time": 268.3,
+          "end_time": 268.86
+        }
+      ]
+    },
+    {
+      "text": "The connections are yours to discover.",
+      "start_time": 269.78,
+      "end_time": 271.84,
+      "speaker": {
+        "id": "speaker_0",
+        "name": "Speaker 0"
+      },
+      "words": [
+        {
+          "text": "The",
+          "start_time": 269.78,
+          "end_time": 269.86
+        },
+        {
+          "text": " ",
+          "start_time": 269.86,
+          "end_time": 269.92
+        },
+        {
+          "text": "connections",
+          "start_time": 269.92,
+          "end_time": 270.56
+        },
+        {
+          "text": " ",
+          "start_time": 270.56,
+          "end_time": 270.62
+        },
+        {
+          "text": "are",
+          "start_time": 270.62,
+          "end_time": 270.76
+        },
+        {
+          "text": " ",
+          "start_time": 270.76,
+          "end_time": 270.82
+        },
+        {
+          "text": "yours",
+          "start_time": 270.82,
+          "end_time": 271.18
+        },
+        {
+          "text": " ",
+          "start_time": 271.18,
+          "end_time": 271.24
+        },
+        {
+          "text": "to",
+          "start_time": 271.24,
+          "end_time": 271.3
+        },
+        {
+          "text": " ",
+          "start_time": 271.3,
+          "end_time": 271.34
+        },
+        {
+          "text": "discover.",
+          "start_time": 271.34,
+          "end_time": 271.84
+        }
+      ]
+    }
+  ]
+}
