@@ -554,18 +554,21 @@
   }
   .credits-links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; text-align: center; }
 
-  /* Задача 4: Контроллеры тура и аудио */
+/* Задача 4: Контроллеры тура и аудио */
   #bottom-controls-container {
-    bottom: 70px; right: 12px;
-    flex-direction: row-reverse; gap: 8px; z-index: 90;
+    bottom: 95px; /* Поднимаем выше плашки копирайта */
+    right: 12px;
+    flex-direction: row-reverse; gap: 8px; 
+    z-index: 110; /* Гарантированно выводим поверх копирайта */
   }
+  
   #tour-controller, #audio-controller { padding: 6px 8px; gap: 6px; }
   
   /* Отображаем иконки (🎵 и 🎬), но скрываем текстовые подписи MUSIC / WHAT IS IT? */
   .ctrl-label { display: none; } 
   #tour-controller span.ctrl-icon, #audio-controller span.ctrl-icon { display: inline-block; font-size: 14px; }
   
-  #subtitle-container { bottom: 120px; font-size: 14px; padding: 8px 16px; width: 90%; }
+  #subtitle-container { bottom: 145px; font-size: 14px; padding: 8px 16px; width: 90%; }
   #tour-progress { width: 90px; }
 }
   </style>
