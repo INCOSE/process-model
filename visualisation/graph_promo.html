@@ -10,10 +10,10 @@
   <meta name="description" content="Explore systems engineering life-cycle processes, inputs, outputs, and dependencies in an interactive 3D visualisation.">
 
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://incose.github.io/process-model/visualisation/">
+  <meta property="og:url" content="https://incose.github.io/process-model/promo/">
   <meta property="og:title" content="INCOSE Handbook v.4 3D Digital Process Model">
   <meta property="og:description" content="Explore systems engineering life-cycle processes, inputs, outputs, and dependencies in an interactive 3D visualisation.">
-  <meta property="og:image" content="https://incose.github.io/process-model/visualisation/INCOSE_OpenGraph_Card.png">
+  <meta property="og:image" content="https://incose.github.io/process-model/promo/INCOSE_OpenGraph_Card.png">
 
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-XQHCKTLW9Q"></script>
   <script>
@@ -503,6 +503,21 @@
 }
 .modal-body p { margin-top: 0; margin-bottom: 12px; }
 
+.modal-content.mini {
+  max-width: 420px;
+}
+.music-credit-text {
+  font-size: 13px;
+  text-align: center;
+}
+.music-credit-text a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+.music-credit-text a:hover {
+  text-decoration: underline;
+}
+
 /* --- CONTROLS CONTAINER --- */
 #bottom-controls-container {
   position: absolute; bottom: 24px; right: 32px; z-index: 30;
@@ -700,7 +715,7 @@
     <div class="credits-links">
       <div>Developer: <a href="https://efremov-systems.com" target="_blank" rel="noopener noreferrer">Alexander Efremov</a></div>
       <div>Engine: <a href="https://github.com/vasturiano/3d-force-graph" target="_blank" rel="noopener noreferrer">3d-force-graph</a> (MIT)</div>
-      <div>Soundtrack: &ldquo;Eureka&rdquo; &mdash; Huma-Huma</div>
+      <div>Soundtrack: &ldquo;Soaring&rdquo; <span id="btn-music-info" style="cursor: pointer; color: #facc15; font-weight: bold; padding-left: 4px;" title="View License Details">&#9432;</span></div>
     </div>
   </div>
 
@@ -741,8 +756,25 @@
       </div>
     </div>
   </div>
+  
+  <!-- Music License Modal -->
+	<div id="music-modal" class="modal-overlay">
+	  <div class="modal-content mini">
+		<div class="modal-header">
+		  <h2>Soundtrack License</h2>
+		  <button id="btn-close-music" class="close-btn" title="Close">&times;</button>
+		</div>
+		<div class="modal-body music-credit-text">
+		  <p>
+			<strong>"Soaring"</strong> Kevin MacLeod (<a href="https://incompetech.com" target="_blank" rel="noopener noreferrer">incompetech.com</a>)<br><br>
+			Licensed under Creative Commons: By Attribution 4.0 License<br>
+			<a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener noreferrer">http://creativecommons.org/licenses/by/4.0/</a>
+		  </p>
+		</div>
+	  </div>
+	</div>
 
-  <audio id="bg-audio" src="Eureka - Huma-Huma.mp3" preload="auto" autoplay loop></audio>
+  <audio id="bg-audio" src="Soaring.mp3" preload="auto" autoplay loop></audio>
   <audio id="tour-audio" src="narration.mp3" preload="auto"></audio>
 
   <!-- Контейнер для субтитров и плавающих подписей -->
@@ -2247,26 +2279,26 @@ animateSequence = function(now) {
   }
 };
 
-// --- COPYRIGHT MODAL LOGIC ---
-const modalOverlay = document.getElementById('copyright-modal');
-const btnOpenModal = document.getElementById('link-copyright');
-const btnCloseModal = document.getElementById('btn-close-modal');
+// --- MUSIC MODAL LOGIC ---
+const musicModalOverlay = document.getElementById('music-modal');
+const btnOpenMusic = document.getElementById('btn-music-info');
+const btnCloseMusic = document.getElementById('btn-close-music');
 
-// Открытие окна
-btnOpenModal.addEventListener('click', (e) => {
+// Open modal
+btnOpenMusic.addEventListener('click', (e) => {
   e.preventDefault();
-  modalOverlay.classList.add('visible');
+  musicModalOverlay.classList.add('visible');
 });
 
-// Закрытие по крестику
-btnCloseModal.addEventListener('click', () => {
-  modalOverlay.classList.remove('visible');
+// Close via (x) button
+btnCloseMusic.addEventListener('click', () => {
+  musicModalOverlay.classList.remove('visible');
 });
 
-// Закрытие по клику в любую область вокруг окна
-modalOverlay.addEventListener('click', (e) => {
-  if (e.target === modalOverlay) {
-    modalOverlay.classList.remove('visible');
+// Close via clicking outside the modal content
+musicModalOverlay.addEventListener('click', (e) => {
+  if (e.target === musicModalOverlay) {
+    musicModalOverlay.classList.remove('visible');
   }
 });
   </script>
