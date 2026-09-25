@@ -4,6 +4,7 @@ Official digital and machine-readable implementation of the systems engineering 
 
 * 🌐 **Live Interactive Web Viewer:** [https://incose.github.io/process-model/](https://incose.github.io/process-model/)
 * 🏛️ **Official INCOSE Product Page:** [Landing Page](https://www.incose.org/process-model)
+* 🎆 **Promo Page:** [Promo Page](https://incose.github.io/process-model/promo/) (feel free to share in your social media)
 
 ---
 
