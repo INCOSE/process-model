@@ -1,30 +1,69 @@
-# ⚠️ REPOSITORY MOVED ⚠️
+# INCOSE Digital Systems Engineering Process Model
 
-**This repository is no longer maintained and has been officially moved to the INCOSE organization GitHub.**
+Official digital and machine-readable implementation of the systems engineering life-cycle processes defined in **ISO/IEC/IEEE 15288** and the **INCOSE Systems Engineering Handbook v. 4**.
 
-👉 **New Official Repository: [https://github.com/INCOSE/process-model](https://github.com/INCOSE/process-model)**
-
-Please update your bookmarks and direct any new issues, pull requests, or forks to the new repository.
+* 🌐 **Live Interactive Web Viewer:** [https://incose.github.io/process-model/](https://incose.github.io/process-model/)
+* 🏛️ **Official INCOSE Product Page:** [Landing Page](https://www.incose.org/process-model)
 
 ---
 
-# Systems Engineering Process Model (Archive)
+## Overview
 
-*This is the archived personal repository for the enCO2 process model. For the latest updates, please visit the [official INCOSE repository](https://github.com/INCOSE/process-model).*
+This repository hosts the source model and web distribution of the INCOSE Process Model (Technical Product TPP-127). The project translates tabular systems engineering process definitions, inputs, outputs, activities, and life-cycle constraints into a connected ArchiMate architecture.
 
-Product of INCOSE.  
-Landing page of the product (v.2.0): https://www.incose.org/process-model, it includes:
-- English interactive process model
-- Downloadable tailorable source files for Archi tool, XML Open Exchange Format, CSV-files
+### Repository Structure
 
-**Dates:**
-- Created on: 27.06.2019
-- Updated on: 04.05.2023, v.2.0 (Last update in this repository)
+* **`main`**: Contains the canonical, machine-readable ArchiMate source file (`.archimate`) for systems architects and practitioners.
+* **`gh-pages`**: Contains the pre-rendered HTML5/JavaScript interactive static application deployed automatically via GitHub Pages.
 
-**History & Acknowledgements:**
-- Initial product created in the working group "Terminologie im Systems Engineering" of the German chapter of INCOSE.
-- Second version of the product created with support of the "Knowledge Management and Ontologies" working group of INCOSE.
+---
 
-German interactive version of the product (v.1.0): https://gfse.de/prozessmodell
+## How to Use the Model
 
-![Process Model](https://alef1986.github.io/Systems-Engineering-Process-Model/extDocsImages/INCOSE_Processmodel_gephi.png)
+### 1. Online Interactive Viewer
+Visit [https://incose.github.io/process-model/](https://incose.github.io/process-model/) on desktop or mobile devices. The interactive viewer allows you to:
+* Navigate the complete hierarchy of ISO 15288 life-cycle processes.
+* Inspect inputs, outputs, process activities, and life-cycle constraints.
+
+### 2. Inspecting & Modifying the Source Model
+To inspect or adapt the source architecture:
+1. Download the `.archimate` model file from this branch.
+2. Install [Archi](https://www.archimatetool.com/) (Open Source ArchiMate Modelling Toolkit).
+3. Open the file directly in Archi to explore the underlying metamodel, properties, and diagrams.
+
+If you need a tool-agnostic version of the model, please refer to the [Landing Page](https://www.incose.org/process-model) for further instructions.
+
+---
+
+## Feedback, Issues, and Contributions
+
+Feedback, corrections, and functional proposals are actively encouraged:
+
+* **GitHub Issues:** Open an issue via the [Issues tab](https://github.com/INCOSE/process-model/issues) for defect reports, diagram inconsistencies, or feature requests.
+* **Direct Contact:** If you prefer email or have governance inquiries, feel free to reach out directly to the lead architect:
+  * **Alexander Efremov** — CSEP, SE-Zert® Level A
+  * *Email:* [alexander@efremov-systems.com](mailto:alexander@efremov-systems.com)
+
+---
+
+## Copyright & Citations
+
+* Different parts of this product have different copyright owners. Use of this product is expressly subject to prior consent from the following parties: INCOSE, ISO or a national representative body, Wiley and the German Chapter of INCOSE GfSE e.V. (the “Consenting Parties”).
+ 
+* INCOSE grants permission, subject to consent from the additional Consenting Parties, on the following terms and conditions:
+ 
+* Author Use. Authors have full unfettered rights to use their contributions, with credit and attribution to the INCOSE Technical source, except with regard to abstraction, which requires additional credit to the source.
+ 
+* INCOSE Internal Use. Members of INCOSE are hereby permitted to reproduce and use this document, or parts thereof, including permission to prepare derivative works from this document for INCOSE’s internal use, with credit and attribution to INCOSE so long as this copyright notice is included with all reproductions and derivative works. 
+ 
+* INCOSE External Use. Sharing and reproduction of this document to non-affiliate third parties outside of INCOSE is permitted only when shared or reproduced in whole and not altered in any way. Any preparation of derivative works for external and/or commercial use is expressly prohibited unless otherwise granted in a separate written agreement between the end-user and INCOSE. Any external use not expressly permitted under this section shall be prior approved by INCOSE upon receipt of written request for the same sent to: INCOSE Central Office, 7670 Opportunity Road, Suite 220, San Diego, CA 92111-2222.
+ 
+* This product contains quotations from ISO/IEC/IEEE 15288:2015. © ISO. These quotations are reproduced with permission of the American National Standards Institute (ANSI) on behalf of the International Organization for Standardization. These quotations are explicitly marked with a copyright note. All rights reserved.
+ 
+* This product contains quotations from the Book "INCOSE Systems Engineering Handbook: A Guide for System Life Cycle Processes and Activities, 4th Edition", ISBN: 978-1-118-99940-0, published by John Wiley & Sons, Inc., authored by David D. Walden, ESEP, Garry J. Roedler, ESEP, Kevin J. Forsberg, ESEP, R. Douglas Hamelin, Thomas M. Shortell, CSEP. Permission is granted by John Wiley & Sons, Inc. All rights reserved.
+
+* No part of this publication may be reproduced, stored in a retrieval system, or transmitted in any form or by any means, electronic, mechanical, photocopying, recording, scanning, or otherwise, except as permitted under Section 107 or 108 of the 1976 United States Copyright Act, without either the prior written permission of the Publisher, or authorization through payment of the appropriate per-copy fee to the Copyright Clearance Center, Inc., 222 Rosewood Drive, Danvers, MA 01923, (978) 750-8400, fax (978) 750-4470, or on the web at www.copyright.com. Requests to the Publisher for permission should be addressed to the Permissions Department, John Wiley & Sons, Inc., 111 River Street, Hoboken, NJ 07030, (201) 748-6011, fax (201) 748-6008, or online at http://www.wiley.com/go/permissions.
+ 
+* This product contains quotations from the German translation of the aforementioned Handbook: "INCOSE Systems Engineering Handbuch: Ein Leitfaden für Systemlebenszyklus-Prozesse und -Aktivitäten", ISBN: 978-3-9818805-0-2, published by John Wiley & Sons, Inc., Authors of the translation: Dr. David Endler, CSEP, SE-Zert® Level A Martin Geisreiter, ESEP, SE-Zert® Level A Rüdiger Kaffenberger, SE-Zert® Level A Jürgen Rambo. © Gesellschaft für Systems Engineering e.V.
+
+* This product was created using the Archi modelling tool (www.archimatetool.com), distributed under an MIT type license. All rights reserved.
