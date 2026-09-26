@@ -715,7 +715,7 @@
     <div class="credits-links">
       <div>Developer: <a href="https://efremov-systems.com" target="_blank" rel="noopener noreferrer">Alexander Efremov</a></div>
       <div>Engine: <a href="https://github.com/vasturiano/3d-force-graph" target="_blank" rel="noopener noreferrer">3d-force-graph</a> (MIT)</div>
-      <div>Soundtrack: &ldquo;Soaring&rdquo; <span id="btn-music-info" style="cursor: pointer; color: #facc15; font-weight: bold; padding-left: 4px;" title="View License Details">&#9432;</span></div>
+      <div>Soundtrack: <a href="#" id="btn-music-info" title="View License Details">&ldquo;Soaring&rdquo;</a></div>
     </div>
   </div>
 
@@ -2280,6 +2280,29 @@ animateSequence = function(now) {
 };
 
 // --- MUSIC MODAL LOGIC ---
+const copyrightModalOverlay = document.getElementById('copyright-modal');
+const btnOpenCopyright = document.getElementById('link-copyright');
+const btnCloseCopyright = document.getElementById('btn-close-modal');
+
+// Open modal
+btnOpenCopyright.addEventListener('click', (e) => {
+  e.preventDefault();
+  copyrightModalOverlay.classList.add('visible');
+});
+
+// Close via (x) button
+btnCloseCopyright.addEventListener('click', () => {
+  copyrightModalOverlay.classList.remove('visible');
+});
+
+// Close via clicking outside the modal content
+copyrightModalOverlay.addEventListener('click', (e) => {
+  if (e.target === copyrightModalOverlay) {
+    copyrightModalOverlay.classList.remove('visible');
+  }
+});
+
+
 const musicModalOverlay = document.getElementById('music-modal');
 const btnOpenMusic = document.getElementById('btn-music-info');
 const btnCloseMusic = document.getElementById('btn-close-music');
