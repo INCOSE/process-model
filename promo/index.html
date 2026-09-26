@@ -567,7 +567,14 @@
     z-index: 100; /* Решает проблему с ненажимаемой ссылкой */
     pointer-events: auto;
   }
-  .credits-links { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; text-align: center; }
+  .credits-links { 
+  display: flex; 
+  column-gap: 12px; 
+  row-gap: 8px; 
+  justify-content: center; 
+  flex-wrap: wrap; 
+  text-align: center; 
+}
 
 /* Задача 4: Контроллеры тура и аудио */
   #bottom-controls-container {
@@ -715,7 +722,7 @@
     <div class="credits-links">
       <div>Developer: <a href="https://efremov-systems.com" target="_blank" rel="noopener noreferrer">Alexander Efremov</a></div>
       <div>Engine: <a href="https://github.com/vasturiano/3d-force-graph" target="_blank" rel="noopener noreferrer">3d-force-graph</a> (MIT)</div>
-      <div>Soundtrack: <a href="#" id="btn-music-info" title="View License Details">&ldquo;Soaring&rdquo;</a></div>
+      <div><a href="#" id="btn-music-info" title="View License Details">Soundtrack: &ldquo;Soaring&rdquo;</a></div>
     </div>
   </div>
 
